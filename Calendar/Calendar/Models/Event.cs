@@ -6,36 +6,9 @@ namespace Calendar.Models
 {
     public class Event
     {
-        public DateTime StartDate 
-        { 
-            get => StartDate; 
-            set 
-            { 
-                try 
-                {
-                    StartDate = Convert.ToDateTime(value);
-                }
-                catch
-                {
-                    StartDate = DateTime.MinValue;
-                }
-            }
-        }
-        public DateTime EndDate 
-        { 
-            get => EndDate; 
-            set
-            {
-                try
-                {
-                    EndDate = Convert.ToDateTime(value);
-                }
-                catch
-                {
-                    EndDate = DateTime.MinValue;
-                }
-            }
-        }
+        public DateTime StartDate { get; set; } = DateTime.MinValue;
+        public DateTime EndDate { get; set; } = DateTime.MinValue;
+       
         public string RoomCode { get; set; }
         public string RoomName { get; set; }
         public string Topic { get; set; }
@@ -55,7 +28,7 @@ namespace Calendar.Models
         {
             get
             {
-                if (Topic is "IsMeetUp")
+                if (Topic is "MeetUp")
                     return true;
                 else
                     return false;
@@ -71,5 +44,12 @@ namespace Calendar.Models
                     return false;
             }
         }
+
+        public Event()
+        {
+
+        }
+
+        
     }
 }

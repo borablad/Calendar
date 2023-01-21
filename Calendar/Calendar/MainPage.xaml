@@ -4,6 +4,7 @@
              x:Class="Calendar.MainPage"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              xmlns:fa="clr-namespace:FontAwesome"
+             xmlns:model="clr-namespace:Calendar.Models"
              xmlns:vm="clr-namespace:Calendar.ViewModels"
              xmlns:helpers="clr-namespace:Calendar.Helpers"
              xmlns:calendar="clr-namespace:XCalendar;assembly=XCalendar">
@@ -23,17 +24,36 @@
             <xct:IntToBoolConverter x:Key="IntToBoolConverter"/>
             <xct:InvertedBoolConverter x:Key="InvertedBoolConverter"/>
             <DataTemplate x:Key="EventTemplate">
-                <StackLayout xct:CornerRadiusEffect.CornerRadius="15" Padding="25" BackgroundColor="{AppThemeBinding Dark={StaticResource HeaderBarBackgroundColorDark},Light={StaticResource HeaderBarBackgroundColorLight}}" Orientation="Horizontal">
-                    <Label Text="{x:Static fa:FontAwesomeIcons.HandshakeSimple}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35"/>
-                    <Label Text="{x:Static fa:FontAwesomeIcons.HandshakeSimple}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35"/>
-                    <Label Text="{x:Static fa:FontAwesomeIcons.PersonChalkboard}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35"/>
-                    <Label Text="Совищание" FontAttributes="Bold" FontSize="Title"  />
+                <StackLayout x:DataType="model:Event" xct:CornerRadiusEffect.CornerRadius="15" Padding="25" BackgroundColor="{AppThemeBinding Dark={StaticResource HeaderBarBackgroundColorDark},Light={StaticResource HeaderBarBackgroundColorLight}}" Orientation="Horizontal">
+                    <Label Text="{x:Static fa:FontAwesomeIcons.HandshakeSimple}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35" IsVisible="{Binding IsMeeting}"/>
+                    <Label Text="{x:Static fa:FontAwesomeIcons.PersonChalkboard}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35" IsVisible="{Binding IsMeetUp}"/>
+                    <Label Text="{x:Static fa:FontAwesomeIcons.Clock}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35" IsVisible="{Binding IsUnknown}"/>
+                    <Label Text="{Binding Topic}" FontAttributes="Bold" FontSize="Title"  />
+
                     <Label FontAttributes="Bold" FontSize="Title" Margin="20,0" HorizontalOptions="EndAndExpand" >
                         <Label.FormattedText>
                             <FormattedString>
-                                <Span Text="{Binding SelectedDay,StringFormat='{0:hh:mm}'}" />
+                                <Span Text="{Binding StartDate,StringFormat='{0:hh:mm}'}" />
                                 <Span Text=" - " />
-                                <Span Text="{Binding SelectedDay,StringFormat='{0:hh:mm}'}" />
+                                <Span Text="{Binding EndDate,StringFormat='{0:hh:mm}'}" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </StackLayout>
+            </DataTemplate>
+            <DataTemplate x:Key="SelektDay">
+                <StackLayout x:DataType="model:Event" xct:CornerRadiusEffect.CornerRadius="15" Padding="25" BackgroundColor="{AppThemeBinding Dark={StaticResource HeaderBarBackgroundColorDark},Light={StaticResource HeaderBarBackgroundColorLight}}" Orientation="Horizontal">
+                    <Label Text="{x:Static fa:FontAwesomeIcons.HandshakeSimple}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35" IsVisible="{Binding IsMeeting}"/>
+                    <Label Text="{x:Static fa:FontAwesomeIcons.PersonChalkboard}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35" IsVisible="{Binding IsMeetUp}"/>
+                    <Label Text="{x:Static fa:FontAwesomeIcons.Clock}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35" IsVisible="{Binding IsUnknown}"/>
+                    <Label Text="{Binding Topic}" FontAttributes="Bold" FontSize="Title"  />
+
+                    <Label FontAttributes="Bold" FontSize="Title" Margin="20,0" HorizontalOptions="EndAndExpand" >
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="{Binding StartDate,StringFormat='{0:hh:mm}'}" />
+                                <Span Text=" - " />
+                                <Span Text="{Binding EndDate,StringFormat='{0:hh:mm}'}" />
                             </FormattedString>
                         </Label.FormattedText>
                     </Label>
@@ -60,48 +80,12 @@
                     <Label Text="{Binding SelectedDay,StringFormat='{0:dddd}'}" FontAttributes="Bold" FontSize="35"  />
                     <Label Text="{Binding SelectedDay,StringFormat='{0:dd MMMM yyyy}'}" FontAttributes="Bold" FontSize="Title" />
 
-                    <StackLayout Padding="0,10" Spacing="15">
-                        
-                        <StackLayout xct:CornerRadiusEffect.CornerRadius="15" Padding="25" BackgroundColor="{AppThemeBinding Dark={StaticResource HeaderBarBackgroundColorDark},Light={StaticResource HeaderBarBackgroundColorLight}}" Orientation="Horizontal">
-                            <Label Text="{x:Static fa:FontAwesomeIcons.HandshakeSimple}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35"/>
-                            <Label Text="Совищание" FontAttributes="Bold" FontSize="Title"  />
-                            <Label FontAttributes="Bold" FontSize="Title" Margin="20,0" HorizontalOptions="EndAndExpand" >
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="{Binding SelectedDay,StringFormat='{0:hh:mm}'}" />
-                                        <Span Text=" - " />
-                                        <Span Text="{Binding SelectedDay,StringFormat='{0:hh:mm}'}" />
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
+                    <ScrollView>
+                        <StackLayout Padding="0,10" Spacing="15" BindableLayout.ItemTemplate="{StaticResource EventTemplate}" BindableLayout.ItemsSource="{Binding EventData}">
+
                         </StackLayout>
-                        <StackLayout xct:CornerRadiusEffect.CornerRadius="15" Padding="25" BackgroundColor="{AppThemeBinding Dark={StaticResource HeaderBarBackgroundColorDark},Light={StaticResource HeaderBarBackgroundColorLight}}" Orientation="Horizontal">
-                            <Label Text="{x:Static fa:FontAwesomeIcons.PersonChalkboard}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35"/>
-                            <Label Text="MeetUp" FontAttributes="Bold" FontSize="Title"  />
-                            <Label FontAttributes="Bold" FontSize="Title" Margin="20,0" HorizontalOptions="EndAndExpand" >
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="{Binding SelectedDay,StringFormat='{0:hh:mm}'}" />
-                                        <Span Text=" - " />
-                                        <Span Text="{Binding SelectedDay,StringFormat='{0:hh:mm}'}" />
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
-                        </StackLayout>
-                        <StackLayout xct:CornerRadiusEffect.CornerRadius="15" Padding="25" BackgroundColor="{AppThemeBinding Dark={StaticResource HeaderBarBackgroundColorDark},Light={StaticResource HeaderBarBackgroundColorLight}}" Orientation="Horizontal">
-                            <Label Text="{x:Static fa:FontAwesomeIcons.Clock}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35"/>
-                            <Label Text="Занят" FontAttributes="Bold" FontSize="Title"  />
-                            <Label FontAttributes="Bold" FontSize="Title" Margin="20,0" HorizontalOptions="EndAndExpand" >
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="{Binding SelectedDay,StringFormat='{0:hh:mm}'}" />
-                                        <Span Text=" - " />
-                                        <Span Text="{Binding SelectedDay,StringFormat='{0:hh:mm}'}" />
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
-                        </StackLayout>
-                    </StackLayout>
+                    </ScrollView>
+                    
 
                 </StackLayout>
 
