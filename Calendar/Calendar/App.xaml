@@ -46,6 +46,8 @@
             <Color x:Key="RedButton">#964747</Color>
             <Color x:Key="GrayButtonDark">#45474E</Color>
             <Color x:Key="GrayButtonLight">#A0A8B4</Color>
+            <Color x:Key="DisabledDayDark">#404040</Color>
+            <Color x:Key="DisabledDayLigth">#E7E4E4</Color>
 
 
 

@@ -92,8 +92,14 @@
                                    FooterArrowVisible="False"
                                    CalendarLayout="Month"
                                    DayTappedCommand="{Binding FilterCommand}"
-                                   MonthLabelColor="Black"
-                                   YearLabelColor="Black"
+                                   MonthLabelColor="{AppThemeBinding Dark={StaticResource TextColorDark},Light={StaticResource TextColorLight}}"
+                                   ArrowsColor="Black"
+                                   DaysTitleColor="{AppThemeBinding Dark={StaticResource TextColorDark},Light={StaticResource TextColorLight}}"
+                                   DeselectedDayTextColor="{AppThemeBinding Dark={StaticResource TextColorDark},Light={StaticResource TextColorLight}}"
+                                   DisabledDayColor="LightGray"
+                                  
+                               
+                                   
                                    ShowYearPicker="False"
                                    SwipeToChangeMonthEnabled="True"
                                    PropertyChanged="Calendar_LayoutChanged"
