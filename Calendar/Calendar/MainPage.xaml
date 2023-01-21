@@ -71,7 +71,7 @@
                 </StackLayout>
             </Frame>
             <Grid VerticalOptions="FillAndExpand" ColumnDefinitions="*,.5*" >
-                <calendar:CalendarView Grid.Column="0" VerticalOptions="FillAndExpand" >
+                <calendar:CalendarView Grid.Column="0" VerticalOptions="FillAndExpand" Se  >
 
                 </calendar:CalendarView>
 
