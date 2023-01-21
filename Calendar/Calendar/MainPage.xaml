@@ -7,8 +7,11 @@
              xmlns:model="clr-namespace:Calendar.Models"
              xmlns:vm="clr-namespace:Calendar.ViewModels"
              xmlns:helpers="clr-namespace:Calendar.Helpers"
-             xmlns:calendar="clr-namespace:XCalendar;assembly=XCalendar">
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfCalendar.XForms;assembly=Syncfusion.SfCalendar.XForms"
+             xmlns:calendar="clr-namespace:XCalendar;assembly=XCalendar"
+             xmlns:controls="clr-namespace:Xamarin.Plugin.Calendar.Controls;assembly=Xamarin.Plugin.Calendar">
     <ContentPage.BindingContext>
+             
         <vm:MainPageViwModel/>
     </ContentPage.BindingContext>
     <ContentPage.Resources>
@@ -65,15 +68,41 @@
         <StackLayout>
             <Frame BackgroundColor="{AppThemeBinding Dark={StaticResource HeaderBarBackgroundColorDark},Light={StaticResource HeaderBarBackgroundColorLight}}" Padding="24" CornerRadius="0">
                 <StackLayout Orientation="Horizontal" >
-                    <Label Text="Astana Motors Small Hall - Подсосный зал" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="40"/>
+                    <Label Text="Astana Motors Small Hall - Зелёного зала" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="40"/>
                     <Label Text="{x:Static fa:FontAwesomeIcons.CalendarDays}" FontFamily="FAS" HorizontalTextAlignment="End" FontSize="40"/>
 
                 </StackLayout>
             </Frame>
-            <Grid VerticalOptions="FillAndExpand" ColumnDefinitions="*,.5*" >
-                <calendar:CalendarView Grid.Column="0" VerticalOptions="FillAndExpand"   >
+            <Grid VerticalOptions="FillAndExpand" ColumnDefinitions="*,.7*" >
+                <controls:Calendar Grid.Column="0" VerticalOptions="FillAndExpand"   
+                                      
+                                       SelectedDate="{Binding SelectedDay }"
+                                       xct:ShadowEffect.Radius="4"
+                                  
+                               EventIndicatorType="Background"
+                                       SelectedDayTextColor="Blue"
+                                   TodayTextColor="Red"
+                                   SwipeUpToHideEnabled="False"
+                                  Culture="{Binding Culture}"
+                                     ShownDate="{Binding SelectedDay}"
+                                   MinimumDate="{Binding MinDate}"
+                                   MaximumDate="{Binding MaxDate}"
+                                   
+                                   FooterSectionVisible="False"
+                                   FooterArrowVisible="False"
+                                   CalendarLayout="Month"
+                                   DayTappedCommand="{Binding FilterCommand}"
+                                   MonthLabelColor="Black"
+                                   YearLabelColor="Black"
+                                   ShowYearPicker="False"
+                                   SwipeToChangeMonthEnabled="True"
+                                   PropertyChanged="Calendar_LayoutChanged"
+                                  
+                                       >
+                  
 
-                </calendar:CalendarView>
+
+                </controls:Calendar>
 
                 
                 <StackLayout Grid.Column="1" Padding="25" >

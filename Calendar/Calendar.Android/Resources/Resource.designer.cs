@@ -14,7 +14,7 @@ namespace Calendar.Droid
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.1.0.5")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.0.0.73")]
 	public partial class Resource
 	{
 		
@@ -25,6 +25,27 @@ namespace Calendar.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Com.Syncfusion.Calendar.Resource.Dimension.activity_horizontal_margin = global::Calendar.Droid.Resource.Dimension.activity_horizontal_margin;
+			global::Com.Syncfusion.Calendar.Resource.Dimension.activity_vertical_margin = global::Calendar.Droid.Resource.Dimension.activity_vertical_margin;
+			global::Com.Syncfusion.Calendar.Resource.Dimension.date_text_size = global::Calendar.Droid.Resource.Dimension.date_text_size;
+			global::Com.Syncfusion.Calendar.Resource.Dimension.date_text_tab_size = global::Calendar.Droid.Resource.Dimension.date_text_tab_size;
+			global::Com.Syncfusion.Calendar.Resource.Dimension.month_row_size = global::Calendar.Droid.Resource.Dimension.month_row_size;
+			global::Com.Syncfusion.Calendar.Resource.Dimension.month_row_tab_size = global::Calendar.Droid.Resource.Dimension.month_row_tab_size;
+			global::Com.Syncfusion.Calendar.Resource.Dimension.month_text_size = global::Calendar.Droid.Resource.Dimension.month_text_size;
+			global::Com.Syncfusion.Calendar.Resource.Dimension.month_text_tab_size = global::Calendar.Droid.Resource.Dimension.month_text_tab_size;
+			global::Com.Syncfusion.Calendar.Resource.String.sfcalendar_inlineviewalldaytext = global::Calendar.Droid.Resource.String.sfcalendar_inlineviewalldaytext;
+			global::Com.Syncfusion.Calendar.Resource.String.sfcalendar_inlineviewnoappointmenttext = global::Calendar.Droid.Resource.String.sfcalendar_inlineviewnoappointmenttext;
+			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.activity_horizontal_margin = global::Calendar.Droid.Resource.Dimension.activity_horizontal_margin;
+			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.activity_vertical_margin = global::Calendar.Droid.Resource.Dimension.activity_vertical_margin;
+			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.date_text_size = global::Calendar.Droid.Resource.Dimension.date_text_size;
+			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.date_text_tab_size = global::Calendar.Droid.Resource.Dimension.date_text_tab_size;
+			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.month_row_size = global::Calendar.Droid.Resource.Dimension.month_row_size;
+			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.month_row_tab_size = global::Calendar.Droid.Resource.Dimension.month_row_tab_size;
+			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.month_text_size = global::Calendar.Droid.Resource.Dimension.month_text_size;
+			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.month_text_tab_size = global::Calendar.Droid.Resource.Dimension.month_text_tab_size;
+			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Drawable.Icon = global::Calendar.Droid.Resource.Drawable.Icon;
+			global::Syncfusion.SfCalendar.XForms.Droid.Resource.String.sfcalendar_inlineviewalldaytext = global::Calendar.Droid.Resource.String.sfcalendar_inlineviewalldaytext;
+			global::Syncfusion.SfCalendar.XForms.Droid.Resource.String.sfcalendar_inlineviewnoappointmenttext = global::Calendar.Droid.Resource.String.sfcalendar_inlineviewnoappointmenttext;
 			global::Xamarin.CommunityToolkit.Resource.Animation.abc_fade_in = global::Calendar.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.CommunityToolkit.Resource.Animation.abc_fade_out = global::Calendar.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.CommunityToolkit.Resource.Animation.abc_grow_fade_in_from_bottom = global::Calendar.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -16362,6 +16383,2624 @@ namespace Calendar.Droid
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_start = global::Calendar.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_top_start = global::Calendar.Droid.Resource.Xml.standalone_badge_gravity_top_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_offset = global::Calendar.Droid.Resource.Xml.standalone_badge_offset;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_fade_in = global::Calendar.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_fade_out = global::Calendar.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_grow_fade_in_from_bottom = global::Calendar.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_popup_enter = global::Calendar.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_popup_exit = global::Calendar.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Calendar.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_in_bottom = global::Calendar.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_in_top = global::Calendar.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_out_bottom = global::Calendar.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_out_top = global::Calendar.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_tooltip_enter = global::Calendar.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_tooltip_exit = global::Calendar.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::Calendar.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::Calendar.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::Calendar.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::Calendar.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::Calendar.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::Calendar.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::Calendar.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::Calendar.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::Calendar.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::Calendar.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::Calendar.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::Calendar.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_bottom_sheet_slide_in = global::Calendar.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_bottom_sheet_slide_out = global::Calendar.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_snackbar_in = global::Calendar.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_snackbar_out = global::Calendar.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.EnterFromLeft = global::Calendar.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.EnterFromRight = global::Calendar.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.ExitToLeft = global::Calendar.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.ExitToRight = global::Calendar.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.design_appbar_state_list_animator = global::Calendar.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.design_fab_hide_motion_spec = global::Calendar.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.design_fab_show_motion_spec = global::Calendar.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_btn_state_list_anim = global::Calendar.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Calendar.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_chip_state_list_anim = global::Calendar.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_fab_hide_motion_spec = global::Calendar.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_fab_show_motion_spec = global::Calendar.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::Calendar.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::Calendar.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarDivider = global::Calendar.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarItemBackground = global::Calendar.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarPopupTheme = global::Calendar.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarSize = global::Calendar.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarSplitStyle = global::Calendar.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarStyle = global::Calendar.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTabBarStyle = global::Calendar.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTabStyle = global::Calendar.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTabTextStyle = global::Calendar.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTheme = global::Calendar.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarWidgetTheme = global::Calendar.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionButtonStyle = global::Calendar.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionDropDownStyle = global::Calendar.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionLayout = global::Calendar.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionMenuTextAppearance = global::Calendar.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionMenuTextColor = global::Calendar.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeBackground = global::Calendar.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCloseButtonStyle = global::Calendar.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCloseDrawable = global::Calendar.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCopyDrawable = global::Calendar.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCutDrawable = global::Calendar.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeFindDrawable = global::Calendar.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModePasteDrawable = global::Calendar.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModePopupWindowStyle = global::Calendar.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeSelectAllDrawable = global::Calendar.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeShareDrawable = global::Calendar.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeSplitBackground = global::Calendar.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeStyle = global::Calendar.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeWebSearchDrawable = global::Calendar.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionOverflowButtonStyle = global::Calendar.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionOverflowMenuStyle = global::Calendar.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionProviderClass = global::Calendar.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionViewClass = global::Calendar.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.activityChooserViewStyle = global::Calendar.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogButtonGroupStyle = global::Calendar.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogCenterButtons = global::Calendar.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogStyle = global::Calendar.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogTheme = global::Calendar.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.allowStacking = global::Calendar.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alpha = global::Calendar.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alphabeticModifiers = global::Calendar.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.arrowHeadLength = global::Calendar.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.arrowShaftLength = global::Calendar.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoCompleteTextViewStyle = global::Calendar.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeMaxTextSize = global::Calendar.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeMinTextSize = global::Calendar.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizePresetSizes = global::Calendar.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeStepGranularity = global::Calendar.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeTextType = global::Calendar.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.background = global::Calendar.Droid.Resource.Attribute.background;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundSplit = global::Calendar.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundStacked = global::Calendar.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundTint = global::Calendar.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundTintMode = global::Calendar.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.barLength = global::Calendar.Droid.Resource.Attribute.barLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_autoHide = global::Calendar.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_fitToContents = global::Calendar.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_hideable = global::Calendar.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_overlapTop = global::Calendar.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_peekHeight = global::Calendar.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_skipCollapsed = global::Calendar.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.borderlessButtonStyle = global::Calendar.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.borderWidth = global::Calendar.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.bottomAppBarStyle = global::Calendar.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.bottomNavigationStyle = global::Calendar.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.bottomSheetDialogTheme = global::Calendar.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.bottomSheetStyle = global::Calendar.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxBackgroundColor = global::Calendar.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxBackgroundMode = global::Calendar.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxCollapsedPaddingTop = global::Calendar.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxCornerRadiusBottomEnd = global::Calendar.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxCornerRadiusBottomStart = global::Calendar.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxCornerRadiusTopEnd = global::Calendar.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxCornerRadiusTopStart = global::Calendar.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxStrokeColor = global::Calendar.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxStrokeWidth = global::Calendar.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarButtonStyle = global::Calendar.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarNegativeButtonStyle = global::Calendar.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarNeutralButtonStyle = global::Calendar.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarPositiveButtonStyle = global::Calendar.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarStyle = global::Calendar.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonCompat = global::Calendar.Droid.Resource.Attribute.buttonCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonGravity = global::Calendar.Droid.Resource.Attribute.buttonGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonIconDimen = global::Calendar.Droid.Resource.Attribute.buttonIconDimen;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonPanelSideLayout = global::Calendar.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonStyle = global::Calendar.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonStyleSmall = global::Calendar.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonTint = global::Calendar.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonTintMode = global::Calendar.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardBackgroundColor = global::Calendar.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardCornerRadius = global::Calendar.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardElevation = global::Calendar.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardMaxElevation = global::Calendar.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardPreventCornerOverlap = global::Calendar.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardUseCompatPadding = global::Calendar.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardViewStyle = global::Calendar.Droid.Resource.Attribute.cardViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkboxStyle = global::Calendar.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedChip = global::Calendar.Droid.Resource.Attribute.checkedChip;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedIcon = global::Calendar.Droid.Resource.Attribute.checkedIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedIconEnabled = global::Calendar.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedIconVisible = global::Calendar.Droid.Resource.Attribute.checkedIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedTextViewStyle = global::Calendar.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipBackgroundColor = global::Calendar.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipCornerRadius = global::Calendar.Droid.Resource.Attribute.chipCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipEndPadding = global::Calendar.Droid.Resource.Attribute.chipEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipGroupStyle = global::Calendar.Droid.Resource.Attribute.chipGroupStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipIcon = global::Calendar.Droid.Resource.Attribute.chipIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipIconEnabled = global::Calendar.Droid.Resource.Attribute.chipIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipIconSize = global::Calendar.Droid.Resource.Attribute.chipIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipIconTint = global::Calendar.Droid.Resource.Attribute.chipIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipIconVisible = global::Calendar.Droid.Resource.Attribute.chipIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipMinHeight = global::Calendar.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipSpacing = global::Calendar.Droid.Resource.Attribute.chipSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipSpacingHorizontal = global::Calendar.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipSpacingVertical = global::Calendar.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipStandaloneStyle = global::Calendar.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipStartPadding = global::Calendar.Droid.Resource.Attribute.chipStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipStrokeColor = global::Calendar.Droid.Resource.Attribute.chipStrokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipStrokeWidth = global::Calendar.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipStyle = global::Calendar.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIcon = global::Calendar.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconEnabled = global::Calendar.Droid.Resource.Attribute.closeIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconEndPadding = global::Calendar.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconSize = global::Calendar.Droid.Resource.Attribute.closeIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconStartPadding = global::Calendar.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconTint = global::Calendar.Droid.Resource.Attribute.closeIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconVisible = global::Calendar.Droid.Resource.Attribute.closeIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeItemLayout = global::Calendar.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapseContentDescription = global::Calendar.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapsedTitleGravity = global::Calendar.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapsedTitleTextAppearance = global::Calendar.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapseIcon = global::Calendar.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collectionViewStyle = global::Calendar.Droid.Resource.Attribute.collectionViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.color = global::Calendar.Droid.Resource.Attribute.color;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorAccent = global::Calendar.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorBackgroundFloating = global::Calendar.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorButtonNormal = global::Calendar.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorControlActivated = global::Calendar.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorControlHighlight = global::Calendar.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorControlNormal = global::Calendar.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorError = global::Calendar.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorPrimary = global::Calendar.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorPrimaryDark = global::Calendar.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorSecondary = global::Calendar.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorSwitchThumbNormal = global::Calendar.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.commitIcon = global::Calendar.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentDescription = global::Calendar.Droid.Resource.Attribute.contentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetEnd = global::Calendar.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetEndWithActions = global::Calendar.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetLeft = global::Calendar.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetRight = global::Calendar.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetStart = global::Calendar.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetStartWithNavigation = global::Calendar.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPadding = global::Calendar.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingBottom = global::Calendar.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingLeft = global::Calendar.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingRight = global::Calendar.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingTop = global::Calendar.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentScrim = global::Calendar.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.controlBackground = global::Calendar.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.coordinatorLayoutStyle = global::Calendar.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cornerRadius = global::Calendar.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterEnabled = global::Calendar.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterMaxLength = global::Calendar.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterOverflowTextAppearance = global::Calendar.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterTextAppearance = global::Calendar.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.customNavigationLayout = global::Calendar.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.defaultQueryHint = global::Calendar.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dialogCornerRadius = global::Calendar.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dialogPreferredPadding = global::Calendar.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dialogTheme = global::Calendar.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.displayOptions = global::Calendar.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.divider = global::Calendar.Droid.Resource.Attribute.divider;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dividerHorizontal = global::Calendar.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dividerPadding = global::Calendar.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dividerVertical = global::Calendar.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableBottomCompat = global::Calendar.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableEndCompat = global::Calendar.Droid.Resource.Attribute.drawableEndCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableLeftCompat = global::Calendar.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableRightCompat = global::Calendar.Droid.Resource.Attribute.drawableRightCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableSize = global::Calendar.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableStartCompat = global::Calendar.Droid.Resource.Attribute.drawableStartCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableTint = global::Calendar.Droid.Resource.Attribute.drawableTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableTintMode = global::Calendar.Droid.Resource.Attribute.drawableTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableTopCompat = global::Calendar.Droid.Resource.Attribute.drawableTopCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawerArrowStyle = global::Calendar.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dropdownListPreferredItemHeight = global::Calendar.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dropDownListViewStyle = global::Calendar.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.editTextBackground = global::Calendar.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.editTextColor = global::Calendar.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.editTextStyle = global::Calendar.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.elevation = global::Calendar.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.enforceMaterialTheme = global::Calendar.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.enforceTextAppearance = global::Calendar.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.errorEnabled = global::Calendar.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.errorTextAppearance = global::Calendar.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Calendar.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expanded = global::Calendar.Droid.Resource.Attribute.expanded;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleGravity = global::Calendar.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMargin = global::Calendar.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginBottom = global::Calendar.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginEnd = global::Calendar.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginStart = global::Calendar.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginTop = global::Calendar.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleTextAppearance = global::Calendar.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabAlignmentMode = global::Calendar.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabCradleMargin = global::Calendar.Droid.Resource.Attribute.fabCradleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabCradleRoundedCornerRadius = global::Calendar.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabCradleVerticalOffset = global::Calendar.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabCustomSize = global::Calendar.Droid.Resource.Attribute.fabCustomSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabSize = global::Calendar.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollEnabled = global::Calendar.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Calendar.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Calendar.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Calendar.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Calendar.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.firstBaselineToTopHeight = global::Calendar.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.floatingActionButtonStyle = global::Calendar.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.font = global::Calendar.Droid.Resource.Attribute.font;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontFamily = global::Calendar.Droid.Resource.Attribute.fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderAuthority = global::Calendar.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderCerts = global::Calendar.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderFetchStrategy = global::Calendar.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderFetchTimeout = global::Calendar.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderPackage = global::Calendar.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderQuery = global::Calendar.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontStyle = global::Calendar.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontVariationSettings = global::Calendar.Droid.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontWeight = global::Calendar.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.foregroundInsidePadding = global::Calendar.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.gapBetweenBars = global::Calendar.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.goIcon = global::Calendar.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.headerLayout = global::Calendar.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.height = global::Calendar.Droid.Resource.Attribute.height;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.helperText = global::Calendar.Droid.Resource.Attribute.helperText;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.helperTextEnabled = global::Calendar.Droid.Resource.Attribute.helperTextEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.helperTextTextAppearance = global::Calendar.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hideMotionSpec = global::Calendar.Droid.Resource.Attribute.hideMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hideOnContentScroll = global::Calendar.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hideOnScroll = global::Calendar.Droid.Resource.Attribute.hideOnScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hintAnimationEnabled = global::Calendar.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hintEnabled = global::Calendar.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hintTextAppearance = global::Calendar.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.homeAsUpIndicator = global::Calendar.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.homeLayout = global::Calendar.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hoveredFocusedTranslationZ = global::Calendar.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.icon = global::Calendar.Droid.Resource.Attribute.icon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconEndPadding = global::Calendar.Droid.Resource.Attribute.iconEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconGravity = global::Calendar.Droid.Resource.Attribute.iconGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconifiedByDefault = global::Calendar.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconPadding = global::Calendar.Droid.Resource.Attribute.iconPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconSize = global::Calendar.Droid.Resource.Attribute.iconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconStartPadding = global::Calendar.Droid.Resource.Attribute.iconStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconTint = global::Calendar.Droid.Resource.Attribute.iconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconTintMode = global::Calendar.Droid.Resource.Attribute.iconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.imageButtonStyle = global::Calendar.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.indeterminateProgressStyle = global::Calendar.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.initialActivityCount = global::Calendar.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.insetForeground = global::Calendar.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.isLightTheme = global::Calendar.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemBackground = global::Calendar.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemHorizontalPadding = global::Calendar.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemHorizontalTranslationEnabled = global::Calendar.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemIconPadding = global::Calendar.Droid.Resource.Attribute.itemIconPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemIconSize = global::Calendar.Droid.Resource.Attribute.itemIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemIconTint = global::Calendar.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemPadding = global::Calendar.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemSpacing = global::Calendar.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemTextAppearance = global::Calendar.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemTextAppearanceActive = global::Calendar.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemTextAppearanceInactive = global::Calendar.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemTextColor = global::Calendar.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.keylines = global::Calendar.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.labelVisibilityMode = global::Calendar.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.lastBaselineToBottomHeight = global::Calendar.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout = global::Calendar.Droid.Resource.Attribute.layout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layoutManager = global::Calendar.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_anchor = global::Calendar.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_anchorGravity = global::Calendar.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_behavior = global::Calendar.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_collapseMode = global::Calendar.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_collapseParallaxMultiplier = global::Calendar.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_dodgeInsetEdges = global::Calendar.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_insetEdge = global::Calendar.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_keyline = global::Calendar.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_scrollFlags = global::Calendar.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_scrollInterpolator = global::Calendar.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.liftOnScroll = global::Calendar.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.lineHeight = global::Calendar.Droid.Resource.Attribute.lineHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.lineSpacing = global::Calendar.Droid.Resource.Attribute.lineSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listChoiceBackgroundIndicator = global::Calendar.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::Calendar.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::Calendar.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listDividerAlertDialog = global::Calendar.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listItemLayout = global::Calendar.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listLayout = global::Calendar.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listMenuViewStyle = global::Calendar.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPopupWindowStyle = global::Calendar.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemHeight = global::Calendar.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemHeightLarge = global::Calendar.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemHeightSmall = global::Calendar.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemPaddingEnd = global::Calendar.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemPaddingLeft = global::Calendar.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemPaddingRight = global::Calendar.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemPaddingStart = global::Calendar.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.logo = global::Calendar.Droid.Resource.Attribute.logo;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.logoDescription = global::Calendar.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.materialButtonStyle = global::Calendar.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.materialCardViewStyle = global::Calendar.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.maxActionInlineWidth = global::Calendar.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.maxButtonHeight = global::Calendar.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.maxImageSize = global::Calendar.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.measureWithLargestChild = global::Calendar.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.menu = global::Calendar.Droid.Resource.Attribute.menu;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.multiChoiceItemLayout = global::Calendar.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.navigationContentDescription = global::Calendar.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.navigationIcon = global::Calendar.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.navigationMode = global::Calendar.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.navigationViewStyle = global::Calendar.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.numericModifiers = global::Calendar.Droid.Resource.Attribute.numericModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.overlapAnchor = global::Calendar.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingBottomNoButtons = global::Calendar.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingEnd = global::Calendar.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingStart = global::Calendar.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingTopNoTitle = global::Calendar.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.panelBackground = global::Calendar.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.panelMenuListTheme = global::Calendar.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.panelMenuListWidth = global::Calendar.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleContentDescription = global::Calendar.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleDrawable = global::Calendar.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleEnabled = global::Calendar.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleTint = global::Calendar.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleTintMode = global::Calendar.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.popupMenuStyle = global::Calendar.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.popupTheme = global::Calendar.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.popupWindowStyle = global::Calendar.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.preserveIconSpacing = global::Calendar.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.pressedTranslationZ = global::Calendar.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.progressBarPadding = global::Calendar.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.progressBarStyle = global::Calendar.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.queryBackground = global::Calendar.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.queryHint = global::Calendar.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.radioButtonStyle = global::Calendar.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.ratingBarStyle = global::Calendar.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.ratingBarStyleIndicator = global::Calendar.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.ratingBarStyleSmall = global::Calendar.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.recyclerViewStyle = global::Calendar.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.reverseLayout = global::Calendar.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.rippleColor = global::Calendar.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.scrimAnimationDuration = global::Calendar.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.scrimBackground = global::Calendar.Droid.Resource.Attribute.scrimBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.scrimVisibleHeightTrigger = global::Calendar.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.scrollViewStyle = global::Calendar.Droid.Resource.Attribute.scrollViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.searchHintIcon = global::Calendar.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.searchIcon = global::Calendar.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.searchViewStyle = global::Calendar.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.seekBarStyle = global::Calendar.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.selectableItemBackground = global::Calendar.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.selectableItemBackgroundBorderless = global::Calendar.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showAsAction = global::Calendar.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showDividers = global::Calendar.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showMotionSpec = global::Calendar.Droid.Resource.Attribute.showMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showText = global::Calendar.Droid.Resource.Attribute.showText;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showTitle = global::Calendar.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.singleChoiceItemLayout = global::Calendar.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.singleLine = global::Calendar.Droid.Resource.Attribute.singleLine;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.singleSelection = global::Calendar.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.snackbarButtonStyle = global::Calendar.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.snackbarStyle = global::Calendar.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spanCount = global::Calendar.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spinBars = global::Calendar.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spinnerDropDownItemStyle = global::Calendar.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spinnerStyle = global::Calendar.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.splitTrack = global::Calendar.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.srcCompat = global::Calendar.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.stackFromEnd = global::Calendar.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_above_anchor = global::Calendar.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_collapsed = global::Calendar.Droid.Resource.Attribute.state_collapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_collapsible = global::Calendar.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_liftable = global::Calendar.Droid.Resource.Attribute.state_liftable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_lifted = global::Calendar.Droid.Resource.Attribute.state_lifted;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.statusBarBackground = global::Calendar.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.statusBarScrim = global::Calendar.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.strokeColor = global::Calendar.Droid.Resource.Attribute.strokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.strokeWidth = global::Calendar.Droid.Resource.Attribute.strokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subMenuArrow = global::Calendar.Droid.Resource.Attribute.subMenuArrow;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.submitBackground = global::Calendar.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitle = global::Calendar.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitleTextAppearance = global::Calendar.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitleTextColor = global::Calendar.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitleTextStyle = global::Calendar.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.suggestionRowLayout = global::Calendar.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchMinWidth = global::Calendar.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchPadding = global::Calendar.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchStyle = global::Calendar.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchTextAppearance = global::Calendar.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabBackground = global::Calendar.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabContentStart = global::Calendar.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabGravity = global::Calendar.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIconTint = global::Calendar.Droid.Resource.Attribute.tabIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIconTintMode = global::Calendar.Droid.Resource.Attribute.tabIconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicator = global::Calendar.Droid.Resource.Attribute.tabIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorAnimationDuration = global::Calendar.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorColor = global::Calendar.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorFullWidth = global::Calendar.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorGravity = global::Calendar.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorHeight = global::Calendar.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabInlineLabel = global::Calendar.Droid.Resource.Attribute.tabInlineLabel;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabMaxWidth = global::Calendar.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabMinWidth = global::Calendar.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabMode = global::Calendar.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPadding = global::Calendar.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingBottom = global::Calendar.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingEnd = global::Calendar.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingStart = global::Calendar.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingTop = global::Calendar.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabRippleColor = global::Calendar.Droid.Resource.Attribute.tabRippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabSelectedTextColor = global::Calendar.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabStyle = global::Calendar.Droid.Resource.Attribute.tabStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabTextAppearance = global::Calendar.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabTextColor = global::Calendar.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabUnboundedRipple = global::Calendar.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAllCaps = global::Calendar.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceBody1 = global::Calendar.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceBody2 = global::Calendar.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceButton = global::Calendar.Droid.Resource.Attribute.textAppearanceButton;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceCaption = global::Calendar.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline1 = global::Calendar.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline2 = global::Calendar.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline3 = global::Calendar.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline4 = global::Calendar.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline5 = global::Calendar.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline6 = global::Calendar.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceLargePopupMenu = global::Calendar.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceListItem = global::Calendar.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceListItemSecondary = global::Calendar.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceListItemSmall = global::Calendar.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceOverline = global::Calendar.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearancePopupMenuHeader = global::Calendar.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Calendar.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSearchResultTitle = global::Calendar.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSmallPopupMenu = global::Calendar.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSubtitle1 = global::Calendar.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSubtitle2 = global::Calendar.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textColorAlertDialogListItem = global::Calendar.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textColorSearchUrl = global::Calendar.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textEndPadding = global::Calendar.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textInputStyle = global::Calendar.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textLocale = global::Calendar.Droid.Resource.Attribute.textLocale;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textStartPadding = global::Calendar.Droid.Resource.Attribute.textStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.theme = global::Calendar.Droid.Resource.Attribute.theme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thickness = global::Calendar.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thumbTextPadding = global::Calendar.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thumbTint = global::Calendar.Droid.Resource.Attribute.thumbTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thumbTintMode = global::Calendar.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tickMark = global::Calendar.Droid.Resource.Attribute.tickMark;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tickMarkTint = global::Calendar.Droid.Resource.Attribute.tickMarkTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tickMarkTintMode = global::Calendar.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tint = global::Calendar.Droid.Resource.Attribute.tint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tintMode = global::Calendar.Droid.Resource.Attribute.tintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.title = global::Calendar.Droid.Resource.Attribute.title;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleEnabled = global::Calendar.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMargin = global::Calendar.Droid.Resource.Attribute.titleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginBottom = global::Calendar.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginEnd = global::Calendar.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMargins = global::Calendar.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginStart = global::Calendar.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginTop = global::Calendar.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleTextAppearance = global::Calendar.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleTextColor = global::Calendar.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleTextStyle = global::Calendar.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.toolbarId = global::Calendar.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.toolbarNavigationButtonStyle = global::Calendar.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.toolbarStyle = global::Calendar.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tooltipForegroundColor = global::Calendar.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tooltipFrameBackground = global::Calendar.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tooltipText = global::Calendar.Droid.Resource.Attribute.tooltipText;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.track = global::Calendar.Droid.Resource.Attribute.track;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.trackTint = global::Calendar.Droid.Resource.Attribute.trackTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.trackTintMode = global::Calendar.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.ttcIndex = global::Calendar.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.useCompatPadding = global::Calendar.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.viewInflaterClass = global::Calendar.Droid.Resource.Attribute.viewInflaterClass;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.voiceIcon = global::Calendar.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowActionBar = global::Calendar.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowActionBarOverlay = global::Calendar.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowActionModeOverlay = global::Calendar.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedHeightMajor = global::Calendar.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedHeightMinor = global::Calendar.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedWidthMajor = global::Calendar.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedWidthMinor = global::Calendar.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowMinWidthMajor = global::Calendar.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowMinWidthMinor = global::Calendar.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowNoTitle = global::Calendar.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Boolean.abc_action_bar_embed_tabs = global::Calendar.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Plugin.Calendar.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Calendar.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::Calendar.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Calendar.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_background_cache_hint_selector_material_light = global::Calendar.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_btn_colored_borderless_text_material = global::Calendar.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_btn_colored_text_material = global::Calendar.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_color_highlight_material = global::Calendar.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_hint_foreground_material_dark = global::Calendar.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_hint_foreground_material_light = global::Calendar.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_disable_only_material_dark = global::Calendar.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_disable_only_material_light = global::Calendar.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_material_dark = global::Calendar.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_material_light = global::Calendar.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text = global::Calendar.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text_normal = global::Calendar.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text_pressed = global::Calendar.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text_selected = global::Calendar.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_secondary_text_material_dark = global::Calendar.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_secondary_text_material_light = global::Calendar.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_btn_checkable = global::Calendar.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_default = global::Calendar.Droid.Resource.Color.abc_tint_default;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_edittext = global::Calendar.Droid.Resource.Color.abc_tint_edittext;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_seek_thumb = global::Calendar.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_spinner = global::Calendar.Droid.Resource.Color.abc_tint_spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_switch_track = global::Calendar.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xamarin.Plugin.Calendar.Resource.Color.accent_material_dark = global::Calendar.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.accent_material_light = global::Calendar.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_floating_material_dark = global::Calendar.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_floating_material_light = global::Calendar.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_material_dark = global::Calendar.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_material_light = global::Calendar.Droid.Resource.Color.background_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_disabled_material_dark = global::Calendar.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_disabled_material_light = global::Calendar.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_inverse_material_dark = global::Calendar.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_inverse_material_light = global::Calendar.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_material_dark = global::Calendar.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_material_light = global::Calendar.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.browser_actions_bg_grey = global::Calendar.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Xamarin.Plugin.Calendar.Resource.Color.browser_actions_divider_color = global::Calendar.Droid.Resource.Color.browser_actions_divider_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.browser_actions_text_color = global::Calendar.Droid.Resource.Color.browser_actions_text_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.browser_actions_title_color = global::Calendar.Droid.Resource.Color.browser_actions_title_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.button_material_dark = global::Calendar.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.button_material_light = global::Calendar.Droid.Resource.Color.button_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_dark_background = global::Calendar.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_light_background = global::Calendar.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_shadow_end_color = global::Calendar.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_shadow_start_color = global::Calendar.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_bottom_navigation_shadow_color = global::Calendar.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_default_color_primary = global::Calendar.Droid.Resource.Color.design_default_color_primary;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_default_color_primary_dark = global::Calendar.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_error = global::Calendar.Droid.Resource.Color.design_error;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_shadow_end_color = global::Calendar.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_shadow_mid_color = global::Calendar.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_shadow_start_color = global::Calendar.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_end_inner_color = global::Calendar.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_end_outer_color = global::Calendar.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_top_inner_color = global::Calendar.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_top_outer_color = global::Calendar.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_snackbar_background_color = global::Calendar.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_disabled_material_dark = global::Calendar.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_disabled_material_light = global::Calendar.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_material_dark = global::Calendar.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_material_light = global::Calendar.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.error_color_material_dark = global::Calendar.Droid.Resource.Color.error_color_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.error_color_material_light = global::Calendar.Droid.Resource.Color.error_color_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.foreground_material_dark = global::Calendar.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.foreground_material_light = global::Calendar.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.highlighted_text_material_dark = global::Calendar.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.highlighted_text_material_light = global::Calendar.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_blue_grey_800 = global::Calendar.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_blue_grey_900 = global::Calendar.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_blue_grey_950 = global::Calendar.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_deep_teal_200 = global::Calendar.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_deep_teal_500 = global::Calendar.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_100 = global::Calendar.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_300 = global::Calendar.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_50 = global::Calendar.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_600 = global::Calendar.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_800 = global::Calendar.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_850 = global::Calendar.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_900 = global::Calendar.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_bg_color_selector = global::Calendar.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_ripple_color = global::Calendar.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_stroke_color_selector = global::Calendar.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_text_btn_ripple_color = global::Calendar.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_text_color_disabled = global::Calendar.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_text_color_selector = global::Calendar.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_transparent_bg_color = global::Calendar.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_chip_background_color = global::Calendar.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_chip_close_icon_tint = global::Calendar.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_chip_text_color = global::Calendar.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_fab_ripple_color = global::Calendar.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_scrim_color = global::Calendar.Droid.Resource.Color.mtrl_scrim_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_tabs_colored_ripple_color = global::Calendar.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_tabs_icon_color_selector = global::Calendar.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::Calendar.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::Calendar.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_tabs_ripple_color = global::Calendar.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_textinput_default_box_stroke_color = global::Calendar.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_textinput_disabled_color = global::Calendar.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::Calendar.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::Calendar.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_text_btn_text_color_selector = global::Calendar.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.notification_action_color_filter = global::Calendar.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Plugin.Calendar.Resource.Color.notification_icon_bg_color = global::Calendar.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.notification_material_background_media_default_color = global::Calendar.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_dark_material_dark = global::Calendar.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_dark_material_light = global::Calendar.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_material_dark = global::Calendar.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_material_light = global::Calendar.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_default_material_dark = global::Calendar.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_default_material_light = global::Calendar.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_disabled_material_dark = global::Calendar.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_disabled_material_light = global::Calendar.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.ripple_material_dark = global::Calendar.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.ripple_material_light = global::Calendar.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_default_material_dark = global::Calendar.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_default_material_light = global::Calendar.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_disabled_material_dark = global::Calendar.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_disabled_material_light = global::Calendar.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_disabled_material_dark = global::Calendar.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_disabled_material_light = global::Calendar.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_material_dark = global::Calendar.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_material_light = global::Calendar.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_normal_material_dark = global::Calendar.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_normal_material_light = global::Calendar.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.tooltip_background_dark = global::Calendar.Droid.Resource.Color.tooltip_background_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.tooltip_background_light = global::Calendar.Droid.Resource.Color.tooltip_background_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_content_inset_material = global::Calendar.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Calendar.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_default_height_material = global::Calendar.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Calendar.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Calendar.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_elevation_material = global::Calendar.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Calendar.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Calendar.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Calendar.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_stacked_max_height = global::Calendar.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Calendar.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Calendar.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Calendar.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_button_min_height_material = global::Calendar.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_button_min_width_material = global::Calendar.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Calendar.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Calendar.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_alert_dialog_button_dimen = global::Calendar.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_inset_horizontal_material = global::Calendar.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_inset_vertical_material = global::Calendar.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_padding_horizontal_material = global::Calendar.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_padding_vertical_material = global::Calendar.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Calendar.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_config_prefDialogWidth = global::Calendar.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_control_corner_material = global::Calendar.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_control_inset_material = global::Calendar.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_control_padding_material = global::Calendar.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_corner_radius_material = global::Calendar.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_height_major = global::Calendar.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_height_minor = global::Calendar.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_width_major = global::Calendar.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_width_minor = global::Calendar.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Calendar.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Calendar.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_min_width_major = global::Calendar.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_min_width_minor = global::Calendar.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_padding_material = global::Calendar.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_padding_top_material = global::Calendar.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_title_divider_material = global::Calendar.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_disabled_alpha_material_dark = global::Calendar.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_disabled_alpha_material_light = global::Calendar.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dropdownitem_icon_width = global::Calendar.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Calendar.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Calendar.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Calendar.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Calendar.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_edit_text_inset_top_material = global::Calendar.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_floating_window_z = global::Calendar.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_list_item_height_large_material = global::Calendar.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_list_item_height_material = global::Calendar.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_list_item_height_small_material = global::Calendar.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Calendar.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_panel_menu_list_width = global::Calendar.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_progress_bar_height_material = global::Calendar.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_search_view_preferred_height = global::Calendar.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_search_view_preferred_width = global::Calendar.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_seekbar_track_background_height_material = global::Calendar.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Calendar.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_select_dialog_padding_start_material = global::Calendar.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_switch_padding = global::Calendar.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_body_1_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_body_2_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_button_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_caption_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_1_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_2_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_3_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_4_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_headline_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_large_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_medium_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_menu_header_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_menu_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_small_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_subhead_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Calendar.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_title_material = global::Calendar.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_title_material_toolbar = global::Calendar.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.browser_actions_context_menu_max_width = global::Calendar.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.browser_actions_context_menu_min_padding = global::Calendar.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.cardview_compat_inset_shadow = global::Calendar.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.cardview_default_elevation = global::Calendar.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.cardview_default_radius = global::Calendar.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_inset_horizontal_material = global::Calendar.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_inset_vertical_material = global::Calendar.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_padding_horizontal_material = global::Calendar.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_padding_vertical_material = global::Calendar.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_control_corner_material = global::Calendar.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_notification_large_icon_max_height = global::Calendar.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_notification_large_icon_max_width = global::Calendar.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_appbar_elevation = global::Calendar.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Calendar.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::Calendar.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_active_text_size = global::Calendar.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_elevation = global::Calendar.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_height = global::Calendar.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_icon_size = global::Calendar.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_item_max_width = global::Calendar.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_item_min_width = global::Calendar.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_margin = global::Calendar.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_shadow_height = global::Calendar.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_text_size = global::Calendar.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Calendar.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Calendar.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_border_width = global::Calendar.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_elevation = global::Calendar.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_image_size = global::Calendar.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_size_mini = global::Calendar.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_size_normal = global::Calendar.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_translation_z_hovered_focused = global::Calendar.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_translation_z_pressed = global::Calendar.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_elevation = global::Calendar.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_icon_padding = global::Calendar.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_icon_size = global::Calendar.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_item_horizontal_padding = global::Calendar.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_item_icon_padding = global::Calendar.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_max_width = global::Calendar.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_padding_bottom = global::Calendar.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_separator_vertical_padding = global::Calendar.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_action_inline_max_width = global::Calendar.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_background_corner_radius = global::Calendar.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_elevation = global::Calendar.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Calendar.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_max_width = global::Calendar.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_min_width = global::Calendar.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_padding_horizontal = global::Calendar.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_padding_vertical = global::Calendar.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Calendar.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_text_size = global::Calendar.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_max_width = global::Calendar.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_scrollable_min_width = global::Calendar.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_text_size = global::Calendar.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_text_size_2line = global::Calendar.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_textinput_caption_translate_y = global::Calendar.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.disabled_alpha_material_dark = global::Calendar.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.disabled_alpha_material_light = global::Calendar.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.fastscroll_default_thickness = global::Calendar.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.fastscroll_margin = global::Calendar.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.fastscroll_minimum_range = global::Calendar.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.highlight_alpha_material_colored = global::Calendar.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.highlight_alpha_material_dark = global::Calendar.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.highlight_alpha_material_light = global::Calendar.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_alpha_material_dark = global::Calendar.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_alpha_material_light = global::Calendar.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_pressed_alpha_material_dark = global::Calendar.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_pressed_alpha_material_light = global::Calendar.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Calendar.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Calendar.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Calendar.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::Calendar.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::Calendar.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::Calendar.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::Calendar.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_bottomappbar_height = global::Calendar.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_corner_radius = global::Calendar.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::Calendar.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_disabled_elevation = global::Calendar.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_disabled_z = global::Calendar.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_elevation = global::Calendar.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_focused_z = global::Calendar.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_hovered_z = global::Calendar.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::Calendar.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_icon_padding = global::Calendar.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_inset = global::Calendar.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_letter_spacing = global::Calendar.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_padding_bottom = global::Calendar.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_padding_left = global::Calendar.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_padding_right = global::Calendar.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_padding_top = global::Calendar.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_pressed_z = global::Calendar.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_stroke_size = global::Calendar.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::Calendar.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::Calendar.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::Calendar.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_text_size = global::Calendar.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_z = global::Calendar.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_card_elevation = global::Calendar.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_card_spacing = global::Calendar.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Calendar.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_chip_text_size = global::Calendar.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_fab_elevation = global::Calendar.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::Calendar.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_fab_translation_z_pressed = global::Calendar.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_navigation_elevation = global::Calendar.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::Calendar.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_navigation_item_icon_padding = global::Calendar.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Calendar.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_snackbar_margin = global::Calendar.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::Calendar.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::Calendar.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::Calendar.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::Calendar.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::Calendar.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::Calendar.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_toolbar_default_height = global::Calendar.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_action_icon_size = global::Calendar.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_action_text_size = global::Calendar.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_big_circle_margin = global::Calendar.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_content_margin_start = global::Calendar.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_large_icon_height = global::Calendar.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_large_icon_width = global::Calendar.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_main_column_padding_top = global::Calendar.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_media_narrow_margin = global::Calendar.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_right_icon_size = global::Calendar.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_right_side_padding_top = global::Calendar.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_small_icon_background_padding = global::Calendar.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_small_icon_size_as_large = global::Calendar.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_subtext_size = global::Calendar.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_top_pad = global::Calendar.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_top_pad_large_text = global::Calendar.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_corner_radius = global::Calendar.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_horizontal_padding = global::Calendar.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_margin = global::Calendar.Droid.Resource.Dimension.tooltip_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Calendar.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_precise_anchor_threshold = global::Calendar.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_vertical_padding = global::Calendar.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_y_offset_non_touch = global::Calendar.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_y_offset_touch = global::Calendar.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_action_bar_item_background_material = global::Calendar.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_borderless_material = global::Calendar.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_check_material = global::Calendar.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_check_material_anim = global::Calendar.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Calendar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Calendar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_colored_material = global::Calendar.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_default_mtrl_shape = global::Calendar.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_radio_material = global::Calendar.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_radio_material_anim = global::Calendar.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Calendar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Calendar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Calendar.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Calendar.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_cab_background_internal_bg = global::Calendar.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_cab_background_top_material = global::Calendar.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_control_background_material = global::Calendar.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_dialog_material_background = global::Calendar.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_edit_text_material = global::Calendar.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_ab_back_material = global::Calendar.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Calendar.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_clear_material = global::Calendar.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_go_search_api_material = global::Calendar.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Calendar.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_overflow_material = global::Calendar.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Calendar.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_search_api_material = global::Calendar.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_voice_search_api_material = global::Calendar.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_item_background_holo_dark = global::Calendar.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_item_background_holo_light = global::Calendar.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_divider_material = global::Calendar.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_focused_holo = global::Calendar.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_longpressed_holo = global::Calendar.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_pressed_holo_dark = global::Calendar.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_pressed_holo_light = global::Calendar.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Calendar.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Calendar.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Calendar.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Calendar.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_holo_dark = global::Calendar.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_holo_light = global::Calendar.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Calendar.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_popup_background_mtrl_mult = global::Calendar.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ratingbar_indicator_material = global::Calendar.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ratingbar_material = global::Calendar.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ratingbar_small_material = global::Calendar.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Calendar.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Calendar.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_seekbar_thumb_material = global::Calendar.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_seekbar_tick_mark_material = global::Calendar.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_seekbar_track_material = global::Calendar.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Calendar.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_spinner_textfield_background_material = global::Calendar.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_switch_thumb_material = global::Calendar.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_tab_indicator_material = global::Calendar.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Calendar.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_search_material = global::Calendar.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_cursor_material = global::Calendar.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_vector_test = global::Calendar.Droid.Resource.Drawable.abc_vector_test;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.avd_hide_password = global::Calendar.Droid.Resource.Drawable.avd_hide_password;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.avd_show_password = global::Calendar.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_checkbox_checked_mtrl = global::Calendar.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::Calendar.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::Calendar.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::Calendar.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_radio_off_mtrl = global::Calendar.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::Calendar.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_radio_on_mtrl = global::Calendar.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::Calendar.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_fab_background = global::Calendar.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_ic_visibility = global::Calendar.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_ic_visibility_off = global::Calendar.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_password_eye = global::Calendar.Droid.Resource.Drawable.design_password_eye;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_snackbar_background = global::Calendar.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.ic_mtrl_chip_checked_black = global::Calendar.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.ic_mtrl_chip_checked_circle = global::Calendar.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.ic_mtrl_chip_close_circle = global::Calendar.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.mtrl_tabs_default_indicator = global::Calendar.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.navigation_empty_icon = global::Calendar.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_action_background = global::Calendar.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg = global::Calendar.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_low = global::Calendar.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_low_normal = global::Calendar.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_low_pressed = global::Calendar.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_normal = global::Calendar.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_normal_pressed = global::Calendar.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_icon_background = global::Calendar.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_template_icon_bg = global::Calendar.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_template_icon_low_bg = global::Calendar.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_tile_bg = global::Calendar.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notify_panel_notification_icon_bg = global::Calendar.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.tooltip_frame_dark = global::Calendar.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.tooltip_frame_light = global::Calendar.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_action_clickable_span = global::Calendar.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_0 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_1 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_10 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_11 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_12 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_13 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_14 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_15 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_16 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_17 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_18 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_19 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_2 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_20 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_21 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_22 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_23 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_24 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_25 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_26 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_27 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_28 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_29 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_3 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_30 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_31 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_4 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_5 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_6 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_7 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_8 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_9 = global::Calendar.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action0 = global::Calendar.Droid.Resource.Id.action0;
+			global::Xamarin.Plugin.Calendar.Resource.Id.actions = global::Calendar.Droid.Resource.Id.actions;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar = global::Calendar.Droid.Resource.Id.action_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_activity_content = global::Calendar.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_container = global::Calendar.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_root = global::Calendar.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_spinner = global::Calendar.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_subtitle = global::Calendar.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_title = global::Calendar.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_container = global::Calendar.Droid.Resource.Id.action_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_context_bar = global::Calendar.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_divider = global::Calendar.Droid.Resource.Id.action_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_image = global::Calendar.Droid.Resource.Id.action_image;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_menu_divider = global::Calendar.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_menu_presenter = global::Calendar.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_mode_bar = global::Calendar.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_mode_bar_stub = global::Calendar.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_mode_close_button = global::Calendar.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_text = global::Calendar.Droid.Resource.Id.action_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.activity_chooser_view_content = global::Calendar.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.Plugin.Calendar.Resource.Id.add = global::Calendar.Droid.Resource.Id.add;
+			global::Xamarin.Plugin.Calendar.Resource.Id.alertTitle = global::Calendar.Droid.Resource.Id.alertTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.all = global::Calendar.Droid.Resource.Id.all;
+			global::Xamarin.Plugin.Calendar.Resource.Id.ALT = global::Calendar.Droid.Resource.Id.ALT;
+			global::Xamarin.Plugin.Calendar.Resource.Id.always = global::Calendar.Droid.Resource.Id.always;
+			global::Xamarin.Plugin.Calendar.Resource.Id.async = global::Calendar.Droid.Resource.Id.async;
+			global::Xamarin.Plugin.Calendar.Resource.Id.auto = global::Calendar.Droid.Resource.Id.auto;
+			global::Xamarin.Plugin.Calendar.Resource.Id.beginning = global::Calendar.Droid.Resource.Id.beginning;
+			global::Xamarin.Plugin.Calendar.Resource.Id.blocking = global::Calendar.Droid.Resource.Id.blocking;
+			global::Xamarin.Plugin.Calendar.Resource.Id.bottom = global::Calendar.Droid.Resource.Id.bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.bottomtab_navarea = global::Calendar.Droid.Resource.Id.bottomtab_navarea;
+			global::Xamarin.Plugin.Calendar.Resource.Id.bottomtab_tabbar = global::Calendar.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.browser_actions_header_text = global::Calendar.Droid.Resource.Id.browser_actions_header_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.browser_actions_menu_items = global::Calendar.Droid.Resource.Id.browser_actions_menu_items;
+			global::Xamarin.Plugin.Calendar.Resource.Id.browser_actions_menu_item_icon = global::Calendar.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Id.browser_actions_menu_item_text = global::Calendar.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.browser_actions_menu_view = global::Calendar.Droid.Resource.Id.browser_actions_menu_view;
+			global::Xamarin.Plugin.Calendar.Resource.Id.buttonPanel = global::Calendar.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.cancel_action = global::Calendar.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Plugin.Calendar.Resource.Id.center = global::Calendar.Droid.Resource.Id.center;
+			global::Xamarin.Plugin.Calendar.Resource.Id.center_horizontal = global::Calendar.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.center_vertical = global::Calendar.Droid.Resource.Id.center_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Id.checkbox = global::Calendar.Droid.Resource.Id.checkbox;
+			global::Xamarin.Plugin.Calendar.Resource.Id.@checked = global::Calendar.Droid.Resource.Id.@checked;
+			global::Xamarin.Plugin.Calendar.Resource.Id.chronometer = global::Calendar.Droid.Resource.Id.chronometer;
+			global::Xamarin.Plugin.Calendar.Resource.Id.clip_horizontal = global::Calendar.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.clip_vertical = global::Calendar.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Id.collapseActionView = global::Calendar.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Plugin.Calendar.Resource.Id.container = global::Calendar.Droid.Resource.Id.container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.content = global::Calendar.Droid.Resource.Id.content;
+			global::Xamarin.Plugin.Calendar.Resource.Id.contentPanel = global::Calendar.Droid.Resource.Id.contentPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.coordinator = global::Calendar.Droid.Resource.Id.coordinator;
+			global::Xamarin.Plugin.Calendar.Resource.Id.CTRL = global::Calendar.Droid.Resource.Id.CTRL;
+			global::Xamarin.Plugin.Calendar.Resource.Id.custom = global::Calendar.Droid.Resource.Id.custom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.customPanel = global::Calendar.Droid.Resource.Id.customPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.decor_content_parent = global::Calendar.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.Plugin.Calendar.Resource.Id.default_activity_button = global::Calendar.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_bottom_sheet = global::Calendar.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_menu_item_action_area = global::Calendar.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_menu_item_action_area_stub = global::Calendar.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_menu_item_text = global::Calendar.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_navigation_view = global::Calendar.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Plugin.Calendar.Resource.Id.dialog_button = global::Calendar.Droid.Resource.Id.dialog_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.disableHome = global::Calendar.Droid.Resource.Id.disableHome;
+			global::Xamarin.Plugin.Calendar.Resource.Id.edit_query = global::Calendar.Droid.Resource.Id.edit_query;
+			global::Xamarin.Plugin.Calendar.Resource.Id.end = global::Calendar.Droid.Resource.Id.end;
+			global::Xamarin.Plugin.Calendar.Resource.Id.end_padder = global::Calendar.Droid.Resource.Id.end_padder;
+			global::Xamarin.Plugin.Calendar.Resource.Id.enterAlways = global::Calendar.Droid.Resource.Id.enterAlways;
+			global::Xamarin.Plugin.Calendar.Resource.Id.enterAlwaysCollapsed = global::Calendar.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Id.exitUntilCollapsed = global::Calendar.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Id.expanded_menu = global::Calendar.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Id.expand_activities_button = global::Calendar.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.fill = global::Calendar.Droid.Resource.Id.fill;
+			global::Xamarin.Plugin.Calendar.Resource.Id.filled = global::Calendar.Droid.Resource.Id.filled;
+			global::Xamarin.Plugin.Calendar.Resource.Id.fill_horizontal = global::Calendar.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.fill_vertical = global::Calendar.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Id.@fixed = global::Calendar.Droid.Resource.Id.@fixed;
+			global::Xamarin.Plugin.Calendar.Resource.Id.flyoutcontent_appbar = global::Calendar.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.forever = global::Calendar.Droid.Resource.Id.forever;
+			global::Xamarin.Plugin.Calendar.Resource.Id.FUNCTION = global::Calendar.Droid.Resource.Id.FUNCTION;
+			global::Xamarin.Plugin.Calendar.Resource.Id.ghost_view = global::Calendar.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Plugin.Calendar.Resource.Id.ghost_view_holder = global::Calendar.Droid.Resource.Id.ghost_view_holder;
+			global::Xamarin.Plugin.Calendar.Resource.Id.group_divider = global::Calendar.Droid.Resource.Id.group_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Id.home = global::Calendar.Droid.Resource.Id.home;
+			global::Xamarin.Plugin.Calendar.Resource.Id.homeAsUp = global::Calendar.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.Plugin.Calendar.Resource.Id.icon = global::Calendar.Droid.Resource.Id.icon;
+			global::Xamarin.Plugin.Calendar.Resource.Id.icon_group = global::Calendar.Droid.Resource.Id.icon_group;
+			global::Xamarin.Plugin.Calendar.Resource.Id.ifRoom = global::Calendar.Droid.Resource.Id.ifRoom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.image = global::Calendar.Droid.Resource.Id.image;
+			global::Xamarin.Plugin.Calendar.Resource.Id.info = global::Calendar.Droid.Resource.Id.info;
+			global::Xamarin.Plugin.Calendar.Resource.Id.italic = global::Calendar.Droid.Resource.Id.italic;
+			global::Xamarin.Plugin.Calendar.Resource.Id.item_touch_helper_previous_elevation = global::Calendar.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Id.labeled = global::Calendar.Droid.Resource.Id.labeled;
+			global::Xamarin.Plugin.Calendar.Resource.Id.left = global::Calendar.Droid.Resource.Id.left;
+			global::Xamarin.Plugin.Calendar.Resource.Id.line1 = global::Calendar.Droid.Resource.Id.line1;
+			global::Xamarin.Plugin.Calendar.Resource.Id.line3 = global::Calendar.Droid.Resource.Id.line3;
+			global::Xamarin.Plugin.Calendar.Resource.Id.listMode = global::Calendar.Droid.Resource.Id.listMode;
+			global::Xamarin.Plugin.Calendar.Resource.Id.list_item = global::Calendar.Droid.Resource.Id.list_item;
+			global::Xamarin.Plugin.Calendar.Resource.Id.main_appbar = global::Calendar.Droid.Resource.Id.main_appbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.main_tablayout = global::Calendar.Droid.Resource.Id.main_tablayout;
+			global::Xamarin.Plugin.Calendar.Resource.Id.main_toolbar = global::Calendar.Droid.Resource.Id.main_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.main_viewpager = global::Calendar.Droid.Resource.Id.main_viewpager;
+			global::Xamarin.Plugin.Calendar.Resource.Id.masked = global::Calendar.Droid.Resource.Id.masked;
+			global::Xamarin.Plugin.Calendar.Resource.Id.media_actions = global::Calendar.Droid.Resource.Id.media_actions;
+			global::Xamarin.Plugin.Calendar.Resource.Id.message = global::Calendar.Droid.Resource.Id.message;
+			global::Xamarin.Plugin.Calendar.Resource.Id.META = global::Calendar.Droid.Resource.Id.META;
+			global::Xamarin.Plugin.Calendar.Resource.Id.middle = global::Calendar.Droid.Resource.Id.middle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.mini = global::Calendar.Droid.Resource.Id.mini;
+			global::Xamarin.Plugin.Calendar.Resource.Id.mtrl_child_content_container = global::Calendar.Droid.Resource.Id.mtrl_child_content_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.mtrl_internal_children_alpha_tag = global::Calendar.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Plugin.Calendar.Resource.Id.multiply = global::Calendar.Droid.Resource.Id.multiply;
+			global::Xamarin.Plugin.Calendar.Resource.Id.navigation_header_container = global::Calendar.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.never = global::Calendar.Droid.Resource.Id.never;
+			global::Xamarin.Plugin.Calendar.Resource.Id.none = global::Calendar.Droid.Resource.Id.none;
+			global::Xamarin.Plugin.Calendar.Resource.Id.normal = global::Calendar.Droid.Resource.Id.normal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.notification_background = global::Calendar.Droid.Resource.Id.notification_background;
+			global::Xamarin.Plugin.Calendar.Resource.Id.notification_main_column = global::Calendar.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Plugin.Calendar.Resource.Id.notification_main_column_container = global::Calendar.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.off = global::Calendar.Droid.Resource.Id.off;
+			global::Xamarin.Plugin.Calendar.Resource.Id.on = global::Calendar.Droid.Resource.Id.on;
+			global::Xamarin.Plugin.Calendar.Resource.Id.outline = global::Calendar.Droid.Resource.Id.outline;
+			global::Xamarin.Plugin.Calendar.Resource.Id.parallax = global::Calendar.Droid.Resource.Id.parallax;
+			global::Xamarin.Plugin.Calendar.Resource.Id.parentPanel = global::Calendar.Droid.Resource.Id.parentPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.parent_matrix = global::Calendar.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Plugin.Calendar.Resource.Id.pin = global::Calendar.Droid.Resource.Id.pin;
+			global::Xamarin.Plugin.Calendar.Resource.Id.progress_circular = global::Calendar.Droid.Resource.Id.progress_circular;
+			global::Xamarin.Plugin.Calendar.Resource.Id.progress_horizontal = global::Calendar.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.radio = global::Calendar.Droid.Resource.Id.radio;
+			global::Xamarin.Plugin.Calendar.Resource.Id.right = global::Calendar.Droid.Resource.Id.right;
+			global::Xamarin.Plugin.Calendar.Resource.Id.right_icon = global::Calendar.Droid.Resource.Id.right_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Id.right_side = global::Calendar.Droid.Resource.Id.right_side;
+			global::Xamarin.Plugin.Calendar.Resource.Id.save_non_transition_alpha = global::Calendar.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Id.save_overlay_view = global::Calendar.Droid.Resource.Id.save_overlay_view;
+			global::Xamarin.Plugin.Calendar.Resource.Id.screen = global::Calendar.Droid.Resource.Id.screen;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scroll = global::Calendar.Droid.Resource.Id.scroll;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollable = global::Calendar.Droid.Resource.Id.scrollable;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollIndicatorDown = global::Calendar.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollIndicatorUp = global::Calendar.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollView = global::Calendar.Droid.Resource.Id.scrollView;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_badge = global::Calendar.Droid.Resource.Id.search_badge;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_bar = global::Calendar.Droid.Resource.Id.search_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_button = global::Calendar.Droid.Resource.Id.search_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_close_btn = global::Calendar.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_edit_frame = global::Calendar.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_go_btn = global::Calendar.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_mag_icon = global::Calendar.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_plate = global::Calendar.Droid.Resource.Id.search_plate;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_src_text = global::Calendar.Droid.Resource.Id.search_src_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_voice_btn = global::Calendar.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.Plugin.Calendar.Resource.Id.selected = global::Calendar.Droid.Resource.Id.selected;
+			global::Xamarin.Plugin.Calendar.Resource.Id.select_dialog_listview = global::Calendar.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.Plugin.Calendar.Resource.Id.shellcontent_appbar = global::Calendar.Droid.Resource.Id.shellcontent_appbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.shellcontent_toolbar = global::Calendar.Droid.Resource.Id.shellcontent_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.SHIFT = global::Calendar.Droid.Resource.Id.SHIFT;
+			global::Xamarin.Plugin.Calendar.Resource.Id.shortcut = global::Calendar.Droid.Resource.Id.shortcut;
+			global::Xamarin.Plugin.Calendar.Resource.Id.showCustom = global::Calendar.Droid.Resource.Id.showCustom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.showHome = global::Calendar.Droid.Resource.Id.showHome;
+			global::Xamarin.Plugin.Calendar.Resource.Id.showTitle = global::Calendar.Droid.Resource.Id.showTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.sliding_tabs = global::Calendar.Droid.Resource.Id.sliding_tabs;
+			global::Xamarin.Plugin.Calendar.Resource.Id.snackbar_action = global::Calendar.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.Plugin.Calendar.Resource.Id.snackbar_text = global::Calendar.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.snap = global::Calendar.Droid.Resource.Id.snap;
+			global::Xamarin.Plugin.Calendar.Resource.Id.snapMargins = global::Calendar.Droid.Resource.Id.snapMargins;
+			global::Xamarin.Plugin.Calendar.Resource.Id.spacer = global::Calendar.Droid.Resource.Id.spacer;
+			global::Xamarin.Plugin.Calendar.Resource.Id.split_action_bar = global::Calendar.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.src_atop = global::Calendar.Droid.Resource.Id.src_atop;
+			global::Xamarin.Plugin.Calendar.Resource.Id.src_in = global::Calendar.Droid.Resource.Id.src_in;
+			global::Xamarin.Plugin.Calendar.Resource.Id.src_over = global::Calendar.Droid.Resource.Id.src_over;
+			global::Xamarin.Plugin.Calendar.Resource.Id.start = global::Calendar.Droid.Resource.Id.start;
+			global::Xamarin.Plugin.Calendar.Resource.Id.status_bar_latest_event_content = global::Calendar.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.Plugin.Calendar.Resource.Id.stretch = global::Calendar.Droid.Resource.Id.stretch;
+			global::Xamarin.Plugin.Calendar.Resource.Id.submenuarrow = global::Calendar.Droid.Resource.Id.submenuarrow;
+			global::Xamarin.Plugin.Calendar.Resource.Id.submit_area = global::Calendar.Droid.Resource.Id.submit_area;
+			global::Xamarin.Plugin.Calendar.Resource.Id.SYM = global::Calendar.Droid.Resource.Id.SYM;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tabMode = global::Calendar.Droid.Resource.Id.tabMode;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_accessibility_actions = global::Calendar.Droid.Resource.Id.tag_accessibility_actions;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_accessibility_clickable_spans = global::Calendar.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_accessibility_heading = global::Calendar.Droid.Resource.Id.tag_accessibility_heading;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_accessibility_pane_title = global::Calendar.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_screen_reader_focusable = global::Calendar.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_transition_group = global::Calendar.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_unhandled_key_event_manager = global::Calendar.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_unhandled_key_listeners = global::Calendar.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Plugin.Calendar.Resource.Id.text = global::Calendar.Droid.Resource.Id.text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.text2 = global::Calendar.Droid.Resource.Id.text2;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textinput_counter = global::Calendar.Droid.Resource.Id.textinput_counter;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textinput_error = global::Calendar.Droid.Resource.Id.textinput_error;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textinput_helper_text = global::Calendar.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textSpacerNoButtons = global::Calendar.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textSpacerNoTitle = global::Calendar.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textStart = global::Calendar.Droid.Resource.Id.textStart;
+			global::Xamarin.Plugin.Calendar.Resource.Id.time = global::Calendar.Droid.Resource.Id.time;
+			global::Xamarin.Plugin.Calendar.Resource.Id.title = global::Calendar.Droid.Resource.Id.title;
+			global::Xamarin.Plugin.Calendar.Resource.Id.titleDividerNoCustom = global::Calendar.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.title_template = global::Calendar.Droid.Resource.Id.title_template;
+			global::Xamarin.Plugin.Calendar.Resource.Id.toolbar = global::Calendar.Droid.Resource.Id.toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.top = global::Calendar.Droid.Resource.Id.top;
+			global::Xamarin.Plugin.Calendar.Resource.Id.topPanel = global::Calendar.Droid.Resource.Id.topPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.touch_outside = global::Calendar.Droid.Resource.Id.touch_outside;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_current_scene = global::Calendar.Droid.Resource.Id.transition_current_scene;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_layout_save = global::Calendar.Droid.Resource.Id.transition_layout_save;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_position = global::Calendar.Droid.Resource.Id.transition_position;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_scene_layoutid_cache = global::Calendar.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_transform = global::Calendar.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Plugin.Calendar.Resource.Id.@unchecked = global::Calendar.Droid.Resource.Id.@unchecked;
+			global::Xamarin.Plugin.Calendar.Resource.Id.uniform = global::Calendar.Droid.Resource.Id.uniform;
+			global::Xamarin.Plugin.Calendar.Resource.Id.unlabeled = global::Calendar.Droid.Resource.Id.unlabeled;
+			global::Xamarin.Plugin.Calendar.Resource.Id.up = global::Calendar.Droid.Resource.Id.up;
+			global::Xamarin.Plugin.Calendar.Resource.Id.useLogo = global::Calendar.Droid.Resource.Id.useLogo;
+			global::Xamarin.Plugin.Calendar.Resource.Id.view_offset_helper = global::Calendar.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Plugin.Calendar.Resource.Id.visible = global::Calendar.Droid.Resource.Id.visible;
+			global::Xamarin.Plugin.Calendar.Resource.Id.withText = global::Calendar.Droid.Resource.Id.withText;
+			global::Xamarin.Plugin.Calendar.Resource.Id.wrap_content = global::Calendar.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.abc_config_activityDefaultDur = global::Calendar.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.abc_config_activityShortDur = global::Calendar.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.app_bar_elevation_anim_duration = global::Calendar.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.bottom_sheet_slide_duration = global::Calendar.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.cancel_button_image_alpha = global::Calendar.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.config_tooltipAnimTime = global::Calendar.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.design_snackbar_text_max_lines = global::Calendar.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.design_tab_indicator_anim_duration_ms = global::Calendar.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.hide_password_duration = global::Calendar.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.mtrl_btn_anim_delay_ms = global::Calendar.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.mtrl_btn_anim_duration_ms = global::Calendar.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.mtrl_chip_anim_duration = global::Calendar.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::Calendar.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.show_password_duration = global::Calendar.Droid.Resource.Integer.show_password_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.status_bar_notification_info_maxnum = global::Calendar.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::Calendar.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::Calendar.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::Calendar.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::Calendar.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::Calendar.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::Calendar.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.fast_out_slow_in = global::Calendar.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.mtrl_fast_out_linear_in = global::Calendar.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.mtrl_fast_out_slow_in = global::Calendar.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.mtrl_linear = global::Calendar.Droid.Resource.Interpolator.mtrl_linear;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.mtrl_linear_out_slow_in = global::Calendar.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_bar_title_item = global::Calendar.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_bar_up_container = global::Calendar.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_menu_item_layout = global::Calendar.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_menu_layout = global::Calendar.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_mode_bar = global::Calendar.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_mode_close_item_material = global::Calendar.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_activity_chooser_view = global::Calendar.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_activity_chooser_view_list_item = global::Calendar.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_alert_dialog_button_bar_material = global::Calendar.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_alert_dialog_material = global::Calendar.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_alert_dialog_title_material = global::Calendar.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_cascading_menu_item_layout = global::Calendar.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_dialog_title_material = global::Calendar.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_expanded_menu_layout = global::Calendar.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_checkbox = global::Calendar.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_icon = global::Calendar.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_layout = global::Calendar.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_radio = global::Calendar.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_popup_menu_header_item_layout = global::Calendar.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_popup_menu_item_layout = global::Calendar.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_content_include = global::Calendar.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_simple = global::Calendar.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Calendar.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_toolbar = global::Calendar.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Calendar.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_search_view = global::Calendar.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_select_dialog_material = global::Calendar.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_tooltip = global::Calendar.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.BottomTabLayout = global::Calendar.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.browser_actions_context_menu_page = global::Calendar.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.browser_actions_context_menu_row = global::Calendar.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.custom_dialog = global::Calendar.Droid.Resource.Layout.custom_dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_bottom_navigation_item = global::Calendar.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_bottom_sheet_dialog = global::Calendar.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_snackbar = global::Calendar.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_snackbar_include = global::Calendar.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_tab_icon = global::Calendar.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_tab_text = global::Calendar.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_menu_item_action_area = global::Calendar.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item = global::Calendar.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item_header = global::Calendar.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item_separator = global::Calendar.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item_subheader = global::Calendar.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_menu = global::Calendar.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_menu_item = global::Calendar.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.FallbackTabbarDoNotUse = global::Calendar.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.FallbackToolbarDoNotUse = global::Calendar.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.FlyoutContent = global::Calendar.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.mtrl_layout_snackbar = global::Calendar.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.mtrl_layout_snackbar_include = global::Calendar.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_action = global::Calendar.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_action_tombstone = global::Calendar.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_media_action = global::Calendar.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_media_cancel_action = global::Calendar.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media = global::Calendar.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media_custom = global::Calendar.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media_narrow = global::Calendar.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media_narrow_custom = global::Calendar.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_custom_big = global::Calendar.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_icon_group = global::Calendar.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_lines_media = global::Calendar.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_media = global::Calendar.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_media_custom = global::Calendar.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_part_chronometer = global::Calendar.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_part_time = global::Calendar.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.RootLayout = global::Calendar.Droid.Resource.Layout.RootLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.select_dialog_item_material = global::Calendar.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.select_dialog_multichoice_material = global::Calendar.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.select_dialog_singlechoice_material = global::Calendar.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.ShellContent = global::Calendar.Droid.Resource.Layout.ShellContent;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.support_simple_spinner_dropdown_item = global::Calendar.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.Tabbar = global::Calendar.Droid.Resource.Layout.Tabbar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.Toolbar = global::Calendar.Droid.Resource.Layout.Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_bar_home_description = global::Calendar.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_bar_up_description = global::Calendar.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_menu_overflow_description = global::Calendar.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_mode_done = global::Calendar.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_activitychooserview_choose_application = global::Calendar.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_activity_chooser_view_see_all = global::Calendar.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_capital_off = global::Calendar.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_capital_on = global::Calendar.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_alt_shortcut_label = global::Calendar.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_ctrl_shortcut_label = global::Calendar.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_delete_shortcut_label = global::Calendar.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_enter_shortcut_label = global::Calendar.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_function_shortcut_label = global::Calendar.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_meta_shortcut_label = global::Calendar.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_shift_shortcut_label = global::Calendar.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_space_shortcut_label = global::Calendar.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_sym_shortcut_label = global::Calendar.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_prepend_shortcut_label = global::Calendar.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_clear = global::Calendar.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_query = global::Calendar.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_search = global::Calendar.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_submit = global::Calendar.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_voice = global::Calendar.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_search_hint = global::Calendar.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_shareactionprovider_share_with = global::Calendar.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_shareactionprovider_share_with_application = global::Calendar.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_toolbar_collapse_description = global::Calendar.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.appbar_scrolling_view_behavior = global::Calendar.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.bottom_sheet_behavior = global::Calendar.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.character_counter_content_description = global::Calendar.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.character_counter_pattern = global::Calendar.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Plugin.Calendar.Resource.String.fab_transformation_scrim_behavior = global::Calendar.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.fab_transformation_sheet_behavior = global::Calendar.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.hide_bottom_view_on_scroll_behavior = global::Calendar.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.mtrl_chip_close_icon_content_description = global::Calendar.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.overflow_tab_title = global::Calendar.Droid.Resource.String.overflow_tab_title;
+			global::Xamarin.Plugin.Calendar.Resource.String.password_toggle_content_description = global::Calendar.Droid.Resource.String.password_toggle_content_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_eye = global::Calendar.Droid.Resource.String.path_password_eye;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_eye_mask_strike_through = global::Calendar.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_eye_mask_visible = global::Calendar.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_strike_through = global::Calendar.Droid.Resource.String.path_password_strike_through;
+			global::Xamarin.Plugin.Calendar.Resource.String.search_menu_title = global::Calendar.Droid.Resource.String.search_menu_title;
+			global::Xamarin.Plugin.Calendar.Resource.String.status_bar_notification_info_overflow = global::Calendar.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.AlertDialog_AppCompat = global::Calendar.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.AlertDialog_AppCompat_Light = global::Calendar.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_AppCompat_Dialog = global::Calendar.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_AppCompat_DropDownUp = global::Calendar.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_AppCompat_Tooltip = global::Calendar.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_Design_BottomSheetDialog = global::Calendar.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.AppCompatDialogStyle = global::Calendar.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_AlertDialog_AppCompat = global::Calendar.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Calendar.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Animation_AppCompat_Dialog = global::Calendar.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Calendar.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Calendar.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_CardView = global::Calendar.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Calendar.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Calendar.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Calendar.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Calendar.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Calendar.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat = global::Calendar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Calendar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Calendar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Calendar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Calendar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Calendar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Calendar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::Calendar.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Calendar.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat = global::Calendar.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Calendar.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog = global::Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Calendar.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light = global::Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::Calendar.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::Calendar.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Calendar.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents = global::Calendar.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::Calendar.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::Calendar.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::Calendar.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::Calendar.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Calendar.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::Calendar.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Calendar.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat = global::Calendar.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Calendar.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Calendar.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Calendar.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V22_Theme_AppCompat = global::Calendar.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Calendar.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V23_Theme_AppCompat = global::Calendar.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Calendar.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V26_Theme_AppCompat = global::Calendar.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Calendar.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Calendar.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V28_Theme_AppCompat = global::Calendar.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V28_Theme_AppCompat_Light = global::Calendar.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Calendar.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat = global::Calendar.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Calendar.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Calendar.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Calendar.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Calendar.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Calendar.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Calendar.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_EditText = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListView = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SearchView = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Spinner = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_TextView = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_Design_TabLayout = global::Calendar.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_MaterialComponents_Chip = global::Calendar.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::Calendar.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::Calendar.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.CardView = global::Calendar.Droid.Resource.Style.CardView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.CardView_Dark = global::Calendar.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.CardView_Light = global::Calendar.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.collectionViewTheme = global::Calendar.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Style.MainTheme = global::Calendar.Droid.Resource.Style.MainTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Style.MainTheme_Base = global::Calendar.Droid.Resource.Style.MainTheme_Base;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_AppCompat = global::Calendar.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_AppCompat_Light = global::Calendar.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_MaterialComponents = global::Calendar.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_MaterialComponents_Dialog = global::Calendar.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_MaterialComponents_Light = global::Calendar.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::Calendar.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Calendar.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Calendar.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Calendar.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V21_AppCompat = global::Calendar.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V21_AppCompat_Light = global::Calendar.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V25_AppCompat = global::Calendar.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V25_AppCompat_Light = global::Calendar.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Calendar.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Calendar.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Calendar.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Calendar.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.scrollViewScrollBars = global::Calendar.Droid.Resource.Style.scrollViewScrollBars;
+			global::Xamarin.Plugin.Calendar.Resource.Style.scrollViewTheme = global::Calendar.Droid.Resource.Style.scrollViewTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Body1 = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Body2 = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Button = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Caption = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display1 = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display2 = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display3 = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display4 = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Headline = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Inverse = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Large = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Medium = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Menu = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Small = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Subhead = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Title = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification = global::Calendar.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Info = global::Calendar.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Calendar.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Calendar.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Calendar.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Media = global::Calendar.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Time = global::Calendar.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Calendar.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Title = global::Calendar.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Calendar.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Calendar.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Counter = global::Calendar.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Calendar.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Error = global::Calendar.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_HelperText = global::Calendar.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Hint = global::Calendar.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Calendar.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Tab = global::Calendar.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::Calendar.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::Calendar.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Button = global::Calendar.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Caption = global::Calendar.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Chip = global::Calendar.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::Calendar.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::Calendar.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::Calendar.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::Calendar.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::Calendar.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::Calendar.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Overline = global::Calendar.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::Calendar.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::Calendar.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Calendar.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Calendar.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Calendar.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat = global::Calendar.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Calendar.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Calendar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Calendar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::Calendar.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::Calendar.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Calendar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Calendar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Light = global::Calendar.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents = global::Calendar.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::Calendar.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::Calendar.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::Calendar.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::Calendar.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::Calendar.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::Calendar.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::Calendar.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::Calendar.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Calendar.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::Calendar.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Calendar.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat = global::Calendar.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_CompactMenu = global::Calendar.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight = global::Calendar.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Calendar.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Calendar.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Calendar.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Calendar.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Calendar.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Calendar.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Dialog = global::Calendar.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Calendar.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Calendar.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Calendar.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light = global::Calendar.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Calendar.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_Dialog = global::Calendar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Calendar.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Calendar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Calendar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Calendar.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_NoActionBar = global::Calendar.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design = global::Calendar.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_BottomSheetDialog = global::Calendar.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_Light = global::Calendar.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Calendar.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_Light_NoActionBar = global::Calendar.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_NoActionBar = global::Calendar.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Bridge = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_CompactMenu = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Dialog = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::Calendar.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionButton = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionMode = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Calendar.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ButtonBar = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Borderless = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Colored = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Small = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Calendar.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Calendar.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Calendar.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Calendar.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Calendar.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_EditText = global::Calendar.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ImageButton = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_SearchView = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListMenuView = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListView = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListView_Menu = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_PopupMenu = global::Calendar.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Calendar.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_PopupWindow = global::Calendar.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ProgressBar = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Calendar.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_RatingBar = global::Calendar.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Calendar.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Calendar.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SearchView = global::Calendar.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Calendar.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SeekBar = global::Calendar.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Calendar.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_TextView = global::Calendar.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Calendar.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Toolbar = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Calendar.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Compat_NotificationActionContainer = global::Calendar.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Compat_NotificationActionText = global::Calendar.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_AppBarLayout = global::Calendar.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_BottomNavigationView = global::Calendar.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_BottomSheet_Modal = global::Calendar.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_CollapsingToolbar = global::Calendar.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_FloatingActionButton = global::Calendar.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_NavigationView = global::Calendar.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Calendar.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_Snackbar = global::Calendar.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_TabLayout = global::Calendar.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_TextInputLayout = global::Calendar.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_Icon = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_CardView = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_ChipGroup = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Chip_Action = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_NavigationView = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Snackbar = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TabLayout = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Toolbar = global::Calendar.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Support_CoordinatorLayout = global::Calendar.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar = global::Calendar.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBarLayout = global::Calendar.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Calendar.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_background = global::Calendar.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_backgroundSplit = global::Calendar.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_backgroundStacked = global::Calendar.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetEnd = global::Calendar.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Calendar.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetLeft = global::Calendar.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetRight = global::Calendar.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetStart = global::Calendar.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Calendar.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_customNavigationLayout = global::Calendar.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_displayOptions = global::Calendar.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_divider = global::Calendar.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_elevation = global::Calendar.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_height = global::Calendar.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_hideOnContentScroll = global::Calendar.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Calendar.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_homeLayout = global::Calendar.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_icon = global::Calendar.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Calendar.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_itemPadding = global::Calendar.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_logo = global::Calendar.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_navigationMode = global::Calendar.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_popupTheme = global::Calendar.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_progressBarPadding = global::Calendar.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_progressBarStyle = global::Calendar.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_subtitle = global::Calendar.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_subtitleTextStyle = global::Calendar.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_title = global::Calendar.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_titleTextStyle = global::Calendar.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMenuItemView = global::Calendar.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Calendar.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMenuView = global::Calendar.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode = global::Calendar.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_background = global::Calendar.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_backgroundSplit = global::Calendar.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_closeItemLayout = global::Calendar.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_height = global::Calendar.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_subtitleTextStyle = global::Calendar.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_titleTextStyle = global::Calendar.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActivityChooserView = global::Calendar.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Calendar.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Calendar.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog = global::Calendar.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_android_layout = global::Calendar.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_buttonIconDimen = global::Calendar.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Calendar.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_listItemLayout = global::Calendar.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_listLayout = global::Calendar.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Calendar.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_showTitle = global::Calendar.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Calendar.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat = global::Calendar.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::Calendar.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::Calendar.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::Calendar.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::Calendar.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::Calendar.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::Calendar.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableItem = global::Calendar.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::Calendar.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::Calendar.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableTransition = global::Calendar.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::Calendar.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::Calendar.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::Calendar.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::Calendar.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout = global::Calendar.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates = global::Calendar.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Calendar.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Calendar.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates_state_liftable = global::Calendar.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates_state_lifted = global::Calendar.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_android_background = global::Calendar.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Calendar.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Calendar.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_elevation = global::Calendar.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_expanded = global::Calendar.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_Layout = global::Calendar.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Calendar.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Calendar.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_liftOnScroll = global::Calendar.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView = global::Calendar.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_android_src = global::Calendar.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_srcCompat = global::Calendar.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_tint = global::Calendar.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_tintMode = global::Calendar.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar = global::Calendar.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Calendar.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_tickMark = global::Calendar.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Calendar.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Calendar.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper = global::Calendar.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Calendar.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Calendar.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Calendar.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Calendar.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Calendar.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Calendar.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Calendar.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView = global::Calendar.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableTint = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableTintMode = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_fontFamily = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_lineHeight = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_textAllCaps = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_textLocale = global::Calendar.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme = global::Calendar.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarSize = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorAccent = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorError = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorPrimary = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_controlBackground = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dialogTheme = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dividerVertical = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_editTextBackground = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_editTextColor = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_editTextStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_panelBackground = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_switchStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowActionBar = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Calendar.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar = global::Calendar.Droid.Resource.Styleable.BottomAppBar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_backgroundTint = global::Calendar.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::Calendar.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_fabCradleMargin = global::Calendar.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::Calendar.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::Calendar.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_hideOnScroll = global::Calendar.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView = global::Calendar.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::Calendar.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout = global::Calendar.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::Calendar.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Calendar.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Calendar.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Calendar.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ButtonBarLayout = global::Calendar.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ButtonBarLayout_allowStacking = global::Calendar.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView = global::Calendar.Droid.Resource.Styleable.CardView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_android_minHeight = global::Calendar.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_android_minWidth = global::Calendar.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardBackgroundColor = global::Calendar.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardCornerRadius = global::Calendar.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardElevation = global::Calendar.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardMaxElevation = global::Calendar.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Calendar.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardUseCompatPadding = global::Calendar.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPadding = global::Calendar.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingBottom = global::Calendar.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingLeft = global::Calendar.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingRight = global::Calendar.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingTop = global::Calendar.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip = global::Calendar.Droid.Resource.Styleable.Chip;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup = global::Calendar.Droid.Resource.Styleable.ChipGroup;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_checkedChip = global::Calendar.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_chipSpacing = global::Calendar.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::Calendar.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_chipSpacingVertical = global::Calendar.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_singleLine = global::Calendar.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_singleSelection = global::Calendar.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_android_checkable = global::Calendar.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_android_ellipsize = global::Calendar.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_android_maxWidth = global::Calendar.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_android_text = global::Calendar.Droid.Resource.Styleable.Chip_android_text;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_android_textAppearance = global::Calendar.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_checkedIcon = global::Calendar.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_checkedIconEnabled = global::Calendar.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_checkedIconVisible = global::Calendar.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipBackgroundColor = global::Calendar.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipCornerRadius = global::Calendar.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipEndPadding = global::Calendar.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipIcon = global::Calendar.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipIconEnabled = global::Calendar.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipIconSize = global::Calendar.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipIconTint = global::Calendar.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipIconVisible = global::Calendar.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipMinHeight = global::Calendar.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipStartPadding = global::Calendar.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipStrokeColor = global::Calendar.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipStrokeWidth = global::Calendar.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIcon = global::Calendar.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconEnabled = global::Calendar.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconEndPadding = global::Calendar.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconSize = global::Calendar.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconStartPadding = global::Calendar.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconTint = global::Calendar.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconVisible = global::Calendar.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_hideMotionSpec = global::Calendar.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_iconEndPadding = global::Calendar.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_iconStartPadding = global::Calendar.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_rippleColor = global::Calendar.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_showMotionSpec = global::Calendar.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_textEndPadding = global::Calendar.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_textStartPadding = global::Calendar.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_title = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Calendar.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem = global::Calendar.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem_alpha = global::Calendar.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem_android_alpha = global::Calendar.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem_android_color = global::Calendar.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton = global::Calendar.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton_android_button = global::Calendar.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton_buttonCompat = global::Calendar.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton_buttonTint = global::Calendar.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton_buttonTintMode = global::Calendar.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout = global::Calendar.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_keylines = global::Calendar.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout = global::Calendar.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Calendar.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Calendar.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Calendar.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Calendar.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Calendar.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Calendar.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Calendar.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Calendar.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle = global::Calendar.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Calendar.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Calendar.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_barLength = global::Calendar.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_color = global::Calendar.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Calendar.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Calendar.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_spinBars = global::Calendar.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_thickness = global::Calendar.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton = global::Calendar.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_backgroundTint = global::Calendar.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Calendar.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Calendar.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Calendar.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_borderWidth = global::Calendar.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_elevation = global::Calendar.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_fabCustomSize = global::Calendar.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_fabSize = global::Calendar.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::Calendar.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::Calendar.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_maxImageSize = global::Calendar.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Calendar.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_rippleColor = global::Calendar.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_showMotionSpec = global::Calendar.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Calendar.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FlowLayout = global::Calendar.Droid.Resource.Styleable.FlowLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FlowLayout_itemSpacing = global::Calendar.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FlowLayout_lineSpacing = global::Calendar.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily = global::Calendar.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont = global::Calendar.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_font = global::Calendar.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Calendar.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Calendar.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Calendar.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Calendar.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_font = global::Calendar.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_fontStyle = global::Calendar.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Calendar.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_fontWeight = global::Calendar.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_ttcIndex = global::Calendar.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderAuthority = global::Calendar.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderCerts = global::Calendar.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Calendar.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Calendar.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderPackage = global::Calendar.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderQuery = global::Calendar.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout = global::Calendar.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Calendar.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Calendar.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Calendar.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor = global::Calendar.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColorItem = global::Calendar.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColorItem_android_color = global::Calendar.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColorItem_android_offset = global::Calendar.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_centerColor = global::Calendar.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_centerX = global::Calendar.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_centerY = global::Calendar.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_endColor = global::Calendar.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_endX = global::Calendar.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_endY = global::Calendar.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_gradientRadius = global::Calendar.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_startColor = global::Calendar.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_startX = global::Calendar.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_startY = global::Calendar.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_tileMode = global::Calendar.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_type = global::Calendar.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ItemsViewRendererTheme = global::Calendar.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::Calendar.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat = global::Calendar.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Calendar.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Calendar.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Calendar.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Calendar.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Calendar.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_divider = global::Calendar.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Calendar.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout = global::Calendar.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Calendar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Calendar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Calendar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Calendar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Calendar.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_showDividers = global::Calendar.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ListPopupWindow = global::Calendar.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Calendar.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Calendar.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton = global::Calendar.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_android_insetBottom = global::Calendar.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_android_insetLeft = global::Calendar.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_android_insetRight = global::Calendar.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_android_insetTop = global::Calendar.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_backgroundTint = global::Calendar.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_backgroundTintMode = global::Calendar.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_cornerRadius = global::Calendar.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_icon = global::Calendar.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_iconGravity = global::Calendar.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_iconPadding = global::Calendar.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_iconSize = global::Calendar.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_iconTint = global::Calendar.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_iconTintMode = global::Calendar.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_rippleColor = global::Calendar.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_strokeColor = global::Calendar.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_strokeWidth = global::Calendar.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialCardView = global::Calendar.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialCardView_strokeColor = global::Calendar.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialCardView_strokeWidth = global::Calendar.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup = global::Calendar.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Calendar.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_enabled = global::Calendar.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_id = global::Calendar.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_menuCategory = global::Calendar.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_orderInCategory = global::Calendar.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_visible = global::Calendar.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem = global::Calendar.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_actionLayout = global::Calendar.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_actionProviderClass = global::Calendar.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_actionViewClass = global::Calendar.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_alphabeticModifiers = global::Calendar.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Calendar.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_checkable = global::Calendar.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_checked = global::Calendar.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_enabled = global::Calendar.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_icon = global::Calendar.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_id = global::Calendar.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_menuCategory = global::Calendar.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_numericShortcut = global::Calendar.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_onClick = global::Calendar.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_orderInCategory = global::Calendar.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_title = global::Calendar.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_titleCondensed = global::Calendar.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_visible = global::Calendar.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_contentDescription = global::Calendar.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_iconTint = global::Calendar.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_iconTintMode = global::Calendar.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_numericModifiers = global::Calendar.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_showAsAction = global::Calendar.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_tooltipText = global::Calendar.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView = global::Calendar.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_headerBackground = global::Calendar.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_horizontalDivider = global::Calendar.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_itemBackground = global::Calendar.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Calendar.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_itemTextAppearance = global::Calendar.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_verticalDivider = global::Calendar.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Calendar.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_preserveIconSpacing = global::Calendar.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_subMenuArrow = global::Calendar.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView = global::Calendar.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_android_background = global::Calendar.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Calendar.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_android_maxWidth = global::Calendar.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_elevation = global::Calendar.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_headerLayout = global::Calendar.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemBackground = global::Calendar.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemHorizontalPadding = global::Calendar.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemIconPadding = global::Calendar.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemIconTint = global::Calendar.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemTextAppearance = global::Calendar.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemTextColor = global::Calendar.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_menu = global::Calendar.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow = global::Calendar.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindowBackgroundState = global::Calendar.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Calendar.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Calendar.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow_android_popupBackground = global::Calendar.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow_overlapAnchor = global::Calendar.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecycleListView = global::Calendar.Droid.Resource.Styleable.RecycleListView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Calendar.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Calendar.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView = global::Calendar.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_android_clipToPadding = global::Calendar.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Calendar.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_android_orientation = global::Calendar.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Calendar.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Calendar.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Calendar.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Calendar.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Calendar.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_layoutManager = global::Calendar.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_reverseLayout = global::Calendar.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_spanCount = global::Calendar.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_stackFromEnd = global::Calendar.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrimInsetsFrameLayout = global::Calendar.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Calendar.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrollingViewBehavior_Layout = global::Calendar.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Calendar.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrollViewRendererTheme = global::Calendar.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::Calendar.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView = global::Calendar.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_focusable = global::Calendar.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_imeOptions = global::Calendar.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_inputType = global::Calendar.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_maxWidth = global::Calendar.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_closeIcon = global::Calendar.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_commitIcon = global::Calendar.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_defaultQueryHint = global::Calendar.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_goIcon = global::Calendar.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_iconifiedByDefault = global::Calendar.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_layout = global::Calendar.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_queryBackground = global::Calendar.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_queryHint = global::Calendar.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_searchHintIcon = global::Calendar.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_searchIcon = global::Calendar.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_submitBackground = global::Calendar.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_suggestionRowLayout = global::Calendar.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_voiceIcon = global::Calendar.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Snackbar = global::Calendar.Droid.Resource.Styleable.Snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout = global::Calendar.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Calendar.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout_elevation = global::Calendar.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Calendar.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Snackbar_snackbarButtonStyle = global::Calendar.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Snackbar_snackbarStyle = global::Calendar.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner = global::Calendar.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_dropDownWidth = global::Calendar.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_entries = global::Calendar.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_popupBackground = global::Calendar.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_prompt = global::Calendar.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_popupTheme = global::Calendar.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable = global::Calendar.Droid.Resource.Styleable.StateListDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawableItem = global::Calendar.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawableItem_android_drawable = global::Calendar.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_constantSize = global::Calendar.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_dither = global::Calendar.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::Calendar.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Calendar.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_variablePadding = global::Calendar.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_visible = global::Calendar.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat = global::Calendar.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_android_textOff = global::Calendar.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_android_textOn = global::Calendar.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_android_thumb = global::Calendar.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_showText = global::Calendar.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_splitTrack = global::Calendar.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_switchMinWidth = global::Calendar.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_switchPadding = global::Calendar.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Calendar.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Calendar.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_thumbTint = global::Calendar.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_thumbTintMode = global::Calendar.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_track = global::Calendar.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_trackTint = global::Calendar.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_trackTintMode = global::Calendar.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem = global::Calendar.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem_android_icon = global::Calendar.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem_android_layout = global::Calendar.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem_android_text = global::Calendar.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout = global::Calendar.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabBackground = global::Calendar.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabContentStart = global::Calendar.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabGravity = global::Calendar.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIconTint = global::Calendar.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIconTintMode = global::Calendar.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicator = global::Calendar.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::Calendar.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorColor = global::Calendar.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::Calendar.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorGravity = global::Calendar.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Calendar.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabInlineLabel = global::Calendar.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabMaxWidth = global::Calendar.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabMinWidth = global::Calendar.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabMode = global::Calendar.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPadding = global::Calendar.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingBottom = global::Calendar.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingEnd = global::Calendar.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingStart = global::Calendar.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingTop = global::Calendar.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabRippleColor = global::Calendar.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Calendar.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabTextAppearance = global::Calendar.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabTextColor = global::Calendar.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabUnboundedRipple = global::Calendar.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance = global::Calendar.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_fontFamily = global::Calendar.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowColor = global::Calendar.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowDx = global::Calendar.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowDy = global::Calendar.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowRadius = global::Calendar.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textColor = global::Calendar.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textColorHint = global::Calendar.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textColorLink = global::Calendar.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textFontWeight = global::Calendar.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textSize = global::Calendar.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textStyle = global::Calendar.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_typeface = global::Calendar.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_fontFamily = global::Calendar.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_fontVariationSettings = global::Calendar.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_textAllCaps = global::Calendar.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_textLocale = global::Calendar.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout = global::Calendar.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_android_hint = global::Calendar.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_android_textColorHint = global::Calendar.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::Calendar.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::Calendar.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::Calendar.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::Calendar.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::Calendar.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::Calendar.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::Calendar.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxStrokeColor = global::Calendar.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::Calendar.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterEnabled = global::Calendar.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterMaxLength = global::Calendar.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Calendar.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Calendar.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_errorEnabled = global::Calendar.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Calendar.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_helperText = global::Calendar.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_helperTextEnabled = global::Calendar.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::Calendar.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Calendar.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_hintEnabled = global::Calendar.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Calendar.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Calendar.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Calendar.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Calendar.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Calendar.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Calendar.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ThemeEnforcement = global::Calendar.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::Calendar.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::Calendar.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::Calendar.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar = global::Calendar.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_android_gravity = global::Calendar.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_android_minHeight = global::Calendar.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_buttonGravity = global::Calendar.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_collapseContentDescription = global::Calendar.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_collapseIcon = global::Calendar.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetEnd = global::Calendar.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Calendar.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetLeft = global::Calendar.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetRight = global::Calendar.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetStart = global::Calendar.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Calendar.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_logo = global::Calendar.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_logoDescription = global::Calendar.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_maxButtonHeight = global::Calendar.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_menu = global::Calendar.Droid.Resource.Styleable.Toolbar_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_navigationContentDescription = global::Calendar.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_navigationIcon = global::Calendar.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_popupTheme = global::Calendar.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_subtitle = global::Calendar.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Calendar.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_subtitleTextColor = global::Calendar.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_title = global::Calendar.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMargin = global::Calendar.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginBottom = global::Calendar.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginEnd = global::Calendar.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMargins = global::Calendar.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginStart = global::Calendar.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginTop = global::Calendar.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleTextAppearance = global::Calendar.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleTextColor = global::Calendar.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View = global::Calendar.Droid.Resource.Styleable.View;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper = global::Calendar.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper_android_background = global::Calendar.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Calendar.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Calendar.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat = global::Calendar.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat_android_id = global::Calendar.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Calendar.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat_android_layout = global::Calendar.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_android_focusable = global::Calendar.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_android_theme = global::Calendar.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_paddingEnd = global::Calendar.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_paddingStart = global::Calendar.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_theme = global::Calendar.Droid.Resource.Styleable.View_theme;
 		}
 		
 		public partial class Animation
@@ -20765,1048 +23404,1072 @@ namespace Calendar.Droid
 			public const int action_bar_size = 2131099729;
 			
 			// aapt resource value: 0x7F060052
-			public const int appcompat_dialog_background_inset = 2131099730;
+			public const int activity_horizontal_margin = 2131099730;
 			
 			// aapt resource value: 0x7F060053
-			public const int browser_actions_context_menu_max_width = 2131099731;
+			public const int activity_vertical_margin = 2131099731;
 			
 			// aapt resource value: 0x7F060054
-			public const int browser_actions_context_menu_min_padding = 2131099732;
+			public const int appcompat_dialog_background_inset = 2131099732;
 			
 			// aapt resource value: 0x7F060055
-			public const int cardview_compat_inset_shadow = 2131099733;
+			public const int browser_actions_context_menu_max_width = 2131099733;
 			
 			// aapt resource value: 0x7F060056
-			public const int cardview_default_elevation = 2131099734;
+			public const int browser_actions_context_menu_min_padding = 2131099734;
 			
 			// aapt resource value: 0x7F060057
-			public const int cardview_default_radius = 2131099735;
+			public const int cardview_compat_inset_shadow = 2131099735;
 			
 			// aapt resource value: 0x7F060058
-			public const int clock_face_margin_start = 2131099736;
+			public const int cardview_default_elevation = 2131099736;
 			
 			// aapt resource value: 0x7F060059
-			public const int compat_button_inset_horizontal_material = 2131099737;
+			public const int cardview_default_radius = 2131099737;
 			
 			// aapt resource value: 0x7F06005A
-			public const int compat_button_inset_vertical_material = 2131099738;
+			public const int clock_face_margin_start = 2131099738;
 			
 			// aapt resource value: 0x7F06005B
-			public const int compat_button_padding_horizontal_material = 2131099739;
+			public const int compat_button_inset_horizontal_material = 2131099739;
 			
 			// aapt resource value: 0x7F06005C
-			public const int compat_button_padding_vertical_material = 2131099740;
+			public const int compat_button_inset_vertical_material = 2131099740;
 			
 			// aapt resource value: 0x7F06005D
-			public const int compat_control_corner_material = 2131099741;
+			public const int compat_button_padding_horizontal_material = 2131099741;
 			
 			// aapt resource value: 0x7F06005E
-			public const int compat_notification_large_icon_max_height = 2131099742;
+			public const int compat_button_padding_vertical_material = 2131099742;
 			
 			// aapt resource value: 0x7F06005F
-			public const int compat_notification_large_icon_max_width = 2131099743;
-			
-			// aapt resource value: 0x7F060061
-			public const int default_dimension = 2131099745;
+			public const int compat_control_corner_material = 2131099743;
 			
 			// aapt resource value: 0x7F060060
-			public const int def_drawer_elevation = 2131099744;
+			public const int compat_notification_large_icon_max_height = 2131099744;
+			
+			// aapt resource value: 0x7F060061
+			public const int compat_notification_large_icon_max_width = 2131099745;
 			
 			// aapt resource value: 0x7F060062
-			public const int design_appbar_elevation = 2131099746;
+			public const int date_text_size = 2131099746;
 			
 			// aapt resource value: 0x7F060063
-			public const int design_bottom_navigation_active_item_max_width = 2131099747;
-			
-			// aapt resource value: 0x7F060064
-			public const int design_bottom_navigation_active_item_min_width = 2131099748;
+			public const int date_text_tab_size = 2131099747;
 			
 			// aapt resource value: 0x7F060065
-			public const int design_bottom_navigation_active_text_size = 2131099749;
+			public const int default_dimension = 2131099749;
+			
+			// aapt resource value: 0x7F060064
+			public const int def_drawer_elevation = 2131099748;
 			
 			// aapt resource value: 0x7F060066
-			public const int design_bottom_navigation_elevation = 2131099750;
+			public const int design_appbar_elevation = 2131099750;
 			
 			// aapt resource value: 0x7F060067
-			public const int design_bottom_navigation_height = 2131099751;
+			public const int design_bottom_navigation_active_item_max_width = 2131099751;
 			
 			// aapt resource value: 0x7F060068
-			public const int design_bottom_navigation_icon_size = 2131099752;
+			public const int design_bottom_navigation_active_item_min_width = 2131099752;
 			
 			// aapt resource value: 0x7F060069
-			public const int design_bottom_navigation_item_max_width = 2131099753;
+			public const int design_bottom_navigation_active_text_size = 2131099753;
 			
 			// aapt resource value: 0x7F06006A
-			public const int design_bottom_navigation_item_min_width = 2131099754;
+			public const int design_bottom_navigation_elevation = 2131099754;
 			
 			// aapt resource value: 0x7F06006B
-			public const int design_bottom_navigation_label_padding = 2131099755;
+			public const int design_bottom_navigation_height = 2131099755;
 			
 			// aapt resource value: 0x7F06006C
-			public const int design_bottom_navigation_margin = 2131099756;
+			public const int design_bottom_navigation_icon_size = 2131099756;
 			
 			// aapt resource value: 0x7F06006D
-			public const int design_bottom_navigation_shadow_height = 2131099757;
+			public const int design_bottom_navigation_item_max_width = 2131099757;
 			
 			// aapt resource value: 0x7F06006E
-			public const int design_bottom_navigation_text_size = 2131099758;
+			public const int design_bottom_navigation_item_min_width = 2131099758;
 			
 			// aapt resource value: 0x7F06006F
-			public const int design_bottom_sheet_elevation = 2131099759;
+			public const int design_bottom_navigation_label_padding = 2131099759;
 			
 			// aapt resource value: 0x7F060070
-			public const int design_bottom_sheet_modal_elevation = 2131099760;
+			public const int design_bottom_navigation_margin = 2131099760;
 			
 			// aapt resource value: 0x7F060071
-			public const int design_bottom_sheet_peek_height_min = 2131099761;
+			public const int design_bottom_navigation_shadow_height = 2131099761;
 			
 			// aapt resource value: 0x7F060072
-			public const int design_fab_border_width = 2131099762;
+			public const int design_bottom_navigation_text_size = 2131099762;
 			
 			// aapt resource value: 0x7F060073
-			public const int design_fab_elevation = 2131099763;
+			public const int design_bottom_sheet_elevation = 2131099763;
 			
 			// aapt resource value: 0x7F060074
-			public const int design_fab_image_size = 2131099764;
+			public const int design_bottom_sheet_modal_elevation = 2131099764;
 			
 			// aapt resource value: 0x7F060075
-			public const int design_fab_size_mini = 2131099765;
+			public const int design_bottom_sheet_peek_height_min = 2131099765;
 			
 			// aapt resource value: 0x7F060076
-			public const int design_fab_size_normal = 2131099766;
+			public const int design_fab_border_width = 2131099766;
 			
 			// aapt resource value: 0x7F060077
-			public const int design_fab_translation_z_hovered_focused = 2131099767;
+			public const int design_fab_elevation = 2131099767;
 			
 			// aapt resource value: 0x7F060078
-			public const int design_fab_translation_z_pressed = 2131099768;
+			public const int design_fab_image_size = 2131099768;
 			
 			// aapt resource value: 0x7F060079
-			public const int design_navigation_elevation = 2131099769;
+			public const int design_fab_size_mini = 2131099769;
 			
 			// aapt resource value: 0x7F06007A
-			public const int design_navigation_icon_padding = 2131099770;
+			public const int design_fab_size_normal = 2131099770;
 			
 			// aapt resource value: 0x7F06007B
-			public const int design_navigation_icon_size = 2131099771;
+			public const int design_fab_translation_z_hovered_focused = 2131099771;
 			
 			// aapt resource value: 0x7F06007C
-			public const int design_navigation_item_horizontal_padding = 2131099772;
+			public const int design_fab_translation_z_pressed = 2131099772;
 			
 			// aapt resource value: 0x7F06007D
-			public const int design_navigation_item_icon_padding = 2131099773;
+			public const int design_navigation_elevation = 2131099773;
 			
 			// aapt resource value: 0x7F06007E
-			public const int design_navigation_max_width = 2131099774;
+			public const int design_navigation_icon_padding = 2131099774;
 			
 			// aapt resource value: 0x7F06007F
-			public const int design_navigation_padding_bottom = 2131099775;
+			public const int design_navigation_icon_size = 2131099775;
 			
 			// aapt resource value: 0x7F060080
-			public const int design_navigation_separator_vertical_padding = 2131099776;
+			public const int design_navigation_item_horizontal_padding = 2131099776;
 			
 			// aapt resource value: 0x7F060081
-			public const int design_snackbar_action_inline_max_width = 2131099777;
+			public const int design_navigation_item_icon_padding = 2131099777;
 			
 			// aapt resource value: 0x7F060082
-			public const int design_snackbar_action_text_color_alpha = 2131099778;
+			public const int design_navigation_max_width = 2131099778;
 			
 			// aapt resource value: 0x7F060083
-			public const int design_snackbar_background_corner_radius = 2131099779;
+			public const int design_navigation_padding_bottom = 2131099779;
 			
 			// aapt resource value: 0x7F060084
-			public const int design_snackbar_elevation = 2131099780;
+			public const int design_navigation_separator_vertical_padding = 2131099780;
 			
 			// aapt resource value: 0x7F060085
-			public const int design_snackbar_extra_spacing_horizontal = 2131099781;
+			public const int design_snackbar_action_inline_max_width = 2131099781;
 			
 			// aapt resource value: 0x7F060086
-			public const int design_snackbar_max_width = 2131099782;
+			public const int design_snackbar_action_text_color_alpha = 2131099782;
 			
 			// aapt resource value: 0x7F060087
-			public const int design_snackbar_min_width = 2131099783;
+			public const int design_snackbar_background_corner_radius = 2131099783;
 			
 			// aapt resource value: 0x7F060088
-			public const int design_snackbar_padding_horizontal = 2131099784;
+			public const int design_snackbar_elevation = 2131099784;
 			
 			// aapt resource value: 0x7F060089
-			public const int design_snackbar_padding_vertical = 2131099785;
+			public const int design_snackbar_extra_spacing_horizontal = 2131099785;
 			
 			// aapt resource value: 0x7F06008A
-			public const int design_snackbar_padding_vertical_2lines = 2131099786;
+			public const int design_snackbar_max_width = 2131099786;
 			
 			// aapt resource value: 0x7F06008B
-			public const int design_snackbar_text_size = 2131099787;
+			public const int design_snackbar_min_width = 2131099787;
 			
 			// aapt resource value: 0x7F06008C
-			public const int design_tab_max_width = 2131099788;
+			public const int design_snackbar_padding_horizontal = 2131099788;
 			
 			// aapt resource value: 0x7F06008D
-			public const int design_tab_scrollable_min_width = 2131099789;
+			public const int design_snackbar_padding_vertical = 2131099789;
 			
 			// aapt resource value: 0x7F06008E
-			public const int design_tab_text_size = 2131099790;
+			public const int design_snackbar_padding_vertical_2lines = 2131099790;
 			
 			// aapt resource value: 0x7F06008F
-			public const int design_tab_text_size_2line = 2131099791;
+			public const int design_snackbar_text_size = 2131099791;
 			
 			// aapt resource value: 0x7F060090
-			public const int design_textinput_caption_translate_y = 2131099792;
+			public const int design_tab_max_width = 2131099792;
 			
 			// aapt resource value: 0x7F060091
-			public const int disabled_alpha_material_dark = 2131099793;
+			public const int design_tab_scrollable_min_width = 2131099793;
 			
 			// aapt resource value: 0x7F060092
-			public const int disabled_alpha_material_light = 2131099794;
+			public const int design_tab_text_size = 2131099794;
 			
 			// aapt resource value: 0x7F060093
-			public const int fastscroll_default_thickness = 2131099795;
+			public const int design_tab_text_size_2line = 2131099795;
 			
 			// aapt resource value: 0x7F060094
-			public const int fastscroll_margin = 2131099796;
+			public const int design_textinput_caption_translate_y = 2131099796;
 			
 			// aapt resource value: 0x7F060095
-			public const int fastscroll_minimum_range = 2131099797;
+			public const int disabled_alpha_material_dark = 2131099797;
 			
 			// aapt resource value: 0x7F060096
-			public const int highlight_alpha_material_colored = 2131099798;
+			public const int disabled_alpha_material_light = 2131099798;
 			
 			// aapt resource value: 0x7F060097
-			public const int highlight_alpha_material_dark = 2131099799;
+			public const int fastscroll_default_thickness = 2131099799;
 			
 			// aapt resource value: 0x7F060098
-			public const int highlight_alpha_material_light = 2131099800;
+			public const int fastscroll_margin = 2131099800;
 			
 			// aapt resource value: 0x7F060099
-			public const int hint_alpha_material_dark = 2131099801;
+			public const int fastscroll_minimum_range = 2131099801;
 			
 			// aapt resource value: 0x7F06009A
-			public const int hint_alpha_material_light = 2131099802;
+			public const int highlight_alpha_material_colored = 2131099802;
 			
 			// aapt resource value: 0x7F06009B
-			public const int hint_pressed_alpha_material_dark = 2131099803;
+			public const int highlight_alpha_material_dark = 2131099803;
 			
 			// aapt resource value: 0x7F06009C
-			public const int hint_pressed_alpha_material_light = 2131099804;
+			public const int highlight_alpha_material_light = 2131099804;
 			
 			// aapt resource value: 0x7F06009D
-			public const int item_touch_helper_max_drag_scroll_per_frame = 2131099805;
+			public const int hint_alpha_material_dark = 2131099805;
 			
 			// aapt resource value: 0x7F06009E
-			public const int item_touch_helper_swipe_escape_max_velocity = 2131099806;
+			public const int hint_alpha_material_light = 2131099806;
 			
 			// aapt resource value: 0x7F06009F
-			public const int item_touch_helper_swipe_escape_velocity = 2131099807;
+			public const int hint_pressed_alpha_material_dark = 2131099807;
 			
 			// aapt resource value: 0x7F0600A0
-			public const int material_bottom_sheet_max_width = 2131099808;
+			public const int hint_pressed_alpha_material_light = 2131099808;
 			
 			// aapt resource value: 0x7F0600A1
-			public const int material_clock_display_padding = 2131099809;
+			public const int item_touch_helper_max_drag_scroll_per_frame = 2131099809;
 			
 			// aapt resource value: 0x7F0600A2
-			public const int material_clock_face_margin_top = 2131099810;
+			public const int item_touch_helper_swipe_escape_max_velocity = 2131099810;
 			
 			// aapt resource value: 0x7F0600A3
-			public const int material_clock_hand_center_dot_radius = 2131099811;
+			public const int item_touch_helper_swipe_escape_velocity = 2131099811;
 			
 			// aapt resource value: 0x7F0600A4
-			public const int material_clock_hand_padding = 2131099812;
+			public const int material_bottom_sheet_max_width = 2131099812;
 			
 			// aapt resource value: 0x7F0600A5
-			public const int material_clock_hand_stroke_width = 2131099813;
+			public const int material_clock_display_padding = 2131099813;
 			
 			// aapt resource value: 0x7F0600A6
-			public const int material_clock_number_text_size = 2131099814;
+			public const int material_clock_face_margin_top = 2131099814;
 			
 			// aapt resource value: 0x7F0600A7
-			public const int material_clock_period_toggle_height = 2131099815;
+			public const int material_clock_hand_center_dot_radius = 2131099815;
 			
 			// aapt resource value: 0x7F0600A8
-			public const int material_clock_period_toggle_margin_left = 2131099816;
+			public const int material_clock_hand_padding = 2131099816;
 			
 			// aapt resource value: 0x7F0600A9
-			public const int material_clock_period_toggle_width = 2131099817;
+			public const int material_clock_hand_stroke_width = 2131099817;
 			
 			// aapt resource value: 0x7F0600AA
-			public const int material_clock_size = 2131099818;
+			public const int material_clock_number_text_size = 2131099818;
 			
 			// aapt resource value: 0x7F0600AB
-			public const int material_cursor_inset_bottom = 2131099819;
+			public const int material_clock_period_toggle_height = 2131099819;
 			
 			// aapt resource value: 0x7F0600AC
-			public const int material_cursor_inset_top = 2131099820;
+			public const int material_clock_period_toggle_margin_left = 2131099820;
 			
 			// aapt resource value: 0x7F0600AD
-			public const int material_cursor_width = 2131099821;
+			public const int material_clock_period_toggle_width = 2131099821;
 			
 			// aapt resource value: 0x7F0600AE
-			public const int material_emphasis_disabled = 2131099822;
+			public const int material_clock_size = 2131099822;
 			
 			// aapt resource value: 0x7F0600AF
-			public const int material_emphasis_high_type = 2131099823;
+			public const int material_cursor_inset_bottom = 2131099823;
 			
 			// aapt resource value: 0x7F0600B0
-			public const int material_emphasis_medium = 2131099824;
+			public const int material_cursor_inset_top = 2131099824;
 			
 			// aapt resource value: 0x7F0600B1
-			public const int material_filled_edittext_font_1_3_padding_bottom = 2131099825;
+			public const int material_cursor_width = 2131099825;
 			
 			// aapt resource value: 0x7F0600B2
-			public const int material_filled_edittext_font_1_3_padding_top = 2131099826;
+			public const int material_emphasis_disabled = 2131099826;
 			
 			// aapt resource value: 0x7F0600B3
-			public const int material_filled_edittext_font_2_0_padding_bottom = 2131099827;
+			public const int material_emphasis_high_type = 2131099827;
 			
 			// aapt resource value: 0x7F0600B4
-			public const int material_filled_edittext_font_2_0_padding_top = 2131099828;
+			public const int material_emphasis_medium = 2131099828;
 			
 			// aapt resource value: 0x7F0600B5
-			public const int material_font_1_3_box_collapsed_padding_top = 2131099829;
+			public const int material_filled_edittext_font_1_3_padding_bottom = 2131099829;
 			
 			// aapt resource value: 0x7F0600B6
-			public const int material_font_2_0_box_collapsed_padding_top = 2131099830;
+			public const int material_filled_edittext_font_1_3_padding_top = 2131099830;
 			
 			// aapt resource value: 0x7F0600B7
-			public const int material_helper_text_default_padding_top = 2131099831;
+			public const int material_filled_edittext_font_2_0_padding_bottom = 2131099831;
 			
 			// aapt resource value: 0x7F0600B8
-			public const int material_helper_text_font_1_3_padding_horizontal = 2131099832;
+			public const int material_filled_edittext_font_2_0_padding_top = 2131099832;
 			
 			// aapt resource value: 0x7F0600B9
-			public const int material_helper_text_font_1_3_padding_top = 2131099833;
+			public const int material_font_1_3_box_collapsed_padding_top = 2131099833;
 			
 			// aapt resource value: 0x7F0600BA
-			public const int material_input_text_to_prefix_suffix_padding = 2131099834;
-			
-			// aapt resource value: 0x7F0600BD
-			public const int material_textinput_default_width = 2131099837;
-			
-			// aapt resource value: 0x7F0600BE
-			public const int material_textinput_max_width = 2131099838;
-			
-			// aapt resource value: 0x7F0600BF
-			public const int material_textinput_min_width = 2131099839;
+			public const int material_font_2_0_box_collapsed_padding_top = 2131099834;
 			
 			// aapt resource value: 0x7F0600BB
-			public const int material_text_view_test_line_height = 2131099835;
+			public const int material_helper_text_default_padding_top = 2131099835;
 			
 			// aapt resource value: 0x7F0600BC
-			public const int material_text_view_test_line_height_override = 2131099836;
+			public const int material_helper_text_font_1_3_padding_horizontal = 2131099836;
 			
-			// aapt resource value: 0x7F0600C2
-			public const int material_timepicker_dialog_buttons_margin_top = 2131099842;
+			// aapt resource value: 0x7F0600BD
+			public const int material_helper_text_font_1_3_padding_top = 2131099837;
 			
-			// aapt resource value: 0x7F0600C0
-			public const int material_time_picker_minimum_screen_height = 2131099840;
+			// aapt resource value: 0x7F0600BE
+			public const int material_input_text_to_prefix_suffix_padding = 2131099838;
 			
 			// aapt resource value: 0x7F0600C1
-			public const int material_time_picker_minimum_screen_width = 2131099841;
+			public const int material_textinput_default_width = 2131099841;
+			
+			// aapt resource value: 0x7F0600C2
+			public const int material_textinput_max_width = 2131099842;
 			
 			// aapt resource value: 0x7F0600C3
-			public const int mtrl_alert_dialog_background_inset_bottom = 2131099843;
+			public const int material_textinput_min_width = 2131099843;
 			
-			// aapt resource value: 0x7F0600C4
-			public const int mtrl_alert_dialog_background_inset_end = 2131099844;
+			// aapt resource value: 0x7F0600BF
+			public const int material_text_view_test_line_height = 2131099839;
 			
-			// aapt resource value: 0x7F0600C5
-			public const int mtrl_alert_dialog_background_inset_start = 2131099845;
+			// aapt resource value: 0x7F0600C0
+			public const int material_text_view_test_line_height_override = 2131099840;
 			
 			// aapt resource value: 0x7F0600C6
-			public const int mtrl_alert_dialog_background_inset_top = 2131099846;
+			public const int material_timepicker_dialog_buttons_margin_top = 2131099846;
+			
+			// aapt resource value: 0x7F0600C4
+			public const int material_time_picker_minimum_screen_height = 2131099844;
+			
+			// aapt resource value: 0x7F0600C5
+			public const int material_time_picker_minimum_screen_width = 2131099845;
 			
 			// aapt resource value: 0x7F0600C7
-			public const int mtrl_alert_dialog_picker_background_inset = 2131099847;
+			public const int month_row_size = 2131099847;
 			
 			// aapt resource value: 0x7F0600C8
-			public const int mtrl_badge_horizontal_edge_offset = 2131099848;
+			public const int month_row_tab_size = 2131099848;
 			
 			// aapt resource value: 0x7F0600C9
-			public const int mtrl_badge_long_text_horizontal_padding = 2131099849;
+			public const int month_text_size = 2131099849;
 			
 			// aapt resource value: 0x7F0600CA
-			public const int mtrl_badge_radius = 2131099850;
+			public const int month_text_tab_size = 2131099850;
 			
 			// aapt resource value: 0x7F0600CB
-			public const int mtrl_badge_text_horizontal_edge_offset = 2131099851;
+			public const int mtrl_alert_dialog_background_inset_bottom = 2131099851;
 			
 			// aapt resource value: 0x7F0600CC
-			public const int mtrl_badge_text_size = 2131099852;
+			public const int mtrl_alert_dialog_background_inset_end = 2131099852;
 			
 			// aapt resource value: 0x7F0600CD
-			public const int mtrl_badge_toolbar_action_menu_item_horizontal_offset = 2131099853;
+			public const int mtrl_alert_dialog_background_inset_start = 2131099853;
 			
 			// aapt resource value: 0x7F0600CE
-			public const int mtrl_badge_toolbar_action_menu_item_vertical_offset = 2131099854;
+			public const int mtrl_alert_dialog_background_inset_top = 2131099854;
 			
 			// aapt resource value: 0x7F0600CF
-			public const int mtrl_badge_with_text_radius = 2131099855;
+			public const int mtrl_alert_dialog_picker_background_inset = 2131099855;
 			
 			// aapt resource value: 0x7F0600D0
-			public const int mtrl_bottomappbar_fabOffsetEndMode = 2131099856;
+			public const int mtrl_badge_horizontal_edge_offset = 2131099856;
 			
 			// aapt resource value: 0x7F0600D1
-			public const int mtrl_bottomappbar_fab_bottom_margin = 2131099857;
+			public const int mtrl_badge_long_text_horizontal_padding = 2131099857;
 			
 			// aapt resource value: 0x7F0600D2
-			public const int mtrl_bottomappbar_fab_cradle_margin = 2131099858;
+			public const int mtrl_badge_radius = 2131099858;
 			
 			// aapt resource value: 0x7F0600D3
-			public const int mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 2131099859;
+			public const int mtrl_badge_text_horizontal_edge_offset = 2131099859;
 			
 			// aapt resource value: 0x7F0600D4
-			public const int mtrl_bottomappbar_fab_cradle_vertical_offset = 2131099860;
+			public const int mtrl_badge_text_size = 2131099860;
 			
 			// aapt resource value: 0x7F0600D5
-			public const int mtrl_bottomappbar_height = 2131099861;
+			public const int mtrl_badge_toolbar_action_menu_item_horizontal_offset = 2131099861;
 			
 			// aapt resource value: 0x7F0600D6
-			public const int mtrl_btn_corner_radius = 2131099862;
+			public const int mtrl_badge_toolbar_action_menu_item_vertical_offset = 2131099862;
 			
 			// aapt resource value: 0x7F0600D7
-			public const int mtrl_btn_dialog_btn_min_width = 2131099863;
+			public const int mtrl_badge_with_text_radius = 2131099863;
 			
 			// aapt resource value: 0x7F0600D8
-			public const int mtrl_btn_disabled_elevation = 2131099864;
+			public const int mtrl_bottomappbar_fabOffsetEndMode = 2131099864;
 			
 			// aapt resource value: 0x7F0600D9
-			public const int mtrl_btn_disabled_z = 2131099865;
+			public const int mtrl_bottomappbar_fab_bottom_margin = 2131099865;
 			
 			// aapt resource value: 0x7F0600DA
-			public const int mtrl_btn_elevation = 2131099866;
+			public const int mtrl_bottomappbar_fab_cradle_margin = 2131099866;
 			
 			// aapt resource value: 0x7F0600DB
-			public const int mtrl_btn_focused_z = 2131099867;
+			public const int mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 2131099867;
 			
 			// aapt resource value: 0x7F0600DC
-			public const int mtrl_btn_hovered_z = 2131099868;
+			public const int mtrl_bottomappbar_fab_cradle_vertical_offset = 2131099868;
 			
 			// aapt resource value: 0x7F0600DD
-			public const int mtrl_btn_icon_btn_padding_left = 2131099869;
+			public const int mtrl_bottomappbar_height = 2131099869;
 			
 			// aapt resource value: 0x7F0600DE
-			public const int mtrl_btn_icon_padding = 2131099870;
+			public const int mtrl_btn_corner_radius = 2131099870;
 			
 			// aapt resource value: 0x7F0600DF
-			public const int mtrl_btn_inset = 2131099871;
+			public const int mtrl_btn_dialog_btn_min_width = 2131099871;
 			
 			// aapt resource value: 0x7F0600E0
-			public const int mtrl_btn_letter_spacing = 2131099872;
+			public const int mtrl_btn_disabled_elevation = 2131099872;
 			
 			// aapt resource value: 0x7F0600E1
-			public const int mtrl_btn_max_width = 2131099873;
+			public const int mtrl_btn_disabled_z = 2131099873;
 			
 			// aapt resource value: 0x7F0600E2
-			public const int mtrl_btn_padding_bottom = 2131099874;
+			public const int mtrl_btn_elevation = 2131099874;
 			
 			// aapt resource value: 0x7F0600E3
-			public const int mtrl_btn_padding_left = 2131099875;
+			public const int mtrl_btn_focused_z = 2131099875;
 			
 			// aapt resource value: 0x7F0600E4
-			public const int mtrl_btn_padding_right = 2131099876;
+			public const int mtrl_btn_hovered_z = 2131099876;
 			
 			// aapt resource value: 0x7F0600E5
-			public const int mtrl_btn_padding_top = 2131099877;
+			public const int mtrl_btn_icon_btn_padding_left = 2131099877;
 			
 			// aapt resource value: 0x7F0600E6
-			public const int mtrl_btn_pressed_z = 2131099878;
+			public const int mtrl_btn_icon_padding = 2131099878;
 			
 			// aapt resource value: 0x7F0600E7
-			public const int mtrl_btn_snackbar_margin_horizontal = 2131099879;
+			public const int mtrl_btn_inset = 2131099879;
 			
 			// aapt resource value: 0x7F0600E8
-			public const int mtrl_btn_stroke_size = 2131099880;
+			public const int mtrl_btn_letter_spacing = 2131099880;
 			
 			// aapt resource value: 0x7F0600E9
-			public const int mtrl_btn_text_btn_icon_padding = 2131099881;
+			public const int mtrl_btn_max_width = 2131099881;
 			
 			// aapt resource value: 0x7F0600EA
-			public const int mtrl_btn_text_btn_padding_left = 2131099882;
+			public const int mtrl_btn_padding_bottom = 2131099882;
 			
 			// aapt resource value: 0x7F0600EB
-			public const int mtrl_btn_text_btn_padding_right = 2131099883;
+			public const int mtrl_btn_padding_left = 2131099883;
 			
 			// aapt resource value: 0x7F0600EC
-			public const int mtrl_btn_text_size = 2131099884;
+			public const int mtrl_btn_padding_right = 2131099884;
 			
 			// aapt resource value: 0x7F0600ED
-			public const int mtrl_btn_z = 2131099885;
+			public const int mtrl_btn_padding_top = 2131099885;
 			
 			// aapt resource value: 0x7F0600EE
-			public const int mtrl_calendar_action_confirm_button_min_width = 2131099886;
+			public const int mtrl_btn_pressed_z = 2131099886;
 			
 			// aapt resource value: 0x7F0600EF
-			public const int mtrl_calendar_action_height = 2131099887;
+			public const int mtrl_btn_snackbar_margin_horizontal = 2131099887;
 			
 			// aapt resource value: 0x7F0600F0
-			public const int mtrl_calendar_action_padding = 2131099888;
+			public const int mtrl_btn_stroke_size = 2131099888;
 			
 			// aapt resource value: 0x7F0600F1
-			public const int mtrl_calendar_bottom_padding = 2131099889;
+			public const int mtrl_btn_text_btn_icon_padding = 2131099889;
 			
 			// aapt resource value: 0x7F0600F2
-			public const int mtrl_calendar_content_padding = 2131099890;
-			
-			// aapt resource value: 0x7F0600F9
-			public const int mtrl_calendar_days_of_week_height = 2131099897;
+			public const int mtrl_btn_text_btn_padding_left = 2131099890;
 			
 			// aapt resource value: 0x7F0600F3
-			public const int mtrl_calendar_day_corner = 2131099891;
+			public const int mtrl_btn_text_btn_padding_right = 2131099891;
 			
 			// aapt resource value: 0x7F0600F4
-			public const int mtrl_calendar_day_height = 2131099892;
+			public const int mtrl_btn_text_size = 2131099892;
 			
 			// aapt resource value: 0x7F0600F5
-			public const int mtrl_calendar_day_horizontal_padding = 2131099893;
+			public const int mtrl_btn_z = 2131099893;
 			
 			// aapt resource value: 0x7F0600F6
-			public const int mtrl_calendar_day_today_stroke = 2131099894;
+			public const int mtrl_calendar_action_confirm_button_min_width = 2131099894;
 			
 			// aapt resource value: 0x7F0600F7
-			public const int mtrl_calendar_day_vertical_padding = 2131099895;
+			public const int mtrl_calendar_action_height = 2131099895;
 			
 			// aapt resource value: 0x7F0600F8
-			public const int mtrl_calendar_day_width = 2131099896;
+			public const int mtrl_calendar_action_padding = 2131099896;
+			
+			// aapt resource value: 0x7F0600F9
+			public const int mtrl_calendar_bottom_padding = 2131099897;
 			
 			// aapt resource value: 0x7F0600FA
-			public const int mtrl_calendar_dialog_background_inset = 2131099898;
-			
-			// aapt resource value: 0x7F0600FB
-			public const int mtrl_calendar_header_content_padding = 2131099899;
-			
-			// aapt resource value: 0x7F0600FC
-			public const int mtrl_calendar_header_content_padding_fullscreen = 2131099900;
-			
-			// aapt resource value: 0x7F0600FD
-			public const int mtrl_calendar_header_divider_thickness = 2131099901;
-			
-			// aapt resource value: 0x7F0600FE
-			public const int mtrl_calendar_header_height = 2131099902;
-			
-			// aapt resource value: 0x7F0600FF
-			public const int mtrl_calendar_header_height_fullscreen = 2131099903;
-			
-			// aapt resource value: 0x7F060100
-			public const int mtrl_calendar_header_selection_line_height = 2131099904;
+			public const int mtrl_calendar_content_padding = 2131099898;
 			
 			// aapt resource value: 0x7F060101
-			public const int mtrl_calendar_header_text_padding = 2131099905;
+			public const int mtrl_calendar_days_of_week_height = 2131099905;
+			
+			// aapt resource value: 0x7F0600FB
+			public const int mtrl_calendar_day_corner = 2131099899;
+			
+			// aapt resource value: 0x7F0600FC
+			public const int mtrl_calendar_day_height = 2131099900;
+			
+			// aapt resource value: 0x7F0600FD
+			public const int mtrl_calendar_day_horizontal_padding = 2131099901;
+			
+			// aapt resource value: 0x7F0600FE
+			public const int mtrl_calendar_day_today_stroke = 2131099902;
+			
+			// aapt resource value: 0x7F0600FF
+			public const int mtrl_calendar_day_vertical_padding = 2131099903;
+			
+			// aapt resource value: 0x7F060100
+			public const int mtrl_calendar_day_width = 2131099904;
 			
 			// aapt resource value: 0x7F060102
-			public const int mtrl_calendar_header_toggle_margin_bottom = 2131099906;
+			public const int mtrl_calendar_dialog_background_inset = 2131099906;
 			
 			// aapt resource value: 0x7F060103
-			public const int mtrl_calendar_header_toggle_margin_top = 2131099907;
+			public const int mtrl_calendar_header_content_padding = 2131099907;
 			
 			// aapt resource value: 0x7F060104
-			public const int mtrl_calendar_landscape_header_width = 2131099908;
+			public const int mtrl_calendar_header_content_padding_fullscreen = 2131099908;
 			
 			// aapt resource value: 0x7F060105
-			public const int mtrl_calendar_maximum_default_fullscreen_minor_axis = 2131099909;
+			public const int mtrl_calendar_header_divider_thickness = 2131099909;
 			
 			// aapt resource value: 0x7F060106
-			public const int mtrl_calendar_month_horizontal_padding = 2131099910;
+			public const int mtrl_calendar_header_height = 2131099910;
 			
 			// aapt resource value: 0x7F060107
-			public const int mtrl_calendar_month_vertical_padding = 2131099911;
+			public const int mtrl_calendar_header_height_fullscreen = 2131099911;
 			
 			// aapt resource value: 0x7F060108
-			public const int mtrl_calendar_navigation_bottom_padding = 2131099912;
+			public const int mtrl_calendar_header_selection_line_height = 2131099912;
 			
 			// aapt resource value: 0x7F060109
-			public const int mtrl_calendar_navigation_height = 2131099913;
+			public const int mtrl_calendar_header_text_padding = 2131099913;
 			
 			// aapt resource value: 0x7F06010A
-			public const int mtrl_calendar_navigation_top_padding = 2131099914;
+			public const int mtrl_calendar_header_toggle_margin_bottom = 2131099914;
 			
 			// aapt resource value: 0x7F06010B
-			public const int mtrl_calendar_pre_l_text_clip_padding = 2131099915;
+			public const int mtrl_calendar_header_toggle_margin_top = 2131099915;
 			
 			// aapt resource value: 0x7F06010C
-			public const int mtrl_calendar_selection_baseline_to_top_fullscreen = 2131099916;
+			public const int mtrl_calendar_landscape_header_width = 2131099916;
 			
 			// aapt resource value: 0x7F06010D
-			public const int mtrl_calendar_selection_text_baseline_to_bottom = 2131099917;
+			public const int mtrl_calendar_maximum_default_fullscreen_minor_axis = 2131099917;
 			
 			// aapt resource value: 0x7F06010E
-			public const int mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = 2131099918;
+			public const int mtrl_calendar_month_horizontal_padding = 2131099918;
 			
 			// aapt resource value: 0x7F06010F
-			public const int mtrl_calendar_selection_text_baseline_to_top = 2131099919;
+			public const int mtrl_calendar_month_vertical_padding = 2131099919;
 			
 			// aapt resource value: 0x7F060110
-			public const int mtrl_calendar_text_input_padding_top = 2131099920;
+			public const int mtrl_calendar_navigation_bottom_padding = 2131099920;
 			
 			// aapt resource value: 0x7F060111
-			public const int mtrl_calendar_title_baseline_to_top = 2131099921;
+			public const int mtrl_calendar_navigation_height = 2131099921;
 			
 			// aapt resource value: 0x7F060112
-			public const int mtrl_calendar_title_baseline_to_top_fullscreen = 2131099922;
+			public const int mtrl_calendar_navigation_top_padding = 2131099922;
 			
 			// aapt resource value: 0x7F060113
-			public const int mtrl_calendar_year_corner = 2131099923;
+			public const int mtrl_calendar_pre_l_text_clip_padding = 2131099923;
 			
 			// aapt resource value: 0x7F060114
-			public const int mtrl_calendar_year_height = 2131099924;
+			public const int mtrl_calendar_selection_baseline_to_top_fullscreen = 2131099924;
 			
 			// aapt resource value: 0x7F060115
-			public const int mtrl_calendar_year_horizontal_padding = 2131099925;
+			public const int mtrl_calendar_selection_text_baseline_to_bottom = 2131099925;
 			
 			// aapt resource value: 0x7F060116
-			public const int mtrl_calendar_year_vertical_padding = 2131099926;
+			public const int mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = 2131099926;
 			
 			// aapt resource value: 0x7F060117
-			public const int mtrl_calendar_year_width = 2131099927;
+			public const int mtrl_calendar_selection_text_baseline_to_top = 2131099927;
 			
 			// aapt resource value: 0x7F060118
-			public const int mtrl_card_checked_icon_margin = 2131099928;
+			public const int mtrl_calendar_text_input_padding_top = 2131099928;
 			
 			// aapt resource value: 0x7F060119
-			public const int mtrl_card_checked_icon_size = 2131099929;
+			public const int mtrl_calendar_title_baseline_to_top = 2131099929;
 			
 			// aapt resource value: 0x7F06011A
-			public const int mtrl_card_corner_radius = 2131099930;
+			public const int mtrl_calendar_title_baseline_to_top_fullscreen = 2131099930;
 			
 			// aapt resource value: 0x7F06011B
-			public const int mtrl_card_dragged_z = 2131099931;
+			public const int mtrl_calendar_year_corner = 2131099931;
 			
 			// aapt resource value: 0x7F06011C
-			public const int mtrl_card_elevation = 2131099932;
+			public const int mtrl_calendar_year_height = 2131099932;
 			
 			// aapt resource value: 0x7F06011D
-			public const int mtrl_card_spacing = 2131099933;
+			public const int mtrl_calendar_year_horizontal_padding = 2131099933;
 			
 			// aapt resource value: 0x7F06011E
-			public const int mtrl_chip_pressed_translation_z = 2131099934;
+			public const int mtrl_calendar_year_vertical_padding = 2131099934;
 			
 			// aapt resource value: 0x7F06011F
-			public const int mtrl_chip_text_size = 2131099935;
+			public const int mtrl_calendar_year_width = 2131099935;
 			
 			// aapt resource value: 0x7F060120
-			public const int mtrl_edittext_rectangle_top_offset = 2131099936;
+			public const int mtrl_card_checked_icon_margin = 2131099936;
 			
 			// aapt resource value: 0x7F060121
-			public const int mtrl_exposed_dropdown_menu_popup_elevation = 2131099937;
+			public const int mtrl_card_checked_icon_size = 2131099937;
 			
 			// aapt resource value: 0x7F060122
-			public const int mtrl_exposed_dropdown_menu_popup_vertical_offset = 2131099938;
+			public const int mtrl_card_corner_radius = 2131099938;
 			
 			// aapt resource value: 0x7F060123
-			public const int mtrl_exposed_dropdown_menu_popup_vertical_padding = 2131099939;
+			public const int mtrl_card_dragged_z = 2131099939;
 			
 			// aapt resource value: 0x7F060124
-			public const int mtrl_extended_fab_bottom_padding = 2131099940;
+			public const int mtrl_card_elevation = 2131099940;
 			
 			// aapt resource value: 0x7F060125
-			public const int mtrl_extended_fab_corner_radius = 2131099941;
+			public const int mtrl_card_spacing = 2131099941;
 			
 			// aapt resource value: 0x7F060126
-			public const int mtrl_extended_fab_disabled_elevation = 2131099942;
+			public const int mtrl_chip_pressed_translation_z = 2131099942;
 			
 			// aapt resource value: 0x7F060127
-			public const int mtrl_extended_fab_disabled_translation_z = 2131099943;
+			public const int mtrl_chip_text_size = 2131099943;
 			
 			// aapt resource value: 0x7F060128
-			public const int mtrl_extended_fab_elevation = 2131099944;
+			public const int mtrl_edittext_rectangle_top_offset = 2131099944;
 			
 			// aapt resource value: 0x7F060129
-			public const int mtrl_extended_fab_end_padding = 2131099945;
+			public const int mtrl_exposed_dropdown_menu_popup_elevation = 2131099945;
 			
 			// aapt resource value: 0x7F06012A
-			public const int mtrl_extended_fab_end_padding_icon = 2131099946;
+			public const int mtrl_exposed_dropdown_menu_popup_vertical_offset = 2131099946;
 			
 			// aapt resource value: 0x7F06012B
-			public const int mtrl_extended_fab_icon_size = 2131099947;
+			public const int mtrl_exposed_dropdown_menu_popup_vertical_padding = 2131099947;
 			
 			// aapt resource value: 0x7F06012C
-			public const int mtrl_extended_fab_icon_text_spacing = 2131099948;
+			public const int mtrl_extended_fab_bottom_padding = 2131099948;
 			
 			// aapt resource value: 0x7F06012D
-			public const int mtrl_extended_fab_min_height = 2131099949;
+			public const int mtrl_extended_fab_corner_radius = 2131099949;
 			
 			// aapt resource value: 0x7F06012E
-			public const int mtrl_extended_fab_min_width = 2131099950;
+			public const int mtrl_extended_fab_disabled_elevation = 2131099950;
 			
 			// aapt resource value: 0x7F06012F
-			public const int mtrl_extended_fab_start_padding = 2131099951;
+			public const int mtrl_extended_fab_disabled_translation_z = 2131099951;
 			
 			// aapt resource value: 0x7F060130
-			public const int mtrl_extended_fab_start_padding_icon = 2131099952;
+			public const int mtrl_extended_fab_elevation = 2131099952;
 			
 			// aapt resource value: 0x7F060131
-			public const int mtrl_extended_fab_top_padding = 2131099953;
+			public const int mtrl_extended_fab_end_padding = 2131099953;
 			
 			// aapt resource value: 0x7F060132
-			public const int mtrl_extended_fab_translation_z_base = 2131099954;
+			public const int mtrl_extended_fab_end_padding_icon = 2131099954;
 			
 			// aapt resource value: 0x7F060133
-			public const int mtrl_extended_fab_translation_z_hovered_focused = 2131099955;
+			public const int mtrl_extended_fab_icon_size = 2131099955;
 			
 			// aapt resource value: 0x7F060134
-			public const int mtrl_extended_fab_translation_z_pressed = 2131099956;
+			public const int mtrl_extended_fab_icon_text_spacing = 2131099956;
 			
 			// aapt resource value: 0x7F060135
-			public const int mtrl_fab_elevation = 2131099957;
+			public const int mtrl_extended_fab_min_height = 2131099957;
 			
 			// aapt resource value: 0x7F060136
-			public const int mtrl_fab_min_touch_target = 2131099958;
+			public const int mtrl_extended_fab_min_width = 2131099958;
 			
 			// aapt resource value: 0x7F060137
-			public const int mtrl_fab_translation_z_hovered_focused = 2131099959;
+			public const int mtrl_extended_fab_start_padding = 2131099959;
 			
 			// aapt resource value: 0x7F060138
-			public const int mtrl_fab_translation_z_pressed = 2131099960;
+			public const int mtrl_extended_fab_start_padding_icon = 2131099960;
 			
 			// aapt resource value: 0x7F060139
-			public const int mtrl_high_ripple_default_alpha = 2131099961;
+			public const int mtrl_extended_fab_top_padding = 2131099961;
 			
 			// aapt resource value: 0x7F06013A
-			public const int mtrl_high_ripple_focused_alpha = 2131099962;
+			public const int mtrl_extended_fab_translation_z_base = 2131099962;
 			
 			// aapt resource value: 0x7F06013B
-			public const int mtrl_high_ripple_hovered_alpha = 2131099963;
+			public const int mtrl_extended_fab_translation_z_hovered_focused = 2131099963;
 			
 			// aapt resource value: 0x7F06013C
-			public const int mtrl_high_ripple_pressed_alpha = 2131099964;
+			public const int mtrl_extended_fab_translation_z_pressed = 2131099964;
 			
 			// aapt resource value: 0x7F06013D
-			public const int mtrl_large_touch_target = 2131099965;
+			public const int mtrl_fab_elevation = 2131099965;
 			
 			// aapt resource value: 0x7F06013E
-			public const int mtrl_low_ripple_default_alpha = 2131099966;
+			public const int mtrl_fab_min_touch_target = 2131099966;
 			
 			// aapt resource value: 0x7F06013F
-			public const int mtrl_low_ripple_focused_alpha = 2131099967;
+			public const int mtrl_fab_translation_z_hovered_focused = 2131099967;
 			
 			// aapt resource value: 0x7F060140
-			public const int mtrl_low_ripple_hovered_alpha = 2131099968;
+			public const int mtrl_fab_translation_z_pressed = 2131099968;
 			
 			// aapt resource value: 0x7F060141
-			public const int mtrl_low_ripple_pressed_alpha = 2131099969;
+			public const int mtrl_high_ripple_default_alpha = 2131099969;
 			
 			// aapt resource value: 0x7F060142
-			public const int mtrl_min_touch_target_size = 2131099970;
+			public const int mtrl_high_ripple_focused_alpha = 2131099970;
 			
 			// aapt resource value: 0x7F060143
-			public const int mtrl_navigation_bar_item_default_icon_size = 2131099971;
+			public const int mtrl_high_ripple_hovered_alpha = 2131099971;
 			
 			// aapt resource value: 0x7F060144
-			public const int mtrl_navigation_bar_item_default_margin = 2131099972;
+			public const int mtrl_high_ripple_pressed_alpha = 2131099972;
 			
 			// aapt resource value: 0x7F060145
-			public const int mtrl_navigation_elevation = 2131099973;
+			public const int mtrl_large_touch_target = 2131099973;
 			
 			// aapt resource value: 0x7F060146
-			public const int mtrl_navigation_item_horizontal_padding = 2131099974;
+			public const int mtrl_low_ripple_default_alpha = 2131099974;
 			
 			// aapt resource value: 0x7F060147
-			public const int mtrl_navigation_item_icon_padding = 2131099975;
+			public const int mtrl_low_ripple_focused_alpha = 2131099975;
 			
 			// aapt resource value: 0x7F060148
-			public const int mtrl_navigation_item_icon_size = 2131099976;
+			public const int mtrl_low_ripple_hovered_alpha = 2131099976;
 			
 			// aapt resource value: 0x7F060149
-			public const int mtrl_navigation_item_shape_horizontal_margin = 2131099977;
+			public const int mtrl_low_ripple_pressed_alpha = 2131099977;
 			
 			// aapt resource value: 0x7F06014A
-			public const int mtrl_navigation_item_shape_vertical_margin = 2131099978;
+			public const int mtrl_min_touch_target_size = 2131099978;
 			
 			// aapt resource value: 0x7F06014B
-			public const int mtrl_navigation_rail_active_text_size = 2131099979;
+			public const int mtrl_navigation_bar_item_default_icon_size = 2131099979;
 			
 			// aapt resource value: 0x7F06014C
-			public const int mtrl_navigation_rail_compact_width = 2131099980;
+			public const int mtrl_navigation_bar_item_default_margin = 2131099980;
 			
 			// aapt resource value: 0x7F06014D
-			public const int mtrl_navigation_rail_default_width = 2131099981;
+			public const int mtrl_navigation_elevation = 2131099981;
 			
 			// aapt resource value: 0x7F06014E
-			public const int mtrl_navigation_rail_elevation = 2131099982;
+			public const int mtrl_navigation_item_horizontal_padding = 2131099982;
 			
 			// aapt resource value: 0x7F06014F
-			public const int mtrl_navigation_rail_icon_margin = 2131099983;
+			public const int mtrl_navigation_item_icon_padding = 2131099983;
 			
 			// aapt resource value: 0x7F060150
-			public const int mtrl_navigation_rail_icon_size = 2131099984;
+			public const int mtrl_navigation_item_icon_size = 2131099984;
 			
 			// aapt resource value: 0x7F060151
-			public const int mtrl_navigation_rail_margin = 2131099985;
+			public const int mtrl_navigation_item_shape_horizontal_margin = 2131099985;
 			
 			// aapt resource value: 0x7F060152
-			public const int mtrl_navigation_rail_text_bottom_margin = 2131099986;
+			public const int mtrl_navigation_item_shape_vertical_margin = 2131099986;
 			
 			// aapt resource value: 0x7F060153
-			public const int mtrl_navigation_rail_text_size = 2131099987;
+			public const int mtrl_navigation_rail_active_text_size = 2131099987;
 			
 			// aapt resource value: 0x7F060154
-			public const int mtrl_progress_circular_inset = 2131099988;
+			public const int mtrl_navigation_rail_compact_width = 2131099988;
 			
 			// aapt resource value: 0x7F060155
-			public const int mtrl_progress_circular_inset_extra_small = 2131099989;
+			public const int mtrl_navigation_rail_default_width = 2131099989;
 			
 			// aapt resource value: 0x7F060156
-			public const int mtrl_progress_circular_inset_medium = 2131099990;
+			public const int mtrl_navigation_rail_elevation = 2131099990;
 			
 			// aapt resource value: 0x7F060157
-			public const int mtrl_progress_circular_inset_small = 2131099991;
+			public const int mtrl_navigation_rail_icon_margin = 2131099991;
 			
 			// aapt resource value: 0x7F060158
-			public const int mtrl_progress_circular_radius = 2131099992;
+			public const int mtrl_navigation_rail_icon_size = 2131099992;
 			
 			// aapt resource value: 0x7F060159
-			public const int mtrl_progress_circular_size = 2131099993;
+			public const int mtrl_navigation_rail_margin = 2131099993;
 			
 			// aapt resource value: 0x7F06015A
-			public const int mtrl_progress_circular_size_extra_small = 2131099994;
+			public const int mtrl_navigation_rail_text_bottom_margin = 2131099994;
 			
 			// aapt resource value: 0x7F06015B
-			public const int mtrl_progress_circular_size_medium = 2131099995;
+			public const int mtrl_navigation_rail_text_size = 2131099995;
 			
 			// aapt resource value: 0x7F06015C
-			public const int mtrl_progress_circular_size_small = 2131099996;
+			public const int mtrl_progress_circular_inset = 2131099996;
 			
 			// aapt resource value: 0x7F06015D
-			public const int mtrl_progress_circular_track_thickness_extra_small = 2131099997;
+			public const int mtrl_progress_circular_inset_extra_small = 2131099997;
 			
 			// aapt resource value: 0x7F06015E
-			public const int mtrl_progress_circular_track_thickness_medium = 2131099998;
+			public const int mtrl_progress_circular_inset_medium = 2131099998;
 			
 			// aapt resource value: 0x7F06015F
-			public const int mtrl_progress_circular_track_thickness_small = 2131099999;
+			public const int mtrl_progress_circular_inset_small = 2131099999;
 			
 			// aapt resource value: 0x7F060160
-			public const int mtrl_progress_indicator_full_rounded_corner_radius = 2131100000;
+			public const int mtrl_progress_circular_radius = 2131100000;
 			
 			// aapt resource value: 0x7F060161
-			public const int mtrl_progress_track_thickness = 2131100001;
+			public const int mtrl_progress_circular_size = 2131100001;
 			
 			// aapt resource value: 0x7F060162
-			public const int mtrl_shape_corner_size_large_component = 2131100002;
+			public const int mtrl_progress_circular_size_extra_small = 2131100002;
 			
 			// aapt resource value: 0x7F060163
-			public const int mtrl_shape_corner_size_medium_component = 2131100003;
+			public const int mtrl_progress_circular_size_medium = 2131100003;
 			
 			// aapt resource value: 0x7F060164
-			public const int mtrl_shape_corner_size_small_component = 2131100004;
+			public const int mtrl_progress_circular_size_small = 2131100004;
 			
 			// aapt resource value: 0x7F060165
-			public const int mtrl_slider_halo_radius = 2131100005;
+			public const int mtrl_progress_circular_track_thickness_extra_small = 2131100005;
 			
 			// aapt resource value: 0x7F060166
-			public const int mtrl_slider_label_padding = 2131100006;
+			public const int mtrl_progress_circular_track_thickness_medium = 2131100006;
 			
 			// aapt resource value: 0x7F060167
-			public const int mtrl_slider_label_radius = 2131100007;
+			public const int mtrl_progress_circular_track_thickness_small = 2131100007;
 			
 			// aapt resource value: 0x7F060168
-			public const int mtrl_slider_label_square_side = 2131100008;
+			public const int mtrl_progress_indicator_full_rounded_corner_radius = 2131100008;
 			
 			// aapt resource value: 0x7F060169
-			public const int mtrl_slider_thumb_elevation = 2131100009;
+			public const int mtrl_progress_track_thickness = 2131100009;
 			
 			// aapt resource value: 0x7F06016A
-			public const int mtrl_slider_thumb_radius = 2131100010;
+			public const int mtrl_shape_corner_size_large_component = 2131100010;
 			
 			// aapt resource value: 0x7F06016B
-			public const int mtrl_slider_track_height = 2131100011;
+			public const int mtrl_shape_corner_size_medium_component = 2131100011;
 			
 			// aapt resource value: 0x7F06016C
-			public const int mtrl_slider_track_side_padding = 2131100012;
+			public const int mtrl_shape_corner_size_small_component = 2131100012;
 			
 			// aapt resource value: 0x7F06016D
-			public const int mtrl_slider_track_top = 2131100013;
+			public const int mtrl_slider_halo_radius = 2131100013;
 			
 			// aapt resource value: 0x7F06016E
-			public const int mtrl_slider_widget_height = 2131100014;
+			public const int mtrl_slider_label_padding = 2131100014;
 			
 			// aapt resource value: 0x7F06016F
-			public const int mtrl_snackbar_action_text_color_alpha = 2131100015;
+			public const int mtrl_slider_label_radius = 2131100015;
 			
 			// aapt resource value: 0x7F060170
-			public const int mtrl_snackbar_background_corner_radius = 2131100016;
+			public const int mtrl_slider_label_square_side = 2131100016;
 			
 			// aapt resource value: 0x7F060171
-			public const int mtrl_snackbar_background_overlay_color_alpha = 2131100017;
+			public const int mtrl_slider_thumb_elevation = 2131100017;
 			
 			// aapt resource value: 0x7F060172
-			public const int mtrl_snackbar_margin = 2131100018;
+			public const int mtrl_slider_thumb_radius = 2131100018;
 			
 			// aapt resource value: 0x7F060173
-			public const int mtrl_snackbar_message_margin_horizontal = 2131100019;
+			public const int mtrl_slider_track_height = 2131100019;
 			
 			// aapt resource value: 0x7F060174
-			public const int mtrl_snackbar_padding_horizontal = 2131100020;
+			public const int mtrl_slider_track_side_padding = 2131100020;
 			
 			// aapt resource value: 0x7F060175
-			public const int mtrl_switch_thumb_elevation = 2131100021;
+			public const int mtrl_slider_track_top = 2131100021;
 			
 			// aapt resource value: 0x7F060176
-			public const int mtrl_textinput_box_corner_radius_medium = 2131100022;
+			public const int mtrl_slider_widget_height = 2131100022;
 			
 			// aapt resource value: 0x7F060177
-			public const int mtrl_textinput_box_corner_radius_small = 2131100023;
+			public const int mtrl_snackbar_action_text_color_alpha = 2131100023;
 			
 			// aapt resource value: 0x7F060178
-			public const int mtrl_textinput_box_label_cutout_padding = 2131100024;
+			public const int mtrl_snackbar_background_corner_radius = 2131100024;
 			
 			// aapt resource value: 0x7F060179
-			public const int mtrl_textinput_box_stroke_width_default = 2131100025;
+			public const int mtrl_snackbar_background_overlay_color_alpha = 2131100025;
 			
 			// aapt resource value: 0x7F06017A
-			public const int mtrl_textinput_box_stroke_width_focused = 2131100026;
+			public const int mtrl_snackbar_margin = 2131100026;
 			
 			// aapt resource value: 0x7F06017B
-			public const int mtrl_textinput_counter_margin_start = 2131100027;
+			public const int mtrl_snackbar_message_margin_horizontal = 2131100027;
 			
 			// aapt resource value: 0x7F06017C
-			public const int mtrl_textinput_end_icon_margin_start = 2131100028;
+			public const int mtrl_snackbar_padding_horizontal = 2131100028;
 			
 			// aapt resource value: 0x7F06017D
-			public const int mtrl_textinput_outline_box_expanded_padding = 2131100029;
+			public const int mtrl_switch_thumb_elevation = 2131100029;
 			
 			// aapt resource value: 0x7F06017E
-			public const int mtrl_textinput_start_icon_margin_end = 2131100030;
+			public const int mtrl_textinput_box_corner_radius_medium = 2131100030;
 			
 			// aapt resource value: 0x7F06017F
-			public const int mtrl_toolbar_default_height = 2131100031;
+			public const int mtrl_textinput_box_corner_radius_small = 2131100031;
 			
 			// aapt resource value: 0x7F060180
-			public const int mtrl_tooltip_arrowSize = 2131100032;
+			public const int mtrl_textinput_box_label_cutout_padding = 2131100032;
 			
 			// aapt resource value: 0x7F060181
-			public const int mtrl_tooltip_cornerSize = 2131100033;
+			public const int mtrl_textinput_box_stroke_width_default = 2131100033;
 			
 			// aapt resource value: 0x7F060182
-			public const int mtrl_tooltip_minHeight = 2131100034;
+			public const int mtrl_textinput_box_stroke_width_focused = 2131100034;
 			
 			// aapt resource value: 0x7F060183
-			public const int mtrl_tooltip_minWidth = 2131100035;
+			public const int mtrl_textinput_counter_margin_start = 2131100035;
 			
 			// aapt resource value: 0x7F060184
-			public const int mtrl_tooltip_padding = 2131100036;
+			public const int mtrl_textinput_end_icon_margin_start = 2131100036;
 			
 			// aapt resource value: 0x7F060185
-			public const int mtrl_transition_shared_axis_slide_distance = 2131100037;
+			public const int mtrl_textinput_outline_box_expanded_padding = 2131100037;
 			
 			// aapt resource value: 0x7F060186
-			public const int notification_action_icon_size = 2131100038;
+			public const int mtrl_textinput_start_icon_margin_end = 2131100038;
 			
 			// aapt resource value: 0x7F060187
-			public const int notification_action_text_size = 2131100039;
+			public const int mtrl_toolbar_default_height = 2131100039;
 			
 			// aapt resource value: 0x7F060188
-			public const int notification_big_circle_margin = 2131100040;
+			public const int mtrl_tooltip_arrowSize = 2131100040;
 			
 			// aapt resource value: 0x7F060189
-			public const int notification_content_margin_start = 2131100041;
+			public const int mtrl_tooltip_cornerSize = 2131100041;
 			
 			// aapt resource value: 0x7F06018A
-			public const int notification_large_icon_height = 2131100042;
+			public const int mtrl_tooltip_minHeight = 2131100042;
 			
 			// aapt resource value: 0x7F06018B
-			public const int notification_large_icon_width = 2131100043;
+			public const int mtrl_tooltip_minWidth = 2131100043;
 			
 			// aapt resource value: 0x7F06018C
-			public const int notification_main_column_padding_top = 2131100044;
+			public const int mtrl_tooltip_padding = 2131100044;
 			
 			// aapt resource value: 0x7F06018D
-			public const int notification_media_narrow_margin = 2131100045;
+			public const int mtrl_transition_shared_axis_slide_distance = 2131100045;
 			
 			// aapt resource value: 0x7F06018E
-			public const int notification_right_icon_size = 2131100046;
+			public const int notification_action_icon_size = 2131100046;
 			
 			// aapt resource value: 0x7F06018F
-			public const int notification_right_side_padding_top = 2131100047;
+			public const int notification_action_text_size = 2131100047;
 			
 			// aapt resource value: 0x7F060190
-			public const int notification_small_icon_background_padding = 2131100048;
+			public const int notification_big_circle_margin = 2131100048;
 			
 			// aapt resource value: 0x7F060191
-			public const int notification_small_icon_size_as_large = 2131100049;
+			public const int notification_content_margin_start = 2131100049;
 			
 			// aapt resource value: 0x7F060192
-			public const int notification_subtext_size = 2131100050;
+			public const int notification_large_icon_height = 2131100050;
 			
 			// aapt resource value: 0x7F060193
-			public const int notification_top_pad = 2131100051;
+			public const int notification_large_icon_width = 2131100051;
 			
 			// aapt resource value: 0x7F060194
-			public const int notification_top_pad_large_text = 2131100052;
+			public const int notification_main_column_padding_top = 2131100052;
 			
 			// aapt resource value: 0x7F060195
-			public const int preference_dropdown_padding_start = 2131100053;
+			public const int notification_media_narrow_margin = 2131100053;
 			
 			// aapt resource value: 0x7F060196
-			public const int preference_icon_minWidth = 2131100054;
+			public const int notification_right_icon_size = 2131100054;
 			
 			// aapt resource value: 0x7F060197
-			public const int preference_seekbar_padding_horizontal = 2131100055;
+			public const int notification_right_side_padding_top = 2131100055;
 			
 			// aapt resource value: 0x7F060198
-			public const int preference_seekbar_padding_vertical = 2131100056;
+			public const int notification_small_icon_background_padding = 2131100056;
 			
 			// aapt resource value: 0x7F060199
-			public const int preference_seekbar_value_minWidth = 2131100057;
+			public const int notification_small_icon_size_as_large = 2131100057;
 			
 			// aapt resource value: 0x7F06019A
-			public const int test_mtrl_calendar_day_cornerSize = 2131100058;
+			public const int notification_subtext_size = 2131100058;
 			
 			// aapt resource value: 0x7F06019B
-			public const int test_navigation_bar_active_item_max_width = 2131100059;
+			public const int notification_top_pad = 2131100059;
 			
 			// aapt resource value: 0x7F06019C
-			public const int test_navigation_bar_active_item_min_width = 2131100060;
+			public const int notification_top_pad_large_text = 2131100060;
 			
 			// aapt resource value: 0x7F06019D
-			public const int test_navigation_bar_active_text_size = 2131100061;
+			public const int preference_dropdown_padding_start = 2131100061;
 			
 			// aapt resource value: 0x7F06019E
-			public const int test_navigation_bar_elevation = 2131100062;
+			public const int preference_icon_minWidth = 2131100062;
 			
 			// aapt resource value: 0x7F06019F
-			public const int test_navigation_bar_height = 2131100063;
+			public const int preference_seekbar_padding_horizontal = 2131100063;
 			
 			// aapt resource value: 0x7F0601A0
-			public const int test_navigation_bar_icon_size = 2131100064;
+			public const int preference_seekbar_padding_vertical = 2131100064;
 			
 			// aapt resource value: 0x7F0601A1
-			public const int test_navigation_bar_item_max_width = 2131100065;
+			public const int preference_seekbar_value_minWidth = 2131100065;
 			
 			// aapt resource value: 0x7F0601A2
-			public const int test_navigation_bar_item_min_width = 2131100066;
+			public const int test_mtrl_calendar_day_cornerSize = 2131100066;
 			
 			// aapt resource value: 0x7F0601A3
-			public const int test_navigation_bar_label_padding = 2131100067;
+			public const int test_navigation_bar_active_item_max_width = 2131100067;
 			
 			// aapt resource value: 0x7F0601A4
-			public const int test_navigation_bar_shadow_height = 2131100068;
+			public const int test_navigation_bar_active_item_min_width = 2131100068;
 			
 			// aapt resource value: 0x7F0601A5
-			public const int test_navigation_bar_text_size = 2131100069;
+			public const int test_navigation_bar_active_text_size = 2131100069;
 			
 			// aapt resource value: 0x7F0601A6
-			public const int tooltip_corner_radius = 2131100070;
+			public const int test_navigation_bar_elevation = 2131100070;
 			
 			// aapt resource value: 0x7F0601A7
-			public const int tooltip_horizontal_padding = 2131100071;
+			public const int test_navigation_bar_height = 2131100071;
 			
 			// aapt resource value: 0x7F0601A8
-			public const int tooltip_margin = 2131100072;
+			public const int test_navigation_bar_icon_size = 2131100072;
 			
 			// aapt resource value: 0x7F0601A9
-			public const int tooltip_precise_anchor_extra_offset = 2131100073;
+			public const int test_navigation_bar_item_max_width = 2131100073;
 			
 			// aapt resource value: 0x7F0601AA
-			public const int tooltip_precise_anchor_threshold = 2131100074;
+			public const int test_navigation_bar_item_min_width = 2131100074;
 			
 			// aapt resource value: 0x7F0601AB
-			public const int tooltip_vertical_padding = 2131100075;
+			public const int test_navigation_bar_label_padding = 2131100075;
 			
 			// aapt resource value: 0x7F0601AC
-			public const int tooltip_y_offset_non_touch = 2131100076;
+			public const int test_navigation_bar_shadow_height = 2131100076;
 			
 			// aapt resource value: 0x7F0601AD
-			public const int tooltip_y_offset_touch = 2131100077;
+			public const int test_navigation_bar_text_size = 2131100077;
+			
+			// aapt resource value: 0x7F0601AE
+			public const int tooltip_corner_radius = 2131100078;
+			
+			// aapt resource value: 0x7F0601AF
+			public const int tooltip_horizontal_padding = 2131100079;
+			
+			// aapt resource value: 0x7F0601B0
+			public const int tooltip_margin = 2131100080;
+			
+			// aapt resource value: 0x7F0601B1
+			public const int tooltip_precise_anchor_extra_offset = 2131100081;
+			
+			// aapt resource value: 0x7F0601B2
+			public const int tooltip_precise_anchor_threshold = 2131100082;
+			
+			// aapt resource value: 0x7F0601B3
+			public const int tooltip_vertical_padding = 2131100083;
+			
+			// aapt resource value: 0x7F0601B4
+			public const int tooltip_y_offset_non_touch = 2131100084;
+			
+			// aapt resource value: 0x7F0601B5
+			public const int tooltip_y_offset_touch = 2131100085;
 			
 			static Dimension()
 			{
@@ -22103,6 +24766,9 @@ namespace Calendar.Droid
 			// aapt resource value: 0x7F070063
 			public const int design_snackbar_background = 2131165283;
 			
+			// aapt resource value: 0x7F07006B
+			public const int Icon = 2131165291;
+			
 			// aapt resource value: 0x7F070064
 			public const int ic_arrow_down_24dp = 2131165284;
 			
@@ -22124,116 +24790,116 @@ namespace Calendar.Droid
 			// aapt resource value: 0x7F07006A
 			public const int ic_mtrl_chip_close_circle = 2131165290;
 			
-			// aapt resource value: 0x7F07006B
-			public const int material_cursor_drawable = 2131165291;
-			
 			// aapt resource value: 0x7F07006C
-			public const int material_ic_calendar_black_24dp = 2131165292;
+			public const int material_cursor_drawable = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int material_ic_clear_black_24dp = 2131165293;
+			public const int material_ic_calendar_black_24dp = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int material_ic_edit_black_24dp = 2131165294;
+			public const int material_ic_clear_black_24dp = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165295;
+			public const int material_ic_edit_black_24dp = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165296;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165297;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165298;
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165299;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165300;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int mtrl_dialog_background = 2131165301;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int mtrl_dropdown_arrow = 2131165302;
+			public const int mtrl_dialog_background = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int mtrl_ic_arrow_drop_down = 2131165303;
+			public const int mtrl_dropdown_arrow = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int mtrl_ic_arrow_drop_up = 2131165304;
+			public const int mtrl_ic_arrow_drop_down = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int mtrl_ic_cancel = 2131165305;
+			public const int mtrl_ic_arrow_drop_up = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int mtrl_ic_error = 2131165306;
+			public const int mtrl_ic_cancel = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int mtrl_navigation_bar_item_background = 2131165307;
+			public const int mtrl_ic_error = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mtrl_popupmenu_background = 2131165308;
+			public const int mtrl_navigation_bar_item_background = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int mtrl_popupmenu_background_dark = 2131165309;
+			public const int mtrl_popupmenu_background = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_tabs_default_indicator = 2131165310;
+			public const int mtrl_popupmenu_background_dark = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int navigation_empty_icon = 2131165311;
+			public const int mtrl_tabs_default_indicator = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int notification_action_background = 2131165312;
+			public const int navigation_empty_icon = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int notification_bg = 2131165313;
+			public const int notification_action_background = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int notification_bg_low = 2131165314;
+			public const int notification_bg = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int notification_bg_low_normal = 2131165315;
+			public const int notification_bg_low = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int notification_bg_low_pressed = 2131165316;
+			public const int notification_bg_low_normal = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int notification_bg_normal = 2131165317;
+			public const int notification_bg_low_pressed = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_bg_normal_pressed = 2131165318;
+			public const int notification_bg_normal = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_icon_background = 2131165319;
+			public const int notification_bg_normal_pressed = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_template_icon_bg = 2131165320;
+			public const int notification_icon_background = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_template_icon_low_bg = 2131165321;
+			public const int notification_template_icon_bg = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_tile_bg = 2131165322;
+			public const int notification_template_icon_low_bg = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notify_panel_notification_icon_bg = 2131165323;
+			public const int notification_tile_bg = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int preference_list_divider_material = 2131165324;
+			public const int notify_panel_notification_icon_bg = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int test_custom_background = 2131165325;
+			public const int preference_list_divider_material = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int tooltip_frame_dark = 2131165326;
+			public const int test_custom_background = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int tooltip_frame_light = 2131165327;
+			public const int tooltip_frame_dark = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int tooltip_frame_light = 2131165328;
 			
 			static Drawable()
 			{
@@ -24739,16 +27405,22 @@ namespace Calendar.Droid
 			public const int search_menu_title = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int status_bar_notification_info_overflow = 2131624050;
+			public const int sfcalendar_inlineviewalldaytext = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int summary_collapsed_preference_list = 2131624051;
+			public const int sfcalendar_inlineviewnoappointmenttext = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int v7_preference_off = 2131624052;
+			public const int status_bar_notification_info_overflow = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int v7_preference_on = 2131624053;
+			public const int summary_collapsed_preference_list = 2131624053;
+			
+			// aapt resource value: 0x7F0E0076
+			public const int v7_preference_off = 2131624054;
+			
+			// aapt resource value: 0x7F0E0077
+			public const int v7_preference_on = 2131624055;
 			
 			static String()
 			{
