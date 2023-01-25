@@ -6,6 +6,7 @@
              xmlns:fa="clr-namespace:FontAwesome"
              xmlns:model="clr-namespace:Calendar.Models"
              xmlns:vm="clr-namespace:Calendar.ViewModels"
+             xmlns:schedule="clr-namespace:Syncfusion.SfSchedule.XForms;assembly=Syncfusion.SfSchedule.XForms"
              xmlns:helpers="clr-namespace:Calendar.Helpers"
              xmlns:syncfusion="clr-namespace:Syncfusion.SfCalendar.XForms;assembly=Syncfusion.SfCalendar.XForms"
              xmlns:calendar="clr-namespace:XCalendar;assembly=XCalendar"
@@ -74,7 +75,8 @@
                 </StackLayout>
             </Frame>
             <Grid VerticalOptions="FillAndExpand" ColumnDefinitions="*,.7*" >
-                <controls:Calendar Grid.Column="0" VerticalOptions="FillAndExpand"   
+                <StackLayout Grid.Column="0">
+                    <controls:Calendar   
                                       
                                        SelectedDate="{Binding SelectedDay }"
                                        xct:ShadowEffect.Radius="4"
@@ -82,7 +84,7 @@
                                EventIndicatorType="Background"
                                        SelectedDayTextColor="Blue"
                                    TodayTextColor="Red"
-                                   SwipeUpToHideEnabled="False"
+                                   SwipeUpToHideEnabled="True"
                                   Culture="{Binding Culture}"
                                      ShownDate="{Binding SelectedDay}"
                                    MinimumDate="{Binding MinDate}"
@@ -90,7 +92,7 @@
                                    
                                    FooterSectionVisible="False"
                                    FooterArrowVisible="False"
-                                   CalendarLayout="Month"
+                                   CalendarLayout="Week"
                                    DayTappedCommand="{Binding FilterCommand}"
                                    MonthLabelColor="{AppThemeBinding Dark={StaticResource TextColorDark},Light={StaticResource TextColorLight}}"
                                    ArrowsColor="Black"
@@ -105,11 +107,42 @@
                                    PropertyChanged="Calendar_LayoutChanged"
                                   
                                        >
-                  
 
 
-                </controls:Calendar>
 
+                    </controls:Calendar>
+
+                    <Label Text="{Binding SelectedDay,StringFormat='{0:dddd}'}" FontAttributes="Bold" FontSize="35"  />
+                    <Label Text="{Binding SelectedDay,StringFormat='{0:dd MMMM yyyy}'}" FontAttributes="Bold" FontSize="Title" />
+                    <schedule:SfSchedule x:Name="schedule" ScheduleView = "DayView" SelectedDate="{Binding SelectedDay}"   CurrentTimeIndicatorColor="Red" 
+                                         MoveToDate="{Binding SelectedDay}" VerticalOptions="FillAndExpand" 
+                                         BackgroundColor="Transparent" HeaderHeight="50"  ViewHeaderHeight="50"   >
+                        <schedule:SfSchedule.ViewHeaderStyle >
+                            <schedule:ViewHeaderStyle />
+                            
+                        </schedule:SfSchedule.ViewHeaderStyle>
+                        <schedule:SfSchedule.DayViewSettings >
+                            <!--setting working hours properties -->
+                            <schedule:DayViewSettings TimeSlotColor="Transparent" 
+                                                      TimeSlotBorderColor="{AppThemeBinding Dark={StaticResource TextColorDark},Light={StaticResource TextColorLight}}"
+                                                      TimeRulerSize="120">
+                                <schedule:DayViewSettings.NonAccessibleBlocks>
+                                    <schedule:NonAccessibleBlock 
+					 StartTime="13"
+					 EndTime="16" 
+					 Text="LUNCH" 
+					 Color="Pink" />
+                                </schedule:DayViewSettings.NonAccessibleBlocks>
+                                <schedule:DayViewSettings.DayLabelSettings>
+                                    
+                                    <schedule:DayLabelSettings TimeFormat="hh:mm" />
+                                </schedule:DayViewSettings.DayLabelSettings>
+                            </schedule:DayViewSettings>
+                        </schedule:SfSchedule.DayViewSettings>
+                    </schedule:SfSchedule>
+
+                </StackLayout>
+               
                 
                 <StackLayout Grid.Column="1" Padding="25" >
                     <Label Text="{Binding SelectedDay,StringFormat='{0:dddd}'}" FontAttributes="Bold" FontSize="35"  />
