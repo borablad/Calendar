@@ -123,10 +123,10 @@
                         </schedule:SfSchedule.ViewHeaderStyle>
                         <schedule:SfSchedule.DayViewSettings >
                             <!--setting working hours properties -->
-                            <schedule:DayViewSettings TimeSlotColor="Transparent" 
+                            <schedule:DayViewSettings TimeSlotColor="Transparent"  e
                                                       TimeSlotBorderColor="{AppThemeBinding Dark={StaticResource TextColorDark},Light={StaticResource TextColorLight}}"
                                                       TimeRulerSize="120">
-                                <schedule:DayViewSettings.NonAccessibleBlocks>
+                                <schedule:DayViewSettings.NonAccessibleBlocks >
                                     <schedule:NonAccessibleBlock 
 					 StartTime="13"
 					 EndTime="16" 
