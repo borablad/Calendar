@@ -47,9 +47,6 @@
             </DataTemplate>
             <DataTemplate x:Key="SelektDay">
                 <StackLayout x:DataType="model:Event" xct:CornerRadiusEffect.CornerRadius="15" Padding="25" BackgroundColor="{AppThemeBinding Dark={StaticResource HeaderBarBackgroundColorDark},Light={StaticResource HeaderBarBackgroundColorLight}}" Orientation="Horizontal">
-                    <Label Text="{x:Static fa:FontAwesomeIcons.HandshakeSimple}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35" IsVisible="{Binding IsMeeting}"/>
-                    <Label Text="{x:Static fa:FontAwesomeIcons.PersonChalkboard}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35" IsVisible="{Binding IsMeetUp}"/>
-                    <Label Text="{x:Static fa:FontAwesomeIcons.Clock}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35" IsVisible="{Binding IsUnknown}"/>
                     <Label Text="{Binding Topic}" FontAttributes="Bold" FontSize="Title"  />
 
                     <Label FontAttributes="Bold" FontSize="Title" Margin="20,0" HorizontalOptions="EndAndExpand" >
@@ -112,30 +109,30 @@
 
                     </controls:Calendar>
 
-                    <Label Text="{Binding SelectedDay,StringFormat='{0:dddd}'}" FontAttributes="Bold" FontSize="35"  />
-                    <Label Text="{Binding SelectedDay,StringFormat='{0:dd MMMM yyyy}'}" FontAttributes="Bold" FontSize="Title" />
-                    <schedule:SfSchedule x:Name="schedule" ScheduleView = "DayView" SelectedDate="{Binding SelectedDay}"   CurrentTimeIndicatorColor="Red" 
+                    <Label Text="{Binding SelectedDay,StringFormat='{0:dddd}'}" FontAttributes="Bold" FontSize="35" Margin="25,0"  />
+                    <Label Text="{Binding SelectedDay,StringFormat='{0:dd MMMM yyyy}'}" FontAttributes="Bold" FontSize="Title" Margin="25,0"/>
+                    <schedule:SfSchedule x:Name="schedule" ScheduleView = "DayView" SelectedDate="{Binding SelectedDay}" EnableNavigation="False"  CurrentTimeIndicatorColor="Red" 
                                          MoveToDate="{Binding SelectedDay}" VerticalOptions="FillAndExpand" 
-                                         BackgroundColor="Transparent" HeaderHeight="50"  ViewHeaderHeight="50"   >
+                                         BackgroundColor="Transparent" HeaderHeight="0"  ViewHeaderHeight="0"   >
                         <schedule:SfSchedule.ViewHeaderStyle >
                             <schedule:ViewHeaderStyle />
                             
                         </schedule:SfSchedule.ViewHeaderStyle>
-                        <schedule:SfSchedule.DayViewSettings >
+                        <schedule:SfSchedule.DayViewSettings>
                             <!--setting working hours properties -->
-                            <schedule:DayViewSettings TimeSlotColor="Transparent"  e
+                            <schedule:DayViewSettings TimeSlotColor="Transparent" NonWorkingHoursTimeSlotColor="Transparent" StartHour="1.0" EndHour="24.0"
                                                       TimeSlotBorderColor="{AppThemeBinding Dark={StaticResource TextColorDark},Light={StaticResource TextColorLight}}"
                                                       TimeRulerSize="120">
                                 <schedule:DayViewSettings.NonAccessibleBlocks >
                                     <schedule:NonAccessibleBlock 
-					 StartTime="13"
-					 EndTime="16" 
-					 Text="LUNCH" 
-					 Color="Pink" />
+					                         StartTime="13"
+					                         EndTime="14" 
+					                         Text="LUNCH" 
+					                         Color="Red"   />
                                 </schedule:DayViewSettings.NonAccessibleBlocks>
                                 <schedule:DayViewSettings.DayLabelSettings>
-                                    
-                                    <schedule:DayLabelSettings TimeFormat="hh:mm" />
+
+                                    <schedule:DayLabelSettings TimeFormat="hh:mm" TimeLabelFontAttributes="Bold" TimeLabelColor="{AppThemeBinding Dark={StaticResource TextColorDark},Light={StaticResource TextColorLight}}" />
                                 </schedule:DayViewSettings.DayLabelSettings>
                             </schedule:DayViewSettings>
                         </schedule:SfSchedule.DayViewSettings>
@@ -144,16 +141,49 @@
                 </StackLayout>
                
                 
-                <StackLayout Grid.Column="1" Padding="25" >
-                    <Label Text="{Binding SelectedDay,StringFormat='{0:dddd}'}" FontAttributes="Bold" FontSize="35"  />
+                <StackLayout Grid.Column="1" Padding="0,-6" >
+                    <!--<Label Text="{Binding SelectedDay,StringFormat='{0:dddd}'}" FontAttributes="Bold" FontSize="35"  />
                     <Label Text="{Binding SelectedDay,StringFormat='{0:dd MMMM yyyy}'}" FontAttributes="Bold" FontSize="Title" />
 
                     <ScrollView>
                         <StackLayout Padding="0,10" Spacing="15" BindableLayout.ItemTemplate="{StaticResource EventTemplate}" BindableLayout.ItemsSource="{Binding EventData}">
 
                         </StackLayout>
-                    </ScrollView>
+                    </ScrollView>-->
                     
+                    <!-- детали ивента -->
+                    <xct:Expander Grid.Row="1" xct:CornerRadiusEffect.CornerRadius="20,0,20,0" HorizontalOptions="End" VerticalOptions="FillAndExpand"  Direction="Right" AnimationLength="250"
+                            >
+                        <xct:Expander.Header>
+                            <Frame BackgroundColor="Transparent" >
+                                <Label Text=" t " />
+                            </Frame>
+                        </xct:Expander.Header>
+                        <StackLayout MinimumHeightRequest="400" Padding="30,0" xct:CornerRadiusEffect.CornerRadius="20" HorizontalOptions="FillAndExpand"  BackgroundColor="{AppThemeBinding Dark={StaticResource HeaderBarBackgroundColorDark},Light={StaticResource HeaderBarBackgroundColorLight}}"
+                                >
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{x:Static fa:FontAwesomeIcons.HandshakeSimple}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35" IsVisible="true"/>
+                                <Label Text="{x:Static fa:FontAwesomeIcons.PersonChalkboard}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35" IsVisible="false"/>
+                                <Label Text="{x:Static fa:FontAwesomeIcons.Clock}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35" IsVisible="false"/>
+
+                                <StackLayout>
+                                    <Label Text="{Binding  Culture}" FontAttributes="Bold" FontSize="Title"  />
+                                    <Label FontAttributes="Bold" FontSize="Title"  HorizontalOptions="EndAndExpand" >
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span  Text="{Binding SelectedDay,StringFormat='{0:dddd, dd MMMM }'}" FontAttributes="Bold" FontSize="Title"  />
+                                                <Span Text=" " />
+                                                <Span Text="{Binding SelectedDay,StringFormat='{0:hh:mm}'}" />
+                                                <Span Text=" - " />
+                                                <Span Text="{Binding SelectedDay,StringFormat='{0:hh:mm}'}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                </StackLayout>
+                            </StackLayout>
+                            
+                        </StackLayout>
+                    </xct:Expander>
 
                 </StackLayout>
 
