@@ -152,22 +152,22 @@
                     </ScrollView>-->
                     
                     <!-- детали ивента -->
-                    <xct:Expander Grid.Row="1" xct:CornerRadiusEffect.CornerRadius="20,0,20,0" HorizontalOptions="End" VerticalOptions="FillAndExpand"  Direction="Right" AnimationLength="250"
+                    <xct:Expander Grid.Row="1"  HorizontalOptions="End" VerticalOptions="FillAndExpand"  Direction="Right" AnimationLength="250"
                             >
                         <xct:Expander.Header>
                             <Frame BackgroundColor="Transparent" >
-                                <Label Text=" t " />
+                                <Label Text="  " />
                             </Frame>
                         </xct:Expander.Header>
-                        <StackLayout MinimumHeightRequest="400" Padding="30,0" xct:CornerRadiusEffect.CornerRadius="20" HorizontalOptions="FillAndExpand"  BackgroundColor="{AppThemeBinding Dark={StaticResource HeaderBarBackgroundColorDark},Light={StaticResource HeaderBarBackgroundColorLight}}"
+                        <StackLayout MinimumHeightRequest="400" Padding="30,0" xct:CornerRadiusEffect.CornerRadius="20,0,20,0" HorizontalOptions="FillAndExpand"  BackgroundColor="{AppThemeBinding Dark={StaticResource HeaderBarBackgroundColorDark},Light={StaticResource HeaderBarBackgroundColorLight}}"
                                 >
                             <StackLayout Orientation="Horizontal">
-                                <Label Text="{x:Static fa:FontAwesomeIcons.HandshakeSimple}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35" IsVisible="true"/>
-                                <Label Text="{x:Static fa:FontAwesomeIcons.PersonChalkboard}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35" IsVisible="false"/>
-                                <Label Text="{x:Static fa:FontAwesomeIcons.Clock}" Margin="20,0,20,0" FontFamily="FAS" HorizontalTextAlignment="Start" FontSize="35" IsVisible="false"/>
+                                <Label Text="{x:Static fa:FontAwesomeIcons.HandshakeSimple}" Margin="20,0,20,0" FontFamily="FAS" VerticalOptions="Center" HorizontalTextAlignment="Start" FontSize="35" IsVisible="true"/>
+                                <Label Text="{x:Static fa:FontAwesomeIcons.PersonChalkboard}" Margin="20,0,20,0" FontFamily="FAS" VerticalOptions="Center" HorizontalTextAlignment="Start" FontSize="35" IsVisible="false"/>
+                                <Label Text="{x:Static fa:FontAwesomeIcons.Clock}" Margin="20,0,20,0" FontFamily="FAS" VerticalOptions="Center" HorizontalTextAlignment="Start" FontSize="35" IsVisible="false"/>
 
                                 <StackLayout>
-                                    <Label Text="{Binding  Culture}" FontAttributes="Bold" FontSize="Title"  />
+                                    <Label Text="Совещание" FontAttributes="Bold" FontSize="Title"  />
                                     <Label FontAttributes="Bold" FontSize="Title"  HorizontalOptions="EndAndExpand" >
                                         <Label.FormattedText>
                                             <FormattedString>
@@ -181,7 +181,18 @@
                                     </Label>
                                 </StackLayout>
                             </StackLayout>
+
+                            <StackLayout Orientation="Horizontal" Margin="0,20">
+                                <Label Text="{x:Static fa:FontAwesomeIcons.CalendarCheck}" Margin="20,0,20,0" FontFamily="FAS" VerticalOptions="Center" HorizontalTextAlignment="Start" FontSize="35" IsVisible="true"/>
+                               
+
+                                <StackLayout>
+                                    <Label Text="Автор" FontAttributes="Bold" FontSize="Title" Margin="20,0,20,0" />
+                                    <Label Text="autorName" FontAttributes="Bold" FontSize="Title" Margin="20,0,20,0" />
+                                </StackLayout>
+                            </StackLayout>
                             
+
                         </StackLayout>
                     </xct:Expander>
 
