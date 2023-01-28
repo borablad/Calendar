@@ -73,6 +73,7 @@ namespace Calendar.ViewModels
 
             EventData.ReplaceRange(events);
             FilterObservableRange();
+            GetEvents();
         }
 
         [RelayCommand]
