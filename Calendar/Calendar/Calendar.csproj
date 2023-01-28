@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
+    <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.2" />
     <PackageReference Include="Plugin.XCalendar" Version="1.2.1" />
     <PackageReference Include="Syncfusion.Xamarin.SfCalendar" Version="16.2.0.50" />
     <PackageReference Include="Syncfusion.Xamarin.SfSchedule" Version="20.4.0.44" />

@@ -25,5 +25,19 @@ namespace Calendar
             vm.FilterObservableRange();
 
         }
+
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            vm.OnAppering();
+        
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            vm.OnDessapiring();
+        }
     }
 }

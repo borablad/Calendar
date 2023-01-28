@@ -11,7 +11,9 @@ using Xamarin.Forms;
 
 
 using System.Threading;
-
+using Calendar.Servisec;
+using Calendar.Widgets;
+using static Xamarin.Forms.Internals.GIFBitmap;
 
 namespace Calendar.ViewModels
 {
@@ -26,10 +28,24 @@ namespace Calendar.ViewModels
         string title = string.Empty;
         [ObservableProperty]
         private Size pageSize;
-       
 
+        public Rest DataStore => DependencyService.Get<Rest>();
         #endregion
+        public async void ShowWarning(string title, string message)
+        {
+            try
+            {
+                var popup = new WarningView();
+                var popupvm = (WarningViewModel)popup.BindingContext;
+                popupvm.Title = title;
+                popupvm.Message = message;
+                var page = await App.Current.MainPage.ShowPopupAsync(popup);
+            }
+            catch (Exception ex)
+            {
 
+            }
+        }
 
     }
 }

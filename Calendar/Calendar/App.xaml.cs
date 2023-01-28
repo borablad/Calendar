@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Calendar.Servisec;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,7 +10,7 @@ namespace Calendar
         public App()
         {
             InitializeComponent();
-
+            DependencyService.Register<MockDataStore>();
             MainPage = new MainPage();
         }
 
