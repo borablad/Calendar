@@ -35,7 +35,7 @@ namespace Calendar.ViewModels
         private bool check;
         [ObservableProperty]
         private bool inPage = true;
-        private const int CountToGetEvents = 10*60*60;
+        private const int CountToGetEvents = 10/**60*60*/;
         public ObservableRangeCollection<Event> EventData { get; set; }    =new ObservableRangeCollection<Event>();
         public ObservableRangeCollection<AllTimeModel> AllTimeCollection { get; set; }    =new ObservableRangeCollection<AllTimeModel>();
         public CultureInfo Culture => new CultureInfo("ru-RU");
