@@ -54,7 +54,7 @@
                     <Frame  HorizontalOptions="FillAndExpand" BackgroundColor="Transparent"  >
                         <StackLayout Padding="25" Spacing="0">
                             <Frame Margin="0,-26" HeightRequest="90" VerticalOptions="FillAndExpand" xct:CornerRadiusEffect.CornerRadius="8,8,3,3" BorderColor="{StaticResource Primary}" BackgroundColor="{StaticResource Primary}" IsVisible="{Binding IsStart}" >
-                                <Label Text="{Binding Events.Topic}" VerticalTextAlignment="Center" Margin="25,5" FontAttributes="Bold" FontSize="Title"  />
+                                <Label Text="{Binding Events.Topic}" VerticalTextAlignment="Center" Margin="25,5" TextColor="White"  FontAttributes="Bold" FontSize="Title"  />
 
                             </Frame>
 
@@ -70,7 +70,7 @@
                             </Frame>
 
                             <Frame Margin="0,10,0,-26" HeightRequest="70" xct:CornerRadiusEffect.CornerRadius="8,8,3,3" BorderColor="{StaticResource Primary}" BackgroundColor="{StaticResource Primary}" IsVisible="{Binding IsStartMiddle}"  >
-                                <Label Text="{Binding Events.Topic}" VerticalTextAlignment="Center" Margin="25,5" FontAttributes="Bold" FontSize="Title"  />
+                                <Label Text="{Binding Events.Topic}" VerticalTextAlignment="Center" Margin="25,5" TextColor="White" FontAttributes="Bold" FontSize="Title"  />
 
                             </Frame>
                             <Frame Margin="0,-26" HeightRequest="90" VerticalOptions="FillAndExpand" xct:CornerRadiusEffect.CornerRadius="3,3,8,8" BorderColor="{StaticResource Primary}" BackgroundColor="{StaticResource Primary}" IsVisible="{Binding IsEnd}"  >
@@ -93,13 +93,24 @@
     </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
-            <Frame BackgroundColor="{AppThemeBinding Dark={StaticResource HeaderBarBackgroundColorDark},Light={StaticResource HeaderBarBackgroundColorLight}}" BorderColor="Transparent" Padding="24" CornerRadius="0">
-                <StackLayout Orientation="Horizontal" >
-                    <Label Text="Astana Motors Small Hall - Зелёного зала" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="40"/>
-                    <Label Text="{x:Static fa:FontAwesomeIcons.CalendarDays}" FontFamily="FAS" HorizontalTextAlignment="End" FontSize="40"/>
+            <Frame BackgroundColor="red" BorderColor="Transparent" Margin="0,-10,0,0" Padding="8,0,8,8" xct:CornerRadiusEffect.CornerRadius="0,0,20,20" >
+                <Frame BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}" xct:CornerRadiusEffect.CornerRadius="0,0,15,15" BorderColor="Transparent" Padding="24" CornerRadius="8">
+                    <StackLayout Orientation="Horizontal" >
+                        <Frame CornerRadius="10" Margin="0,8,0,0" >
+                            <Image Source="AstanaMotorsLogo" Aspect="AspectFill" HeightRequest="110" WidthRequest="200" /> 
+                        </Frame>
+                        <Label Text="Astana Motors Small Hall - Зелёного зала" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" Margin="25,0" FontSize="40"/>
 
-                </StackLayout>
+                        <StackLayout HorizontalOptions="EndAndExpand" Spacing="5" >
+                            <Label Text="{x:Static fa:FontAwesomeIcons.CalendarDays}" FontFamily="FAS" HorizontalTextAlignment="Center" FontSize="45"/>
+                            <Label Text="{Binding ToDay,StringFormat='{0:hh:mm}'}" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Title" Margin="25,0"/>
+                            <Label Text="{Binding ToDay,StringFormat='{0:dd MMMM yyyy}'}" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Title" Margin="25,0"/>
+                        </StackLayout>
+
+                    </StackLayout>
+                </Frame>
             </Frame>
+            
             <Grid VerticalOptions="FillAndExpand" ColumnDefinitions="*,.5*" >
                 <StackLayout Grid.Column="0">
                     <controls:Calendar   
@@ -301,18 +312,7 @@
                 </StackLayout>
                
                 
-                <StackLayout Grid.Column="1" Padding="0,-6" >
-                    <!--<Label Text="{Binding SelectedDay,StringFormat='{0:dddd}'}" FontAttributes="Bold" FontSize="35"  />
-                    <Label Text="{Binding SelectedDay,StringFormat='{0:dd MMMM yyyy}'}" FontAttributes="Bold" FontSize="Title" />
-
-                    <ScrollView>
-                        <StackLayout Padding="0,10" Spacing="15" BindableLayout.ItemTemplate="{StaticResource EventTemplate}" BindableLayout.ItemsSource="{Binding EventData}">
-
-                        </StackLayout>
-                    </ScrollView>-->
-                    
-                    <!-- детали ивента -->
-                    <xct:Expander Grid.Row="1" IsExpanded="{Binding Expand}" Margin="-2"  HorizontalOptions="End" VerticalOptions="FillAndExpand"  Direction="Right" AnimationLength="50"
+                    <xct:Expander Grid.Column="1"   IsExpanded="{Binding Expand}"  HorizontalOptions="End" VerticalOptions="FillAndExpand"  Direction="Right" AnimationLength="250"
                             >
                         <xct:Expander.Header>
                             <Frame BorderColor="Transparent" BackgroundColor="Transparent" >
@@ -321,42 +321,43 @@
                         </xct:Expander.Header>
                         <StackLayout MinimumHeightRequest="400" Padding="30" xct:CornerRadiusEffect.CornerRadius="20,0,20,0" HorizontalOptions="FillAndExpand"  BackgroundColor="{AppThemeBinding Dark={StaticResource HeaderBarBackgroundColorDark},Light={StaticResource HeaderBarBackgroundColorLight}}"
                                 >
-                            <StackLayout Orientation="Horizontal">
-                                <Label Text="{x:Static fa:FontAwesomeIcons.HandshakeSimple}" Margin="20,0,20,0" FontFamily="FAS" VerticalOptions="Center" HorizontalTextAlignment="Start" FontSize="35" IsVisible="{Binding EventsInfo.IsMeeting}"/>
-                                <Label Text="{x:Static fa:FontAwesomeIcons.PersonChalkboard}" Margin="20,0,20,0" FontFamily="FAS" VerticalOptions="Center" HorizontalTextAlignment="Start" FontSize="35" IsVisible="{Binding EventsInfo.IsMeetUp}"/>
-                                <Label Text="{x:Static fa:FontAwesomeIcons.Clock}" Margin="20,0,20,0" FontFamily="FAS" VerticalOptions="Center" HorizontalTextAlignment="Start" FontSize="35" IsVisible="{Binding EventsInfo.IsUnknown}"/>
+                            <Frame  BorderColor="Transparent" BackgroundColor="Red" Padding="8" CornerRadius="15" MinimumHeightRequest="50">
+                                <StackLayout Orientation="Horizontal" Padding="5" xct:CornerRadiusEffect.CornerRadius="12" BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark},Light={StaticResource BackgroundColorLight}}">
+                                    <Label Text="{x:Static fa:FontAwesomeIcons.HandshakeSimple}" Margin="20,0,20,0" FontFamily="FAS" VerticalOptions="Center" HorizontalTextAlignment="Start" FontSize="35" IsVisible="{Binding EventsInfo.IsMeeting}"/>
+                                    <Label Text="{x:Static fa:FontAwesomeIcons.PersonChalkboard}" Margin="20,0,20,0" FontFamily="FAS" VerticalOptions="Center" HorizontalTextAlignment="Start" FontSize="35" IsVisible="{Binding EventsInfo.IsMeetUp}"/>
+                                    <Label Text="{x:Static fa:FontAwesomeIcons.Clock}" Margin="20,0,20,0" FontFamily="FAS" VerticalOptions="Center" HorizontalTextAlignment="Start" FontSize="35" IsVisible="{Binding EventsInfo.IsUnknown}"/>
 
-                                <StackLayout>
-                                    <Label Text="{Binding EventsInfo.Topic}" FontAttributes="Bold" FontSize="Title"  />
-                                    <Label FontAttributes="Bold" FontSize="Title"  HorizontalOptions="EndAndExpand" >
-                                        <Label.FormattedText>
-                                            <FormattedString>
-                                                <Span  Text="{Binding EventsInfo.StartDate,StringFormat='{0:dddd, dd MMMM }'}" FontAttributes="Bold" FontSize="Title"  />
-                                                <Span Text=" " />
-                                                <Span Text="{Binding EventsInfo.StartDate,StringFormat='{0:hh:mm}'}" />
-                                                <Span Text=" - " />
-                                                <Span Text="{Binding EventsInfo.EndDate,StringFormat='{0:hh:mm}'}" />
-                                            </FormattedString>
-                                        </Label.FormattedText>
-                                    </Label>
+                                    <StackLayout>
+                                        <Label Text="{Binding EventsInfo.Topic}" FontAttributes="Bold" FontSize="Title"  />
+                                        <Label FontAttributes="Bold" FontSize="Title"  HorizontalOptions="EndAndExpand" >
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span  Text="{Binding EventsInfo.StartDate,StringFormat='{0:dddd, dd MMMM }'}" FontAttributes="Bold" FontSize="Title"  />
+                                                    <Span Text=" " />
+                                                    <Span Text="{Binding EventsInfo.StartDate,StringFormat='{0:hh:mm}'}" />
+                                                    <Span Text=" - " />
+                                                    <Span Text="{Binding EventsInfo.EndDate,StringFormat='{0:hh:mm}'}" />
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </StackLayout>
                                 </StackLayout>
-                            </StackLayout>
-
-                            <StackLayout Orientation="Horizontal" Margin="0,20">
-                                <Label Text="{x:Static fa:FontAwesomeIcons.CalendarCheck}" Margin="20,0,20,0" FontFamily="FAS" VerticalOptions="Center" HorizontalTextAlignment="Start" FontSize="35" IsVisible="true"/>
+    <!---->                 </Frame>
+                            <Frame  BorderColor="Transparent" Margin="0,20" BackgroundColor="Red" Padding="8" CornerRadius="15" MinimumHeightRequest="50">
+                                <StackLayout Orientation="Horizontal"  xct:CornerRadiusEffect.CornerRadius="12" BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark},Light={StaticResource BackgroundColorLight}}">
+                                    <Label Text="{x:Static fa:FontAwesomeIcons.CalendarCheck}" Margin="20,0,20,0" FontFamily="FAS" VerticalOptions="Center" HorizontalTextAlignment="Start" FontSize="35" IsVisible="true"/>
                                
 
-                                <StackLayout>
-                                    <Label Text="Автор" FontAttributes="Bold" FontSize="Title" Margin="20,0,20,0" />
-                                    <Label Text="{Binding EventsInfo.Owner}" FontAttributes="Bold" FontSize="Title" Margin="20,0,20,0" />
+                                    <StackLayout>
+                                        <Label Text="Автор" FontAttributes="Bold" FontSize="Title" Margin="20,0,20,0" />
+                                        <Label Text="{Binding EventsInfo.Owner}" FontAttributes="Bold" FontSize="Title" Margin="20,0,20,0" />
+                                    </StackLayout>
                                 </StackLayout>
-                            </StackLayout>
-                            
+                            </Frame>
 
                         </StackLayout>
+                            
                     </xct:Expander>
-
-                </StackLayout>
 
 
             </Grid>

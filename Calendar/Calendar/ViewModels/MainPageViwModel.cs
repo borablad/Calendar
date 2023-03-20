@@ -21,7 +21,7 @@ namespace Calendar.ViewModels
     public partial class MainPageViwModel:BaseViewModel
     {
         [ObservableProperty]
-        private DateTime selectedDay=DateTime.Today,minDate=DateTime.Now.AddDays(-1),maxDate=DateTime.Now.AddMonths(4);
+        private DateTime selectedDay=DateTime.Today,minDate=DateTime.Now.AddDays(-1),maxDate=DateTime.Now.AddMonths(4),toDay = DateTime.Now;
 
         [ObservableProperty]
         private Event eventsInfo;
