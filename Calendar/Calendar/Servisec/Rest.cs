@@ -10,5 +10,6 @@ namespace Calendar.Servisec
     {
 
         public  Task<List<Event>> GetEvents();
+        public  Task<List<Room>> GetRooms();
     }
 }

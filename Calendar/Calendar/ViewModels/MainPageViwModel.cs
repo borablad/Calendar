@@ -36,7 +36,10 @@ namespace Calendar.ViewModels
         [ObservableProperty]
         private bool inPage = true;
         private const int CountToGetEvents = 10/**60*60*/;
-        public ObservableRangeCollection<Event> EventData { get; set; }    =new ObservableRangeCollection<Event>();
+        public ObservableRangeCollection<Room> RoomData { get; set; }    =new ();
+        public ObservableRangeCollection<Event> EventData { get; set; }    =new ();
+        [ObservableProperty]
+        Room actualRoom;
         public ObservableRangeCollection<AllTimeModel> AllTimeCollection { get; set; }    =new ObservableRangeCollection<AllTimeModel>();
         public CultureInfo Culture => new CultureInfo("ru-RU");
 
@@ -64,7 +67,15 @@ namespace Calendar.ViewModels
         {
             try
             {
-                events = await DataStore.GetEvents();
+                RoomData.ReplaceRange( await DataStore.GetRooms());
+                if (ActualRoom == null)
+                    ActualRoom = RoomData[0];
+                else
+                    ActualRoom = RoomData.Where(x => x.RoomCode == ActualRoom.RoomCode && x.RoomName == ActualRoom.RoomName && x.RoomLocation == ActualRoom.RoomLocation).FirstOrDefault();
+
+                events = ActualRoom.Events;
+                //events = await DataStore.GetEvents();
+
             }
             catch(Exception ex) {
                 ShowWarning("Ошибка","Интернет не доступен");
@@ -128,7 +139,7 @@ namespace Calendar.ViewModels
             NeedFilter = false;
 
             DateTime hour = SelectedDay.AddMinutes(-60);
-            bool havno = false;
+            //bool havno = false;
             for (int i = 0; i < 24; i++)
             {
                 hour = hour.AddMinutes(60);
@@ -225,10 +236,10 @@ namespace Calendar.ViewModels
 
                 try
                 {
-                    if (hour.Hour == DateTime.Now.AddHours(2).Hour)
+                  /*  if (hour.Hour == DateTime.Now.AddHours(2).Hour)
                     {
                         var piva = 2;
-                    }
+                    }*/
                     if (EventData.Where(x => ( x.EndDate.Hour == hour.Hour) && (x.EndDate.Minute > 0 && x.StartDate.Hour != hour.Hour)).First() != null)
                     {
                         AllTimeList.Add(new AllTimeModel
