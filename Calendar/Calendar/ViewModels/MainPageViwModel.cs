@@ -38,7 +38,7 @@ namespace Calendar.ViewModels
         private bool check;
         [ObservableProperty]
         private bool inPage = true;
-        private const int CountToGetEvents = 10/**60*60*/;
+        private const int CountToGetEvents = 10*60*60;
         public ObservableRangeCollection<Room> RoomData { get; set; }    =new ();
         public ObservableRangeCollection<Event> EventData { get; set; }    =new ();
         [ObservableProperty]
