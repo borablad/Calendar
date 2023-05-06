@@ -11,6 +11,7 @@ using Calendar.Models;
 using CommunityToolkit.Mvvm;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Xamarin.CommunityToolkit.ObjectModel;
 using Xamarin.Forms;
@@ -25,6 +26,8 @@ namespace Calendar.ViewModels
 
         [ObservableProperty]
         private Event eventsInfo;
+
+
 
         [ObservableProperty]
         private bool needFilter, expand;
@@ -82,12 +85,15 @@ namespace Calendar.ViewModels
                 ShowWarning("Ошибка","Интернет не доступен");
             }
 
-            events.Add(new Event { StartDate = SelectedDay, EndDate = SelectedDay.AddMinutes(60), Title = "Совещание" });
-            events.Add(new Event { StartDate = SelectedDay.AddHours(-2), EndDate = SelectedDay.AddDays(1), Title = "Встреча " });
-            events.Add(new Event { StartDate = SelectedDay.AddHours(-1), EndDate = SelectedDay.AddMonths(1), Title = "Занято" });
-            events.Add(new Event { StartDate = SelectedDay.AddMinutes(60), EndDate = SelectedDay.AddMinutes(120), Title = "MeetUp" });
-            events.Add(new Event { StartDate = SelectedDay.AddMinutes(150), EndDate = SelectedDay.AddMinutes(150 + 60), Title = "Совещание" });
-            events.Add(new Event { StartDate = SelectedDay.AddMinutes(150 + 60 + 30), EndDate = SelectedDay.AddMinutes(150 + 60 + 30 + 60), Title = "Совещание" });
+
+           
+
+
+            events.Add(new Event { StartDate = SelectedDay, EndDate = SelectedDay.AddMinutes(60), Title = "Встреча " });
+    
+            events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 90+120), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60+30 + 60), Title = "MeetUp" });
+            events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30+120 + 60 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120+120 + 60 + 60), Title = "Совещание" });
+            events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120+60+30 + 60), Title = "Совещание" });
 
 
             EventData.ReplaceRange(events);
@@ -135,12 +141,13 @@ namespace Calendar.ViewModels
                         ShowWarning("Ошибка", "Интернет не доступен");
                     }
 
-                    events.Add(new Event { StartDate = SelectedDay, EndDate = SelectedDay.AddMinutes(60), Title = "Совещание" });
-                    events.Add(new Event { StartDate = SelectedDay.AddHours(-2), EndDate = SelectedDay.AddDays(1), Title = "Встреча " });
-                    events.Add(new Event { StartDate = SelectedDay.AddHours(-1), EndDate = SelectedDay.AddMinutes(90), Title = "Занято" });
-                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(60), EndDate = SelectedDay.AddMinutes(120), Title = "MeetUp" });
-                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(150), EndDate = SelectedDay.AddMinutes(150 + 60), Title = "Совещание" });
-                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(150 + 60 + 30), EndDate = SelectedDay.AddMinutes(150 + 60 + 30 + 60), Title = "Совещание" });
+
+                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(0 + 60), EndDate = SelectedDay.AddMinutes(60 + 60 + 60), Title = "Встреча " });
+           
+                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 60), Title = "MeetUp" });
+                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 60 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120 + 60 + 60), Title = "Совещание" });
+                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120 + 60 + 30 + 60), Title = "Совещание" });
+
 
 
                     EventData.ReplaceRange(events);
