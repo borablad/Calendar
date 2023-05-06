@@ -141,15 +141,15 @@ namespace Calendar.ViewModels
                         ShowWarning("Ошибка", "Интернет не доступен");
                     }
 
+                    events?.Clear();
+                    // events.Add(new Event { StartDate = SelectedDay.AddMinutes(60), EndDate = SelectedDay.AddMinutes(120), Title = "Встреча " });
+                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(60), EndDate = SelectedDay.AddMinutes( 240), Title = "MeetUp" });
+                    /* events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 60), Title = "MeetUp" });
+                     events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 60 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120 + 60 + 60), Title = "Совещание" });
+                     events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120 + 60 + 30 + 60), Title = "Совещание" });
 
-                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(0 + 60), EndDate = SelectedDay.AddMinutes(60 + 60 + 60), Title = "Встреча " });
-           
-                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 60), Title = "MeetUp" });
-                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 60 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120 + 60 + 60), Title = "Совещание" });
-                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120 + 60 + 30 + 60), Title = "Совещание" });
 
-
-
+ */
                     EventData.ReplaceRange(events);
                     //                    EventData.ReplaceRange(events);
                     FilterObservableRange();
@@ -294,15 +294,22 @@ namespace Calendar.ViewModels
                 {
                     if (EventData.Where(x => x.EndDate.Hour == hour.Hour && x.EndDate.Minute == 0).First() != null)
                     {
+                        var startCheck = AllTimeList.Where(x => x.IsStart != false).FirstOrDefault();
+                       
+                        if (startCheck.Hour.Minute == 0 && hour.Hour -startCheck.Hour.Hour == 1)
+                        {
+                            throw new Exception("end date not aviable");
+                        }
+                        
                         AllTimeList.Add(new AllTimeModel
                         {
                             Hour = hour,
                             Events = EventData.Where(x => x.EndDate.Hour == hour.Hour && x.EndDate.Minute == 0).First()
-                           ,
+                             ,
                             IsEnd = true
                         });
-
                         continue;
+                        
                     }
 
                 }
