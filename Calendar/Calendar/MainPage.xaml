@@ -155,7 +155,7 @@
 
 
                             <ScrollView>
-                                <StackLayout Padding="0,10" Spacing="-2" BindableLayout.ItemTemplate="{StaticResource SelektDay}" BindableLayout.ItemsSource="{Binding AllTimeList}">
+                                <StackLayout Padding="0,10" Spacing="-2" BindableLayout.ItemTemplate="{StaticResource SelektDay}" BindableLayout.ItemsSource="{Binding AllTimeCollection}">
 
                                 </StackLayout>
                             </ScrollView>
