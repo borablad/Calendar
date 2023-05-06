@@ -74,16 +74,24 @@ namespace Calendar.ViewModels
                 else
                     ActualRoom = RoomData.Where(x => x.RoomCode == ActualRoom.RoomCode && x.RoomName == ActualRoom.RoomName && x.RoomLocation == ActualRoom.RoomLocation).FirstOrDefault();
 
-                events = ActualRoom.Events;
+               // events = ActualRoom.Events;
                 //events = await DataStore.GetEvents();
 
             }
             catch(Exception ex) {
                 ShowWarning("Ошибка","Интернет не доступен");
             }
-          
+
+            events.Add(new Event { StartDate = SelectedDay, EndDate = SelectedDay.AddMinutes(60), Title = "Совещание" });
+            events.Add(new Event { StartDate = SelectedDay.AddHours(-2), EndDate = SelectedDay.AddDays(1), Title = "Встреча " });
+            events.Add(new Event { StartDate = SelectedDay.AddHours(-1), EndDate = SelectedDay.AddMonths(1), Title = "Занято" });
+            events.Add(new Event { StartDate = SelectedDay.AddMinutes(60), EndDate = SelectedDay.AddMinutes(120), Title = "MeetUp" });
+            events.Add(new Event { StartDate = SelectedDay.AddMinutes(150), EndDate = SelectedDay.AddMinutes(150 + 60), Title = "Совещание" });
+            events.Add(new Event { StartDate = SelectedDay.AddMinutes(150 + 60 + 30), EndDate = SelectedDay.AddMinutes(150 + 60 + 30 + 60), Title = "Совещание" });
+
 
             EventData.ReplaceRange(events);
+            //EventData.ReplaceRange(events);
             FilterObservableRange();
             GetEvents();
         }
@@ -127,8 +135,16 @@ namespace Calendar.ViewModels
                         ShowWarning("Ошибка", "Интернет не доступен");
                     }
 
+                    events.Add(new Event { StartDate = SelectedDay, EndDate = SelectedDay.AddMinutes(60), Title = "Совещание" });
+                    events.Add(new Event { StartDate = SelectedDay.AddHours(-2), EndDate = SelectedDay.AddDays(1), Title = "Встреча " });
+                    events.Add(new Event { StartDate = SelectedDay.AddHours(-1), EndDate = SelectedDay.AddMinutes(90), Title = "Занято" });
+                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(60), EndDate = SelectedDay.AddMinutes(120), Title = "MeetUp" });
+                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(150), EndDate = SelectedDay.AddMinutes(150 + 60), Title = "Совещание" });
+                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(150 + 60 + 30), EndDate = SelectedDay.AddMinutes(150 + 60 + 30 + 60), Title = "Совещание" });
+
 
                     EventData.ReplaceRange(events);
+                    //                    EventData.ReplaceRange(events);
                     FilterObservableRange();
                 }
                 count++;
