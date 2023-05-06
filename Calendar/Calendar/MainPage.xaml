@@ -213,8 +213,27 @@
                                
 
                                                 <StackLayout>
-                                                    <Label Text="Автор" FontAttributes="Bold" FontSize="Title" Margin="15,0" HeightRequest="40" />
-                                                    <Label Text="{Binding EventsInfo.OwnerName}" FontAttributes="Bold" FontSize="Title" Margin="15,0" HeightRequest="80"/>
+                                                    <Label  FontAttributes="Bold" FontSize="Title" Margin="15,0" HeightRequest="40" >
+                                                        <Label.FormattedText>
+                                                            <FormattedString>
+                                                                <Span Text="Автор" />
+                                                                <Span Text=" - " />
+                                                                <Span Text="{Binding EventsInfo.CreatedName}" />
+                                                            </FormattedString>
+                                                        </Label.FormattedText>
+
+                                                    </Label>
+                                                  
+                                                     <Label FontAttributes="Bold" FontSize="Title" Margin="15,0" HeightRequest="40" >
+                                                        <Label.FormattedText>
+                                                            <FormattedString>
+                                                                <Span Text="Владелец"  />
+                                                                <Span Text=" - " />
+                                                                <Span Text="{Binding EventsInfo.OwnerName}"/>
+                                                            </FormattedString>
+                                                        </Label.FormattedText>
+
+                                                    </Label>
                                                 </StackLayout>
                                             </StackLayout>
                                         </Frame>
