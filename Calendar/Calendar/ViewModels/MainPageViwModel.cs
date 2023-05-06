@@ -75,10 +75,14 @@ namespace Calendar.ViewModels
             catch(Exception ex) {
                 ShowWarning("Ошибка","Интернет не доступен");
             }
+
+            events.Add(new Event { StartDate = SelectedDay.AddMinutes(30), EndDate = SelectedDay.AddMinutes(60 + 60 + 60), Title = "Встреча " , CreatedName = "Боря" , OwnerName = "Миша"});
+
             EventData.ReplaceRange(events);
         
             FilterObservableRange();
             GetEvents();
+
         }
 
         [RelayCommand]
@@ -282,7 +286,7 @@ namespace Calendar.ViewModels
                 }
                 
                 var sizeItem = 90;
-                count += 3;
+                count -= 1;
                 var positiony=sizeItem*count; 
                 await sv.ScrollToAsync(0, positiony, true);
 
