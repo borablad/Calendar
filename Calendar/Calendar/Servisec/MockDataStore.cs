@@ -52,7 +52,7 @@ namespace Calendar.Servisec
             try
             {
                 var str = obj["data"].ToString();
-                var list = JsonConvert.DeserializeObject<List<Room>>(str) ;
+                result= JsonConvert.DeserializeObject<List<Room>>(str) ;
 
 
             }

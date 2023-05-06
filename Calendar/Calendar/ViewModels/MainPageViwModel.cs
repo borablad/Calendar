@@ -67,6 +67,7 @@ namespace Calendar.ViewModels
         {
             try
             {
+                
                 RoomData.ReplaceRange( await DataStore.GetRooms());
                 if (ActualRoom == null)
                     ActualRoom = RoomData[0];
