@@ -157,7 +157,7 @@
                             <Label Text="{Binding SelectedDay,StringFormat='{0:dd MMMM yyyy}'}" FontAttributes="Bold" FontSize="Title" Margin="25,0"/>
 
 
-                            <ScrollView>
+                            <ScrollView x:Name="scrollList">
                                 <StackLayout Padding="0,10" Spacing="-2" BindableLayout.ItemTemplate="{StaticResource SelektDay}" BindableLayout.ItemsSource="{Binding AllTimeCollection}">
 
                                 </StackLayout>

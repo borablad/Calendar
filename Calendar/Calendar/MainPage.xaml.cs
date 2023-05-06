@@ -26,12 +26,13 @@ namespace Calendar
 
         }
 
-
+        
         protected override void OnAppearing()
         {
             base.OnAppearing();
             vm.OnAppering();
-        
+            vm.sv = scrollList;
+            vm.ScrolToDateNow();
         }
 
         protected override void OnDisappearing()

@@ -48,20 +48,11 @@ namespace Calendar.ViewModels
 
         private List<Event> events = new List<Event>();
         private List<AllTimeModel> AllTimeList = new List<AllTimeModel>();
-       
+
+        internal ScrollView sv;
         public MainPageViwModel() 
         {
-            //events.Add(new Event { StartDate = SelectedDay, EndDate = SelectedDay.AddMinutes(60), Topic = "Совещание" });
-            //events.Add(new Event { StartDate = SelectedDay.AddHours(-2), EndDate = SelectedDay.AddDays(1), Topic = "Встреча " });
-            //events.Add(new Event { StartDate = SelectedDay.AddHours(-1), EndDate = SelectedDay.AddMonths(1), Topic = "Занято" });
-            //events.Add(new Event { StartDate = SelectedDay.AddMinutes(60), EndDate = SelectedDay.AddMinutes(120), Topic = "MeetUp" });
-            //
-            //events.Add(new Event { StartDate = SelectedDay.AddMinutes(150), EndDate = SelectedDay.AddMinutes(150+60), Topic = "Совещание" });
-            //events.Add(new Event { StartDate = SelectedDay.AddMinutes(150 + 60+30), EndDate = SelectedDay.AddMinutes(150 + 60 + 30+60), Topic = "Совещание" });
-      
-            
-        //   EventData.ReplaceRange(events);
-
+ 
            
         }
 
@@ -77,27 +68,15 @@ namespace Calendar.ViewModels
                 else
                     ActualRoom = RoomData.Where(x => x.RoomCode == ActualRoom.RoomCode && x.RoomName == ActualRoom.RoomName && x.RoomLocation == ActualRoom.RoomLocation).FirstOrDefault();
 
-               // events = ActualRoom.Events;
-                //events = await DataStore.GetEvents();
+                events = ActualRoom.Events;
+               
 
             }
             catch(Exception ex) {
                 ShowWarning("Ошибка","Интернет не доступен");
             }
-
-
-           
-
-
-            events.Add(new Event { StartDate = SelectedDay, EndDate = SelectedDay.AddMinutes(60), Title = "Встреча " });
-    
-            events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 90+120), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60+30 + 60), Title = "MeetUp" });
-            events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30+120 + 60 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120+120 + 60 + 60), Title = "Совещание" });
-            events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120+60+30 + 60), Title = "Совещание" });
-
-
             EventData.ReplaceRange(events);
-            //EventData.ReplaceRange(events);
+        
             FilterObservableRange();
             GetEvents();
         }
@@ -115,7 +94,8 @@ namespace Calendar.ViewModels
 
         private async Task GetEvents()
         {
-            if (check) return;
+            if (check) 
+                return;
             check = true;
             int count = 0;
             while (InPage)
@@ -133,7 +113,7 @@ namespace Calendar.ViewModels
                             ActualRoom = RoomData.Where(x => x.RoomCode == ActualRoom.RoomCode && x.RoomName == ActualRoom.RoomName && x.RoomLocation == ActualRoom.RoomLocation).FirstOrDefault();
 
                         events = ActualRoom.Events;
-                        //events = await DataStore.GetEvents();
+                       
 
                     }
                     catch (Exception ex)
@@ -141,18 +121,10 @@ namespace Calendar.ViewModels
                         ShowWarning("Ошибка", "Интернет не доступен");
                     }
 
-                    events?.Clear();
-                    // events.Add(new Event { StartDate = SelectedDay.AddMinutes(60), EndDate = SelectedDay.AddMinutes(120), Title = "Встреча " });
-                    events.Add(new Event { StartDate = SelectedDay.AddMinutes(60), EndDate = SelectedDay.AddMinutes( 240), Title = "MeetUp" });
-                    /* events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 60), Title = "MeetUp" });
-                     events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 60 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120 + 60 + 60), Title = "Совещание" });
-                     events.Add(new Event { StartDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120 + 60), EndDate = SelectedDay.AddMinutes(120 + 60 + 30 + 60 + 30 + 120 + 120 + 60 + 30 + 60), Title = "Совещание" });
-
-
- */
                     EventData.ReplaceRange(events);
-                    //                    EventData.ReplaceRange(events);
+                 
                     FilterObservableRange();
+                   
                 }
                 count++;
                 await Task.Delay(1000);
@@ -172,40 +144,11 @@ namespace Calendar.ViewModels
             NeedFilter = false;
 
             DateTime hour = SelectedDay.AddMinutes(-60);
-            //bool havno = false;
+            
             for (int i = 0; i < 24; i++)
             {
                 hour = hour.AddMinutes(60);
-                /* Event list;
-                 try
-                 {
-                     list= EventData.First(x => x.StartDate.Hour <= hour.Hour && x.EndDate.Hour >= hour.Hour);
-                 }
-
-                 catch
-                 {
-                     list = null;
-                 }
-                 if(list is null) {
-
-
-                     AllTimeList.Add(new AllTimeModel
-                     {
-                         Hour = hour,
-
-
-                     });
-
-                 }
-                 else
-                 {
-                     AllTimeList.Add(new AllTimeModel
-                     {
-                         Hour = hour,
-                         Events = list
-
-                     }) ;
-                */
+               
                 try
                 {
                     if (EventData.Where(x => x.StartDate.Hour == hour.Hour && x.StartDate.Minute == 0).First() != null)
@@ -248,7 +191,7 @@ namespace Calendar.ViewModels
 
                 try
                 {
-                    //if (EventData.Where(x => (x.EndDate.Hour-x.StartDate.Hour == hour.Hour )).First() != null)
+                   
                     if (EventData.Where(x => (x.EndDate.Hour > hour.Hour &&x.StartDate.Hour <hour.Hour )).First() != null)
                     {
                         AllTimeList.Add(new AllTimeModel
@@ -269,10 +212,7 @@ namespace Calendar.ViewModels
 
                 try
                 {
-                  /*  if (hour.Hour == DateTime.Now.AddHours(2).Hour)
-                    {
-                        var piva = 2;
-                    }*/
+                
                     if (EventData.Where(x => ( x.EndDate.Hour == hour.Hour) && (x.EndDate.Minute > 0 && x.StartDate.Hour != hour.Hour)).First() != null)
                     {
                         AllTimeList.Add(new AllTimeModel
@@ -292,19 +232,14 @@ namespace Calendar.ViewModels
                 }
                 try
                 {
-                    if (EventData.Where(x => x.EndDate.Hour == hour.Hour && x.EndDate.Minute == 0).First() != null)
+                    if (EventData.Where(x => x.EndDate.Hour == hour.AddHours(1).Hour && x.EndDate.Minute == 0).First() != null)
                     {
-                        var startCheck = AllTimeList.Where(x => x.IsStart != false).FirstOrDefault();
-                       
-                        if (startCheck.Hour.Minute == 0 && hour.Hour -startCheck.Hour.Hour == 1)
-                        {
-                            throw new Exception("end date not aviable");
-                        }
+                   
                         
                         AllTimeList.Add(new AllTimeModel
                         {
                             Hour = hour,
-                            Events = EventData.Where(x => x.EndDate.Hour == hour.Hour && x.EndDate.Minute == 0).First()
+                            Events = EventData.Where(x => x.EndDate.Hour == hour.AddHours(1).Hour && x.EndDate.Minute == 0).First()
                              ,
                             IsEnd = true
                         });
@@ -326,51 +261,38 @@ namespace Calendar.ViewModels
             }
           
               AllTimeCollection.ReplaceRange(AllTimeList);
+             ScrolToDateNow();
             }
 
 
-        /*  foreach(var item in AllTimeList) 
-          {
+        internal  async Task ScrolToDateNow()
+        {
+            await Task.Delay(250);
+            if (sv is not null)
+            {
+                var hourNow= DateTime.Now.Hour;
+                var count = 0;
+                foreach (var item in AllTimeList)
+                {
+                    if (item.Hour.Hour == hourNow)
+                    {
+                        break;
+                    }
+                    count++;
+                }
+                
+                var sizeItem = 90;
+                count += 3;
+                var positiony=sizeItem*count; 
+                await sv.ScrollToAsync(0, positiony, true);
 
-              var pivas = EventData.First(x => x.StartDate.Hour <= item.Hour.Hour && x.EndDate.Hour >= item.Hour.Hour);
-
-              if (pivas == null) continue;
-              else
-              {
-                  if (pivas.EndDate.Hour >= item.Hour.Hour)
-                  {
-                      List<int> helppivas = new List<int>();
-                      foreach(var i in AllTimeList)
-                      {
-                          if (i.Events.EndDate.Hour >= item.Hour.Hour)
-                              helppivas.Add(AllTimeList.IndexOf(i));
-                      }
-
-                      for (int i = 0; i < helppivas.Count; i++)
-                      {
-                          if (helppivas[i] + 1 == helppivas[i + 1])
-                          {
-                              item.IsStart = true;
-                              var helppivas2 = AllTimeList.IndexOf(item) + 1;
-
-                          }
-                      }    
-
-
-                  }
-                  else
-                  {
-                      item.Events = pivas;
-                      item.IsMiddle = true;
-                  }
-              }
-
-          }*/
-
-
+            }
+        }
         [RelayCommand]
         private void SelectRoom(Room room)
         {
+            ActualRoom=room;
+            GetEvents();
 
         }
 
@@ -383,12 +305,7 @@ namespace Calendar.ViewModels
 
 
 
-        [RelayCommand]
-        private void Filter()
-        {
-           /* EventData.ReplaceRange(events.Where(x => x.EndDate.Day == SelectedDay.Day && x.EndDate.DayOfWeek == SelectedDay.DayOfWeek
-            && x.EndDate.Year == SelectedDay.Year && x.EndDate.Month == SelectedDay.Month));*/
-        }
+        
 
     }
 }
