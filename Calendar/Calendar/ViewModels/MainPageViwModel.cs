@@ -361,7 +361,11 @@ namespace Calendar.ViewModels
           }*/
 
 
+        [RelayCommand]
+        private void SelectRoom(Room room)
+        {
 
+        }
 
 
 
