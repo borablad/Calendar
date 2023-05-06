@@ -9,7 +9,7 @@ namespace Calendar.Servisec
    public interface Rest
     {
 
-        public  Task<List<Event>> GetEvents();
+       // public  Task<List<Event>> GetEvents();
         public  Task<List<Room>> GetRooms();
     }
 }
