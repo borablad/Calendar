@@ -111,7 +111,16 @@ namespace Calendar.ViewModels
                     count = 0;
                     try
                     {
-                        events = await DataStore.GetEvents();
+
+                        RoomData.ReplaceRange(await DataStore.GetRooms());
+                        if (ActualRoom == null)
+                            ActualRoom = RoomData[0];
+                        else
+                            ActualRoom = RoomData.Where(x => x.RoomCode == ActualRoom.RoomCode && x.RoomName == ActualRoom.RoomName && x.RoomLocation == ActualRoom.RoomLocation).FirstOrDefault();
+
+                        events = ActualRoom.Events;
+                        //events = await DataStore.GetEvents();
+
                     }
                     catch (Exception ex)
                     {
